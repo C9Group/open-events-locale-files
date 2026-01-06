@@ -1,0 +1,37 @@
+{
+  "placeholders": {
+    "enterText": "Vnesite besedilo...",
+    "selectOption": "Izberite možnost",
+    "searchEvents": "Poiščite dogodke...",
+    "clientName": "Moja Aplikacija"
+  },
+  "labels": {
+    "clientName": "Ime Odjemalca",
+    "clientId": "ID Odjemalca",
+    "clientSecret": "Skrivnost Odjemalca",
+    "required": "*"
+  },
+  "buttons": {
+    "createClient": "Ustvari Odjemalca",
+    "creating": "Ustvarjanje...",
+    "copy": "Kopiraj",
+    "copied": "Kopirano!",
+    "show": "Prikaži",
+    "hide": "Skrij",
+    "deleting": "Brisanje..."
+  },
+  "validation": {
+    "clientNameRequired": "Ime odjemalca je obvezno"
+  },
+  "messages": {
+    "createNewClient": "Ustvari Novega OAuth Odjemalca",
+    "noClientsYet": "Še niste ustvarili nobenega OAuth odjemalca. Ustvarite svojega prvega odjemalca za začetek.",
+    "confirmDelete": "Ste prepričani, da želite izbrisati tega odjemalca? Tega dejanja ni mogoče razveljaviti.",
+    "clientStatus": {
+      "enabled": "Omogočeno",
+      "disabled": "Onemogočeno",
+      "public": "Javno",
+      "confidential": "Zaupno"
+    }
+  }
+}

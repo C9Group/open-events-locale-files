@@ -1,0 +1,29 @@
+{
+  "success": {
+    "saved": "Uspešno shranjeno",
+    "deleted": "Uspešno izbrisano",
+    "created": "Uspešno ustvarjeno",
+    "updated": "Uspešno posodobljeno",
+    "venueSaved": "Prizorišče uspešno shranjeno",
+    "organizerSaved": "Organizator uspešno shranjen",
+    "imageSaved": "Slika uspešno shranjena",
+    "eventSaved": "Dogodek uspešno shranjen"
+  },
+  "error": {
+    "generic": "Prišlo je do napake",
+    "notFound": "Ni najdeno",
+    "unauthorized": "Nepooblaščen dostop",
+    "serverError": "Napaka strežnika",
+    "authenticationRequired": "Potrebna je avtentikacija",
+    "fetchFailed": "Pridobivanje {{resource}} ni uspelo",
+    "saveFailed": "Shranjevanje {{resource}} ni uspelo",
+    "deleteFailed": "Brisanje {{resource}} ni uspelo",
+    "uploadFailed": "Nalaganje slike ni uspelo",
+    "maxImagesAlert": "Dovoljenih je največ 10 slik",
+    "startAction": "Začenjanje {{action}} ni uspelo",
+    "unknownError": "Neznana napaka",
+    "errorStarting": "Napaka pri začenjanju {{action}}",
+    "failedToKill": "Ustavitev procesa ni uspela",
+    "errorKilling": "Napaka pri ustavitvi procesa"
+  }
+}

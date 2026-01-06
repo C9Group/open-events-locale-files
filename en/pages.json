@@ -1,0 +1,162 @@
+{
+  "authSuccess": {
+    "title": "Authentication Successful",
+    "message": "You have been successfully signed in. Redirecting..."
+  },
+  "home": {
+    "title": "OpenEvents - Shared Event Data Layer API for Destinations, Venues & Builders",
+    "description": "OpenEvents is an open event data platform for Slovenia and beyond. Add events once, sync across websites and apps via REST API, webhooks, and MCP. Free tier for builders, transparent pricing.",
+    "subtitle": "Discover and manage events",
+    "hero": {
+      "welcomeTo": "Welcome to",
+      "brandName": "Open Events",
+      "subtitle": "Event API & MCP SSE Solution",
+      "tagline": "Your one-stop solution for managing and sharing event data seamlessly."
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "loginRequired": "Please log in to view profile.",
+    "loginButton": "Login",
+    "fields": {
+      "name": "Name",
+      "username": "Username",
+      "email": "Email",
+      "userId": "User ID",
+      "notProvided": "Not provided"
+    },
+    "accountActions": {
+      "title": "Account Actions",
+      "description": "Manage your account and security settings",
+      "signOut": "Sign Out"
+    },
+    "apiAccess": {
+      "title": "API Access",
+      "description": "Manage your OAuth 2.0 API Clients",
+      "createButton": "Create New Client",
+      "createError": "Failed to create client. Please try again.",
+      "deleteError": "Failed to delete client. Please try again."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "metaTitle": "FAQ - OpenEvents",
+    "metaDescription": "Frequently asked questions about OpenEvents - the shared event data layer for destinations, venues, promoters, and builders.",
+    "subtitle": "Everything you need to know about OpenEvents",
+    "searchPlaceholder": "Search FAQs...",
+    "resultsFound": "Found {{count}} result",
+    "resultsFound_plural": "Found {{count}} results",
+    "noResults": "No results found for \"{{query}}\"",
+    "clearSearch": "Clear search",
+    "items": [
+      {"question": "What is OpenEvents?", "answer": "OpenEvents is a shared event data layer for destinations, venues, promoters, and builders. Add events once; keep them in sync across websites, apps, and partners."},
+      {"question": "Who is it for?", "answer": "Destinations (DMOs/municipalities), venues and promoters, and developers/partners who want a stable, open and transparent way to use event data."},
+      {"question": "How do I add events?", "answer": "Use our intuitive dashboard, reach out to dev team to connect to your existing solution, or connect popular, existing sources (e.g., Facebook Events, Eventbrite, Meetup, ICS feeds)."},
+      {"question": "Can I embed this on my site?", "answer": "Yes. Use our website widget or fetch data via API to render your own calendar."},
+      {"question": "How do you keep data clean?", "answer": "We standardize fields, merge duplicates (matching title + time + venue), and normalize venue names. Low-confidence items go to a human review queue."},
+      {"question": "How fast are updates?", "answer": "Near real-time for most sources. Exact timing depends on the source and your plan, but changes typically flow through within minutes."},
+      {"question": "Do you show where data came from?", "answer": "Yes. We include clear source links on event cards and in the API."},
+      {"question": "Who owns the data?", "answer": "You do. You can export data anytime (ICS/CSV/JSON) or connect your external third-party source. We don't lock you in."},
+      {"question": "Can I choose what's public?", "answer": "Yes. Each event can be marked public, internal or shared with specified partners.\n\nPublic: Anyone can see it—on your website, in public calendars, and via the public API/feed. It's searchable, sharable, and shows source links.\n\nUse for: city festivals, museum shows, open workshops.\n\nPartner: Only approved partners (with a key or special embed) can see it. It won't appear in public feeds, but destinations/hotels/media you trust can pull it. You can also show extra fields to partners (e.g., organizer contact) that the public can't see.\n\nUse for: partner packages, invite-priority events, media previews.\n\nInternal: Only your team sees it in the admin. It's hidden from all APIs/feeds and search.\n\nUse for: drafts, embargoed events before a press release, quality assurance, testing."},
+      {"question": "What is API?", "answer": "An API is a way for two computer programs to talk to each other."},
+      {"question": "What is JSON?", "answer": "JSON is a structured text format that lets different programs share information."},
+      {"question": "What does the API provide?", "answer": "(1) REST endpoints with filters (date, city, venue, tags), pagination, and sorting: simple web addresses to get event data back as tidy JSON, like: /api/events. You can also narrow results. Examples:\n\n/api/events?date=2025-12-05 (events on a day)\n/api/events?city=Koper&tags=family,free (family, free events in Koper)\n/api/events?venue=taverna-koper (events at one venue)\n\n(2) Webhooks for updates: you give us a URL, and we send you a message the moment an event is created, updated, or cancelled.\n\n(3) Playground and code snippets: You can try the API in your browser without writing code. You pick filters (city, date range, tags) and see the JSON response plus stats (how many results, how long it took). It helps you learn the fields, spot mistakes, and share a working example with your team via a link."},
+      {"question": "Do you support agents?", "answer": "Yes. We support Model Context Protocol (MCP) so you can feed events into AI agents."},
+      {"question": "How stable is the API?", "answer": "We version the API and give clear timelines before changes."},
+      {"question": "What are SLAs?", "answer": "Service Level Agreements are the written promises we make to you about how reliable and responsive our solution will be. SLAs spell out targets (like uptime, speed, and support response times), how those are measured, and what you get if the targets aren't met (usually service credits)."},
+      {"question": "Can partners get higher limits and SLAs?", "answer": "Yes. See the Partner plan for higher throughput, webhooks, and uptime SLAs."},
+      {"question": "Is there a free tier for builders?", "answer": "Yes we have a free tier with generous limits for developers and small projects."},
+      {"question": "Are there add-ons?", "answer": "Optional add-ons include premium ingestion for venues without feeds*, advanced insights, white-label widgets, and a concierge handoff inbox**.\n\n* Some venues don't provide an event feed (no ICS/CSV/API). Premium ingestion means we do the extra work to collect events directly from their website or sources and turn them into clean, structured entries that update automatically. Why it's \"premium\"? Every site is different, so we build and maintain a custom connector. If the venue changes its layout, we fix the connector. That ongoing work and monitoring is what you're paying for.\n\n** A concierge handoff inbox is the place where conversations go when the chatbot can't (or shouldn't) handle them. The bot collects the user's details and question, then hands it to a human. Your team replies from that inbox."},
+      {"question": "Do you offer public-sector or multi-destination discounts?", "answer": "Yes. Contact us for details."},
+      {"question": "Can I cancel anytime?", "answer": "Yes. Cancel before the next billing cycle; export your data first if you like."},
+      {"question": "How do you handle privacy?", "answer": "We follow GDPR principles. Newsletter sign-ups and handoffs are opt-in*. Personal data is minimized and encrypted in transit and at rest.\n\n* We only contact people if they clearly ask us to. No automatic enrollments, no pre-ticked boxes, no sneaky fine print.\n\nNewsletter sign-ups (opt-in): We offer the newsletter; the user chooses to subscribe. Every email includes an unsubscribe link. We don't add people who gave their email for other reasons (e.g., ticket help) unless they separately agree to marketing.\n\nConcierge handoffs (opt-in): When the bot can't help, it asks permission to pass the question to a human. We collect the preferred contact (email/phone) and say we'll use it only for this request, unless they also opt in to marketing."},
+      {"question": "Will you ever hide features behind surprise paywalls?", "answer": "No. Limits and pricing are published; changes come with notice."},
+      {"question": "What about uptime and support?", "answer": "Email support for Pro and up; priority support and SLAs for Partner. Status and changelog are public."},
+      {"question": "How is OpenEvents related to Eventio Agent?", "answer": "OpenEvents is the open data layer. Eventio Agent is one business-focused application built on top. They're separate brands that can reference each other."},
+      {"question": "Can I try a demo?", "answer": "Yes. Use the playground with a free key or ask us for a guided demo."}
+    ]
+  },
+  "updates": {
+    "title": "Updates & Changelog",
+    "metaTitle": "Updates & Changelog - Open Events",
+    "metaDescription": "Stay up to date with the latest Open Events updates, new features, and improvements.",
+    "subtitle": "Track new features, improvements, and changes to the Open Events.",
+    "tabs": {
+      "platform": "Platform Changes",
+      "api": "API Changes"
+    }
+  },
+  "apiDocs": {
+    "title": "API Documentation",
+    "loading": "Loading documentation...",
+    "authentication": "API Authentication",
+    "authenticationDescription": "Your OAuth clients are automatically used for API authentication below.",
+    "autoAuthenticated": "Auto-authenticated",
+    "autoAuthenticatedDescription": "for API documentation below."
+  },
+  "manage": {
+    "loginRequired": "Please log in to manage {{resource}}.",
+    "events": {
+      "title": "Manage Events",
+      "searchPlaceholder": "Search events...",
+      "noDateSet": "No date set",
+      "until": "Until",
+      "at": "at",
+      "partOf": "Part of:",
+      "contains": "Contains",
+      "subEvent": "sub-event",
+      "subEvent_plural": "sub-events",
+      "online": "Online",
+      "physicalEvent": "Physical Event",
+      "organizedBy": "Organized by",
+      "noOrganizers": "No organizers",
+      "at": "At",
+      "noVenues": "No venues",
+      "category": "Category",
+      "noCategories": "No categories",
+      "googleMaps": "Google Maps",
+      "noEventsFound": "No events found matching \"{{searchTerm}}\"",
+      "noEvents": "No events found",
+      "tryAdjusting": "Try adjusting your search terms.",
+      "createFirst": "Create your first event to get started."
+    },
+    "venues": {
+      "title": "Manage Venues",
+      "searchPlaceholder": "Search venues...",
+      "noAddress": "No address",
+      "capacity": "Capacity",
+      "accessibility": "Accessibility"
+    },
+    "organizers": {
+      "title": "Manage Organizers",
+      "searchPlaceholder": "Search organizers...",
+      "noLogo": "No logo",
+      "contact": "Contact"
+    },
+    "images": {
+      "title": "Manage Images",
+      "searchPlaceholder": "Search images...",
+      "uploadedBy": "Uploaded by",
+      "usedIn": "Used in {{count}} event",
+      "usedIn_plural": "Used in {{count}} events"
+    }
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "subtitle": "The passionate individuals behind Open Events, working together to build the future of event data sharing."
+  },
+  "integrations": {
+    "title": "Integrations",
+    "searchPlaceholder": "Search integrations...",
+    "noIntegrations": "No integrations available",
+    "noIntegrationsFound": "No integrations found",
+    "noIntegrationAdapters": "No integration adapters are currently available.",
+    "runningProcesses": "Running Processes",
+    "noProcesses": "No processes running",
+    "loginRequired": "Please log in to manage integrations.",
+    "runningSince": "Running since",
+    "initiating": "Initiating...",
+    "kill": "Kill",
+    "fetchError": "Failed to fetch integrations"
+  }
+}

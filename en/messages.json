@@ -1,0 +1,29 @@
+{
+  "success": {
+    "saved": "Successfully saved",
+    "deleted": "Successfully deleted",
+    "created": "Successfully created",
+    "updated": "Successfully updated",
+    "venueSaved": "Venue saved successfully",
+    "organizerSaved": "Organizer saved successfully",
+    "imageSaved": "Image saved successfully",
+    "eventSaved": "Event saved successfully"
+  },
+  "error": {
+    "generic": "An error occurred",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized access",
+    "serverError": "Server error",
+    "authenticationRequired": "Authentication required",
+    "fetchFailed": "Failed to fetch {{resource}}",
+    "saveFailed": "Failed to save {{resource}}",
+    "deleteFailed": "Failed to delete {{resource}}",
+    "uploadFailed": "Failed to upload image",
+    "maxImagesAlert": "Maximum 10 images allowed",
+    "startAction": "Failed to start {{action}}",
+    "unknownError": "Unknown error",
+    "errorStarting": "Error starting {{action}}",
+    "failedToKill": "Failed to kill process",
+    "errorKilling": "Error killing process"
+  }
+}

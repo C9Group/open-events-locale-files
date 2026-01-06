@@ -1,0 +1,7 @@
+{
+  "required": "Ovo polje je obavezno",
+  "email": "Molimo unesite valjanu email adresu",
+  "minLength": "Minimalna duljina je {{min}} znakova",
+  "maxLength": "Maksimalna duljina je {{max}} znakova",
+  "url": "Molimo unesite valjan URL"
+}

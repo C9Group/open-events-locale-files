@@ -1,0 +1,162 @@
+{
+  "authSuccess": {
+    "title": "Autentifikacija uspješna",
+    "message": "Uspješno ste se prijavili. Preusmjeravanje..."
+  },
+  "home": {
+    "title": "OpenEvents - Zajednička Podatkovna Platforma za Događaje za Destinacije, Lokacije i Developere",
+    "description": "OpenEvents je otvorena platforma za podatke o događajima za Sloveniju i šire. Dodajte događaje jednom, sinkronizirajte ih putem web stranica i aplikacija korištenjem REST API-ja, webhookova i MCP-a. Besplatna razina za developere, transparentne cijene.",
+    "subtitle": "Otkrijte i upravljajte događajima",
+    "hero": {
+      "welcomeTo": "Dobrodošli u",
+      "brandName": "Open Events",
+      "subtitle": "Event API & MCP SSE Rješenje",
+      "tagline": "Vaše sveobuhvatno rješenje za upravljanje i dijeljenje podataka o događajima."
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "loginRequired": "Molimo prijavite se za pregled profila.",
+    "loginButton": "Prijava",
+    "fields": {
+      "name": "Ime",
+      "username": "Korisničko Ime",
+      "email": "Email",
+      "userId": "Korisnički ID",
+      "notProvided": "Nije navedeno"
+    },
+    "accountActions": {
+      "title": "Akcije Računa",
+      "description": "Upravljajte svojim računom i sigurnosnim postavkama",
+      "signOut": "Odjava"
+    },
+    "apiAccess": {
+      "title": "API Pristup",
+      "description": "Upravljajte svojim OAuth 2.0 API Klijentima",
+      "createButton": "Kreiraj Novog Klijenta",
+      "createError": "Kreiranje klijenta nije uspjelo. Molimo pokušajte ponovno.",
+      "deleteError": "Brisanje klijenta nije uspjelo. Molimo pokušajte ponovno."
+    }
+  },
+  "faq": {
+    "title": "Često Postavljena Pitanja",
+    "metaTitle": "Često Postavljena Pitanja - OpenEvents",
+    "metaDescription": "Često postavljena pitanja o OpenEvents platformi - zajednički sloj podataka o događajima za destinacije, lokacije, promotore i graditelje.",
+    "subtitle": "Sve što trebate znati o OpenEvents",
+    "searchPlaceholder": "Pretraži pitanja...",
+    "resultsFound": "Pronađen {{count}} rezultat",
+    "resultsFound_plural": "Pronađeno {{count}} rezultata",
+    "noResults": "Nema rezultata za \"{{query}}\"",
+    "clearSearch": "Obriši pretragu",
+    "items": [
+      {"question": "Što je OpenEvents?", "answer": "OpenEvents je zajednički sloj podataka o događajima za destinacije, lokacije, promotore i graditelje. Dodajte događaje jednom; održavajte ih sinkroniziranima na web stranicama, aplikacijama i s partnerima."},
+      {"question": "Za koga je namijenjen?", "answer": "Destinacije (DMO/općine), lokacije i promotori te razvijatelji/partneri koji žele stabilan, otvoren i transparentan način korištenja podataka o događajima."},
+      {"question": "Kako dodajem događaje?", "answer": "Koristite našu intuitivnu nadzornu ploču, obratite se razvojnom timu kako biste povezali svoje postojeće rješenje ili povežite popularne postojeće izvore (npr. Facebook Events, Eventbrite, Meetup, ICS feedovi)."},
+      {"question": "Mogu li ovo ugraditi na svoju stranicu?", "answer": "Da. Koristite naš widget za web stranicu ili dohvatite podatke putem API-ja kako biste prikazali vlastiti kalendar."},
+      {"question": "Kako održavate čistoću podataka?", "answer": "Standardiziramo polja, spajamo duplikate (usklađivanje naslova + vremena + lokacije) i normaliziramo nazive lokacija. Stavke s niskom pouzdanošću idu u red za ljudsku provjeru."},
+      {"question": "Koliko su brza ažuriranja?", "answer": "Gotovo u stvarnom vremenu za većinu izvora. Točno vrijeme ovisi o izvoru i Vašem planu, ali promjene se obično prenose u roku od nekoliko minuta."},
+      {"question": "Prikazujete li odakle podaci dolaze?", "answer": "Da. Uključujemo jasne izvorne veze na karticama događaja i u API-ju."},
+      {"question": "Tko posjeduje podatke?", "answer": "Vi. Možete izvesti podatke bilo kada (ICS/CSV/JSON) ili povezati svoj vanjski izvor treće strane. Ne zaključavamo Vas."},
+      {"question": "Mogu li odabrati što je javno?", "answer": "Da. Svaki događaj može biti označen kao javan, interni ili dijeljeni s određenim partnerima.\n\nJavno: Bilo tko ga može vidjeti—na Vašoj web stranici, u javnim kalendarima i putem javnog API-ja/feeda. Pretraživ je, može se dijeliti i prikazuje izvorne veze.\n\nKoristi za: gradske festivale, muzejske izložbe, otvorene radionice.\n\nPartner: Samo odobreni partneri (s ključem ili posebnom ugradbom) mogu ga vidjeti. Neće se pojaviti u javnim feedovima, ali destinacije/hoteli/mediji kojima vjerujete mogu ga povući. Također možete prikazati dodatna polja partnerima (npr. kontakt organizatora) koja javnost ne može vidjeti.\n\nKoristi za: partnerske pakete, događaje s prioritetnom pozivnicom, medijske preglede.\n\nInterno: Samo Vaš tim ga vidi u administratorskom dijelu. Skriven je od svih API-ja/feedova i pretraživanja.\n\nKoristi za: skice, događaje pod embargom prije priopćenja za javnost, osiguranje kvalitete, testiranje."},
+      {"question": "Što je API?", "answer": "API je način na koji dva računalna programa razgovaraju jedan s drugim."},
+      {"question": "Što je JSON?", "answer": "JSON je strukturirani tekstualni format koji omogućuje različitim programima dijeljenje informacija."},
+      {"question": "Što API pruža?", "answer": "(1) REST krajnje točke s filterima (datum, grad, lokacija, oznake), paginacijom i sortiranjem: jednostavne web adrese za dobivanje podataka o događajima kao urednog JSON-a, kao što je: /api/events. Također možete suziti rezultate. Primjeri:\n\n/api/events?date=2025-12-05 (događaji na dan)\n/api/events?city=Koper&tags=family,free (obiteljski, besplatni događaji u Kopru)\n/api/events?venue=taverna-koper (događaji na jednoj lokaciji)\n\n(2) Webhooks za ažuriranja: date nam URL, a mi Vam šaljemo poruku u trenutku kada je događaj kreiran, ažuriran ili otkazan.\n\n(3) Playground i isječci koda: Možete isprobati API u svom pregledniku bez pisanja koda. Birate filtere (grad, raspon datuma, oznake) i vidite JSON odgovor plus statistiku (koliko rezultata, koliko je trajalo). Pomaže Vam naučiti polja, uočiti pogreške i podijeliti radni primjer sa svojim timom putem veze."},
+      {"question": "Podržavate li agente?", "answer": "Da. Podržavamo Model Context Protocol (MCP) tako da možete unositi događaje u AI agente."},
+      {"question": "Koliko je API stabilan?", "answer": "API verzioniramo i dajemo jasne vremenske okvire prije promjena."},
+      {"question": "Što su SLA-ovi?", "answer": "Service Level Agreements (SLA) su pisana obećanja koja Vam dajemo o tome koliko će naše rješenje biti pouzdano i responzivno. SLA-ovi navode ciljeve (poput dostupnosti, brzine i vremena odaziva podrške), kako se mjere i što dobivate ako ciljevi nisu ispunjeni (obično kredite za usluge)."},
+      {"question": "Mogu li partneri dobiti veća ograničenja i SLA-ove?", "answer": "Da. Pogledajte Partner plan za veću propusnost, webhookove i SLA-ove dostupnosti."},
+      {"question": "Postoji li besplatni plan za graditelje?", "answer": "Da, imamo besplatni plan s velikodušnim ograničenjima za razvijatelje i male projekte."},
+      {"question": "Postoje li dodaci?", "answer": "Opcijski dodaci uključuju premium ingestion za lokacije bez feedova*, napredne uvide, white-label widgete i inbox za concierge handoff**.\n\n* Neke lokacije ne pružaju feed događaja (nema ICS/CSV/API). Premium ingestion znači da radimo dodatni posao prikupljanja događaja izravno s njihove web stranice ili izvora i pretvaramo ih u čiste, strukturirane unose koji se automatski ažuriraju. Zašto je \"premium\"? Svaka stranica je različita, pa gradimo i održavamo prilagođeni konektor. Ako lokacija promijeni svoj raspored, popravimo konektor. Taj trajni rad i praćenje je ono za što plaćate.\n\n** Inbox za concierge handoff je mjesto gdje razgovori idu kada chatbot ne može (ili ne bi trebao) s njima rukovati. Bot prikuplja korisnikove podatke i pitanje, zatim ga predaje čovjeku. Vaš tim odgovara iz tog inboxa."},
+      {"question": "Nudite li popuste za javni sektor ili više destinacija?", "answer": "Da. Kontaktirajte nas za detalje."},
+      {"question": "Mogu li otkazati bilo kada?", "answer": "Da. Otkažite prije sljedećeg ciklusa naplate; prvo izvezite svoje podatke ako želite."},
+      {"question": "Kako postupate s privatnošću?", "answer": "Slijedimo načela GDPR-a. Prijave na newsletter i handoffovi su opt-in*. Osobni podaci su minimizirani i šifrirani u prijenosu i mirovanju.\n\n* Kontaktiramo ljude samo ako nas jasno zamole. Bez automatskih upisa, bez prethodno označenih okvira, bez podmuklog sitnog tiska.\n\nPrijave na newsletter (opt-in): Nudimo newsletter; korisnik odlučuje prijaviti se. Svaki email uključuje vezu za odjavu. Ne dodajemo ljude koji su dali svoj email iz drugih razloga (npr. pomoć s ulaznicama) osim ako se zasebno ne slažu s marketingom.\n\nConcierge handoffovi (opt-in): Kada bot ne može pomoći, traži dopuštenje da proslijedi pitanje čovjeku. Prikupljamo preferirani kontakt (email/telefon) i kažemo da ćemo ga koristiti samo za ovaj zahtjev, osim ako se također ne prijave za marketing."},
+      {"question": "Hoćete li ikada sakriti značajke iza iznenadnih paywallova?", "answer": "Ne. Ograničenja i cijene su objavljeni; promjene dolaze s najavom."},
+      {"question": "Što je s dostupnošću i podrškom?", "answer": "Email podrška za Pro i više; prioritetna podrška i SLA-ovi za Partner. Status i changelog su javni."},
+      {"question": "Kako je OpenEvents povezan s Eventio Agentom?", "answer": "OpenEvents je otvoreni sloj podataka. Eventio Agent je jedna poslovno usmjerena aplikacija izgrađena na njemu. To su zasebni brendovi koji mogu upućivati jedan na drugog."},
+      {"question": "Mogu li isprobati demo?", "answer": "Da. Koristite playground s besplatnim ključem ili nas zamolite za vođeni demo."}
+    ]
+  },
+  "updates": {
+    "title": "Ažuriranja i Dnevnik Promjena",
+    "metaTitle": "Ažuriranja i Dnevnik Promjena - Open Events",
+    "metaDescription": "Budite u tijeku s najnovijim Open Events ažuriranjima, novim značajkama i poboljšanjima.",
+    "subtitle": "Pratite nove značajke, poboljšanja i promjene na Open Events platformi.",
+    "tabs": {
+      "platform": "Promjene Platforme",
+      "api": "API Promjene"
+    }
+  },
+  "apiDocs": {
+    "title": "API Dokumentacija",
+    "loading": "Učitavanje dokumentacije...",
+    "authentication": "API Autentifikacija",
+    "authenticationDescription": "Vaši OAuth klijenti automatski se koriste za API autentifikaciju u nastavku.",
+    "autoAuthenticated": "Automatski autentificirano",
+    "autoAuthenticatedDescription": "za API dokumentaciju u nastavku."
+  },
+  "manage": {
+    "loginRequired": "Molimo prijavite se za upravljanje {{resource}}.",
+    "events": {
+      "title": "Upravljanje Događajima",
+      "searchPlaceholder": "Pretraži događaje...",
+      "noDateSet": "Datum nije postavljen",
+      "until": "Do",
+      "at": "u",
+      "partOf": "Dio od:",
+      "contains": "Sadrži",
+      "subEvent": "pod-događaj",
+      "subEvent_plural": "poddogađaja",
+      "online": "Online",
+      "physicalEvent": "Fizički događaj",
+      "organizedBy": "Organizira",
+      "noOrganizers": "Nema organizatora",
+      "at": "U",
+      "noVenues": "Nema lokacija",
+      "category": "Kategorija",
+      "noCategories": "Nema kategorija",
+      "googleMaps": "Google Karte",
+      "noEventsFound": "Nisu pronađeni događaji koji odgovaraju \"{{searchTerm}}\"",
+      "noEvents": "Nema događaja",
+      "tryAdjusting": "Pokušajte prilagoditi pojmove za pretraživanje.",
+      "createFirst": "Kreirajte svoj prvi događaj kako biste započeli."
+    },
+    "venues": {
+      "title": "Upravljanje Lokacijama",
+      "searchPlaceholder": "Pretraži lokacije...",
+      "noAddress": "Bez adrese",
+      "capacity": "Kapacitet",
+      "accessibility": "Pristupačnost"
+    },
+    "organizers": {
+      "title": "Upravljanje Organizatorima",
+      "searchPlaceholder": "Pretraži organizatore...",
+      "noLogo": "Bez logotipa",
+      "contact": "Kontakt"
+    },
+    "images": {
+      "title": "Upravljanje Slikama",
+      "searchPlaceholder": "Pretraži slike...",
+      "uploadedBy": "Preneseno od",
+      "usedIn": "Korišteno u {{count}} događaju",
+      "usedIn_plural": "Korišteno u {{count}} događaja"
+    }
+  },
+  "team": {
+    "title": "Upoznajte Naš Tim",
+    "subtitle": "Strastveni pojedinci iza Open Events-a, koji zajedno grade budućnost dijeljenja podataka o događajima."
+  },
+  "integrations": {
+    "title": "Integracije",
+    "searchPlaceholder": "Pretraži integracije...",
+    "noIntegrations": "Nema dostupnih integracija",
+    "noIntegrationsFound": "Nema pronađenih integracija",
+    "noIntegrationAdapters": "Trenutno nema dostupnih adaptera za integracije.",
+    "runningProcesses": "Procesi u Tijeku",
+    "noProcesses": "Nema procesa u tijeku",
+    "loginRequired": "Molimo prijavite se za upravljanje integracijama.",
+    "runningSince": "U tijeku od",
+    "initiating": "Pokretanje...",
+    "kill": "Zaustavi",
+    "fetchError": "Dohvaćanje integracija nije uspjelo"
+  }
+}

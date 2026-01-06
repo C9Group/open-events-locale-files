@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "home": "Domov",
+    "events": "Dogodki",
+    "myEvents": "Moji Dogodki",
+    "createEvent": "Ustvari Dogodek",
+    "profile": "Profil",
+    "settings": "Nastavitve",
+    "logout": "Odjava",
+    "login": "Prijava",
+    "docs": "Dokumentacija",
+    "resources": "Viri",
+    "integrations": "Integracije",
+    "account": "Račun",
+    "signUp": "Brezplačna Registracija",
+    "signUpShort": "Registracija",
+    "menu": "Meni",
+    "aiChat": "AI Klepet",
+    "updates": "Posodobitve"
+  },
+  "brand": {
+    "name": "Open Events"
+  },
+  "footer": {
+    "tagline": "Platforma za deljenje in odkrivanje podatkov o dogodkih.",
+    "links": {
+      "apiDocs": "API Dokumentacija",
+      "updates": "Posodobitve",
+      "faq": "Pogosta Vprašanja",
+      "team": "Ekipa",
+      "contact": "Kontakt",
+      "feedback": "Pošlji Povratne Informacije"
+    },
+    "newsletter": {
+      "title": "Bodite na tekočem z razvojem",
+      "placeholder": "Vaš email naslov",
+      "subscribe": "Naroči se",
+      "subscribing": "Naročanje...",
+      "successMessage": "Uspešno ste se naročili! Hvala, da ste se pridružili našemu glasilu.",
+      "errorEmail": "Prosimo vnesite vaš email naslov",
+      "errorNetwork": "Napaka omrežja. Preverite povezavo in poskusite znova.",
+      "errorDefault": "Naročnina ni uspela. Prosimo poskusite znova."
+    },
+    "copyright": "© {{year}} Open Events. Vse pravice pridržane."
+  }
+}

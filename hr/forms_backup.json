@@ -1,0 +1,37 @@
+{
+  "placeholders": {
+    "enterText": "Unesite tekst...",
+    "selectOption": "Odaberite opciju",
+    "searchEvents": "Pretražite događaje...",
+    "clientName": "Moja Aplikacija"
+  },
+  "labels": {
+    "clientName": "Naziv Klijenta",
+    "clientId": "ID Klijenta",
+    "clientSecret": "Tajna Klijenta",
+    "required": "*"
+  },
+  "buttons": {
+    "createClient": "Kreiraj Klijenta",
+    "creating": "Kreiranje...",
+    "copy": "Kopiraj",
+    "copied": "Kopirano!",
+    "show": "Prikaži",
+    "hide": "Sakrij",
+    "deleting": "Brisanje..."
+  },
+  "validation": {
+    "clientNameRequired": "Naziv klijenta je obavezan"
+  },
+  "messages": {
+    "createNewClient": "Kreiraj Novog OAuth Klijenta",
+    "noClientsYet": "Još niste kreirali nijednog OAuth klijenta. Kreirajte svog prvog klijenta za početak.",
+    "confirmDelete": "Jeste li sigurni da želite izbrisati ovog klijenta? Ova radnja se ne može poništiti.",
+    "clientStatus": {
+      "enabled": "Omogućeno",
+      "disabled": "Onemogućeno",
+      "public": "Javno",
+      "confidential": "Povjerljivo"
+    }
+  }
+}

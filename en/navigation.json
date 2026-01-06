@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "home": "Home",
+    "events": "Events",
+    "myEvents": "My Events",
+    "createEvent": "Create Event",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login",
+    "docs": "Docs",
+    "resources": "Resources",
+    "integrations": "Integrations",
+    "account": "Account",
+    "signUp": "Sign up for Free",
+    "signUpShort": "Sign up",
+    "menu": "Menu",
+    "aiChat": "AI Chat",
+    "updates": "Updates"
+  },
+  "brand": {
+    "name": "Open Events"
+  },
+  "footer": {
+    "tagline": "Platform for sharing and discovering event data.",
+    "links": {
+      "apiDocs": "API Documentation",
+      "updates": "Updates",
+      "faq": "FAQ",
+      "team": "The Team",
+      "contact": "Contact",
+      "feedback": "Give Feedback"
+    },
+    "newsletter": {
+      "title": "Keep up with development",
+      "placeholder": "Your email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "successMessage": "Successfully subscribed! Thank you for joining our newsletter.",
+      "errorEmail": "Please enter your email address",
+      "errorNetwork": "Network error. Please check your connection and try again.",
+      "errorDefault": "Failed to subscribe. Please try again."
+    },
+    "copyright": "© {{year}} Open Events. All rights reserved."
+  }
+}
