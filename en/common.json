@@ -16,7 +16,9 @@
     "uploading": "Uploading...",
     "download": "Download",
     "search": "Search",
-    "login": "Login"
+    "login": "Login",
+    "creating": "Creating...",
+    "deleting": "Deleting..."
   },
   "labels": {
     "loading": "Loading...",
@@ -59,7 +61,8 @@
     "cap": "Cap",
     "languageSelector": "Language / Jezik / Jezik",
     "selectLanguage": "Select language...",
-    "updatingLanguage": "Updating language preference..."
+    "updatingLanguage": "Updating language preference...",
+    "readOnly": "Read-only"
   },
   "common": {
     "yes": "Yes",

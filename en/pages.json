@@ -36,6 +36,10 @@
       "createButton": "Create New Client",
       "createError": "Failed to create client. Please try again.",
       "deleteError": "Failed to delete client. Please try again."
+    },
+    "apiKeys": {
+      "title": "Read-Only API Keys",
+      "description": "Manage your API keys for read-only access to the API"
     }
   },
   "faq": {

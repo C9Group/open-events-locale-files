@@ -16,7 +16,9 @@
     "uploading": "Učitavanje...",
     "download": "Preuzmi",
     "search": "Pretraži",
-    "login": "Prijava"
+    "login": "Prijava",
+    "creating": "Kreiranje...",
+    "deleting": "Brisanje..."
   },
   "labels": {
     "loading": "Učitavanje...",
@@ -59,7 +61,8 @@
     "cap": "Kap.",
     "languageSelector": "Jezik / Language / Jezik",
     "selectLanguage": "Odaberite jezik...",
-    "updatingLanguage": "Ažuriranje jezičnih postavki..."
+    "updatingLanguage": "Ažuriranje jezičnih postavki...",
+    "readOnly": "Samo za čitanje"
   },
   "common": {
     "yes": "Da",

@@ -36,6 +36,10 @@
       "createButton": "Ustvari Novega Odjemalca",
       "createError": "Ustvarjanje odjemalca ni uspelo. Prosimo, poskusite znova.",
       "deleteError": "Brisanje odjemalca ni uspelo. Prosimo, poskusite znova."
+    },
+    "apiKeys": {
+      "title": "API Ključi Samo za Branje",
+      "description": "Upravljajte svoje API ključe za dostop samo za branje do API-ja"
     }
   },
   "faq": {

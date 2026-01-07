@@ -36,6 +36,10 @@
       "createButton": "Kreiraj Novog Klijenta",
       "createError": "Kreiranje klijenta nije uspjelo. Molimo pokušajte ponovno.",
       "deleteError": "Brisanje klijenta nije uspjelo. Molimo pokušajte ponovno."
+    },
+    "apiKeys": {
+      "title": "API Ključevi Samo za Čitanje",
+      "description": "Upravljajte svojim API ključevima za pristup samo za čitanje API-ju"
     }
   },
   "faq": {
