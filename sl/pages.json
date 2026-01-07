@@ -49,31 +49,106 @@
     "noResults": "Ni rezultatov za \"{{query}}\"",
     "clearSearch": "Počisti iskanje",
     "items": [
-      {"question": "Kaj je OpenEvents?", "answer": "OpenEvents je skupna podatkovna plast za dogodke, namenjena destinacijam, prizoriščem, promotorjem in graditeljem. Dodajte dogodke enkrat; ohranite jih sinhronizirane na spletnih straneh, aplikacijah in s partnerji."},
-      {"question": "Za koga je namenjen?", "answer": "Destinacije (DMO/občine), prizorišča in promotorji ter razvijalci/partnerji, ki želijo stabilen, odprt in pregleden način uporabe podatkov o dogodkih."},
-      {"question": "Kako dodam dogodke?", "answer": "Uporabite našo intuitivno nadzorno ploščo, obrnite se na razvojno ekipo za povezavo z obstoječo rešitvijo ali povežite priljubljene obstoječe vire (npr. Facebook Events, Eventbrite, Meetup, ICS vire)."},
-      {"question": "Ali lahko to vgradim na svojo stran?", "answer": "Da. Uporabite naš spletni pripomoček ali pridobite podatke prek API-ja za prikaz lastnega koledarja."},
-      {"question": "Kako vzdržujete čistost podatkov?", "answer": "Standardiziramo polja, združujemo podvojitve (ujemanje naslova + časa + prizorišča) in normaliziramo imena prizorišč. Postavke z nizko zanesljivostjo gredo v čakalno vrsto za človeški pregled."},
-      {"question": "Kako hitre so posodobitve?", "answer": "Skoraj v realnem času za večino virov. Natančen čas je odvisen od vira in Vašega načrta, vendar se spremembe običajno prenesejo v nekaj minutah."},
-      {"question": "Ali prikazujete, od kod podatki prihajajo?", "answer": "Da. Vključujemo jasne izvorne povezave na karticah dogodkov in v API-ju."},
-      {"question": "Kdo je lastnik podatkov?", "answer": "Vi. Podatke lahko kadarkoli izvozite (ICS/CSV/JSON) ali povežete svoj zunanji vir tretje osebe. Ne zaklepamo Vas."},
-      {"question": "Ali lahko izberem, kaj je javno?", "answer": "Da. Vsak dogodek je lahko označen kot javen, notranji ali deljen z določenimi partnerji.\n\nJavno: Kdorkoli ga lahko vidi—na Vaši spletni strani, v javnih koledarjih in prek javnega API-ja/vira. Je iskalen, ga je mogoče deliti in prikazuje izvorne povezave.\n\nUporabite za: mestne festivale, muzejske razstave, odprte delavnice.\n\nPartner: Samo odobreni partnerji (s ključem ali posebno vgradnjo) ga lahko vidijo. Ne bo se pojavil v javnih virih, vendar ga destinacije/hoteli/mediji, ki jim zaupate, lahko povlečejo. Partnerjem lahko prikažete tudi dodatna polja (npr. kontakt organizatorja), ki jih javnost ne more videti.\n\nUporabite za: partnerske pakete, dogodke s prednostno vabilo, medijske predoglede.\n\nNotranje: Samo Vaša ekipa ga vidi v skrbniškem delu. Skrit je pred vsemi API-ji/viri in iskanjem.\n\nUporabite za: osnutke, dogodke pod embargom pred sporočilom za javnost, zagotavljanje kakovosti, testiranje."},
-      {"question": "Kaj je API?", "answer": "API je način, kako dva računalniška programa govorita drug z drugim."},
-      {"question": "Kaj je JSON?", "answer": "JSON je strukturiran tekstovni format, ki različnim programom omogoča skupno rabo informacij."},
-      {"question": "Kaj API zagotavlja?", "answer": "(1) REST končne točke s filtri (datum, mesto, prizorišče, oznake), paginacijo in razvrščanjem: preprosti spletni naslovi za pridobivanje podatkov o dogodkih kot urejen JSON, kot je: /api/events. Rezultate lahko tudi zožite. Primeri:\n\n/api/events?date=2025-12-05 (dogodki na dan)\n/api/events?city=Koper&tags=family,free (družinski, brezplačni dogodki v Kopru)\n/api/events?venue=taverna-koper (dogodki na enem prizorišču)\n\n(2) Webhooks za posodobitve: date nam URL, mi pa Vam pošljemo sporočilo v trenutku, ko je dogodek ustvarjen, posodobljen ali preklican.\n\n(3) Playground in delčki kode: API lahko preizkusite v svojem brskalniku brez pisanja kode. Izberete filtre (mesto, časovno obdobje, oznake) in vidite JSON odgovor plus statistiko (koliko rezultatov, koliko časa je trajalo). Pomaga Vam naučiti se polj, opaziti napake in deliti delujoč primer s svojo ekipo prek povezave."},
-      {"question": "Ali podpirate agente?", "answer": "Da. Podpiramo Model Context Protocol (MCP), tako da lahko dogodke vnesete v AI agente."},
-      {"question": "Kako stabilen je API?", "answer": "API verzioniramo in podajamo jasne časovne okvirje pred spremembami."},
-      {"question": "Kaj so SLA-ji?", "answer": "Service Level Agreements (SLA) so pisne obljube, ki Vam jih dajemo o tem, kako zanesljiva in odzivna bo naša rešitev. SLA-ji navajajo cilje (kot so čas delovanja, hitrost in odzivni časi podpore), kako se merijo in kaj dobite, če cilji niso izpolnjeni (običajno kredite za storitve)."},
-      {"question": "Ali lahko partnerji dobijo višje omejitve in SLA-je?", "answer": "Da. Oglejte si Partner načrt za večjo prepustnost, webhookove in SLA-je za čas delovanja."},
-      {"question": "Ali obstaja brezplačen načrt za graditelje?", "answer": "Da, imamo brezplačen načrt z radodarnimi omejitvami za razvijalce in majhne projekte."},
-      {"question": "Ali obstajajo dodatki?", "answer": "Dodatni dodatki vključujejo premium ingestion za prizorišča brez virov*, napredne vpoglede, white-label pripomočke in inbox za concierge handoff**.\n\n* Nekatera prizorišča ne zagotavljajo vira dogodkov (brez ICS/CSV/API). Premium ingestion pomeni, da opravimo dodatno delo zbiranja dogodkov neposredno z njihove spletne strani ali virov ter jih pretvorimo v čiste, strukturirane vnose, ki se samodejno posodabljajo. Zakaj je \"premium\"? Vsaka stran je drugačna, zato gradimo in vzdržujemo prilagojen konektor. Če prizorišče spremeni svoj razpored, popravimo konektor. To stalno delo in spremljanje je tisto, za kar plačujete.\n\n** Inbox za concierge handoff je mesto, kjer gredo pogovori, ko chatbot ne more (ali ne bi smel) z njimi rokovati. Bot zbere uporabnikove podatke in vprašanje, nato ga preda človeku. Vaša ekipa odgovarja iz tega inboxa."},
-      {"question": "Ali ponujate popuste za javni sektor ali več destinacij?", "answer": "Da. Kontaktirajte nas za podrobnosti."},
-      {"question": "Ali lahko kadarkoli prekličem?", "answer": "Da. Prekličite pred naslednjim obračunskim ciklom; najprej izvozite svoje podatke, če želite."},
-      {"question": "Kako ravnate z zasebnostjo?", "answer": "Sledimo načelom GDPR. Prijave na glasilo in handoffi so opt-in*. Osebni podatki so minimizirani in šifrirani med prenosom in mirovanjem.\n\n* Kontaktiramo ljudi samo, če nas jasno prosijo. Brez samodejnih vpisov, brez predhodno označenih polj, brez zvijačnega drobnega tiska.\n\nPrijave na glasilo (opt-in): Ponudimo glasilo; uporabnik se odloči prijaviti. Vsak email vključuje povezavo za odjavo. Ne dodajamo ljudi, ki so podali svoj email iz drugih razlogov (npr. pomoč z vstopnicami), razen če se ločeno ne strinjajo s trženjem.\n\nConcierge handoffi (opt-in): Ko bot ne more pomagati, zaprosi za dovoljenje, da posreduje vprašanje človeku. Zberemo želeni kontakt (email/telefon) in povemo, da ga bomo uporabili samo za to zahtevo, razen če se tudi prijavijo za trženje."},
-      {"question": "Ali boste kdaj skrili funkcije za presenetljivimi paywalli?", "answer": "Ne. Omejitve in cene so objavljene; spremembe pridejo z obvestilom."},
-      {"question": "Kaj pa čas delovanja in podpora?", "answer": "Email podpora za Pro in več; prednostna podpora in SLA-ji za Partner. Status in changelog sta javna."},
-      {"question": "Kako je OpenEvents povezan z Eventio Agentom?", "answer": "OpenEvents je odprta podatkovna plast. Eventio Agent je ena poslovno usmerjena aplikacija, zgrajena na njej. To sta ločeni blagovni znamki, ki se lahko sklicujeta druga na drugo."},
-      {"question": "Ali lahko preizkusim demo?", "answer": "Da. Uporabite playground z brezplačnim ključem ali nas prosite za vodeni demo."}
+      {
+        "question": "Kaj je OpenEvents?",
+        "answer": "OpenEvents je skupna podatkovna plast za dogodke, namenjena destinacijam, prizoriščem, promotorjem in graditeljem. Dodajte dogodke enkrat; ohranite jih sinhronizirane na spletnih straneh, aplikacijah in s partnerji."
+      },
+      {
+        "question": "Za koga je namenjen?",
+        "answer": "Destinacije (DMO/občine), prizorišča in promotorji ter razvijalci/partnerji, ki želijo stabilen, odprt in pregleden način uporabe podatkov o dogodkih."
+      },
+      {
+        "question": "Kako dodam dogodke?",
+        "answer": "Uporabite našo intuitivno nadzorno ploščo, obrnite se na razvojno ekipo za povezavo z obstoječo rešitvijo ali povežite priljubljene obstoječe vire (npr. Facebook Events, Eventbrite, Meetup, ICS vire)."
+      },
+      {
+        "question": "Ali lahko to vgradim na svojo stran?",
+        "answer": "Da. Uporabite naš spletni pripomoček ali pridobite podatke prek API-ja za prikaz lastnega koledarja."
+      },
+      {
+        "question": "Kako vzdržujete čistost podatkov?",
+        "answer": "Standardiziramo polja, združujemo podvojitve (ujemanje naslova + časa + prizorišča) in normaliziramo imena prizorišč. Postavke z nizko zanesljivostjo gredo v čakalno vrsto za človeški pregled."
+      },
+      {
+        "question": "Kako hitre so posodobitve?",
+        "answer": "Skoraj v realnem času za večino virov. Natančen čas je odvisen od vira in Vašega načrta, vendar se spremembe običajno prenesejo v nekaj minutah."
+      },
+      {
+        "question": "Ali prikazujete, od kod podatki prihajajo?",
+        "answer": "Da. Vključujemo jasne izvorne povezave na karticah dogodkov in v API-ju."
+      },
+      {
+        "question": "Kdo je lastnik podatkov?",
+        "answer": "Vi. Podatke lahko kadarkoli izvozite (ICS/CSV/JSON) ali povežete svoj zunanji vir tretje osebe. Ne zaklepamo Vas."
+      },
+      {
+        "question": "Ali lahko izberem, kaj je javno?",
+        "answer": "Da. Vsak dogodek je lahko označen kot javen, notranji ali deljen z določenimi partnerji.\n\nJavno: Kdorkoli ga lahko vidi—na Vaši spletni strani, v javnih koledarjih in prek javnega API-ja/vira. Je iskalen, ga je mogoče deliti in prikazuje izvorne povezave.\n\nUporabite za: mestne festivale, muzejske razstave, odprte delavnice.\n\nPartner: Samo odobreni partnerji (s ključem ali posebno vgradnjo) ga lahko vidijo. Ne bo se pojavil v javnih virih, vendar ga destinacije/hoteli/mediji, ki jim zaupate, lahko povlečejo. Partnerjem lahko prikažete tudi dodatna polja (npr. kontakt organizatorja), ki jih javnost ne more videti.\n\nUporabite za: partnerske pakete, dogodke s prednostno vabilo, medijske predoglede.\n\nNotranje: Samo Vaša ekipa ga vidi v skrbniškem delu. Skrit je pred vsemi API-ji/viri in iskanjem.\n\nUporabite za: osnutke, dogodke pod embargom pred sporočilom za javnost, zagotavljanje kakovosti, testiranje."
+      },
+      {
+        "question": "Kaj je API?",
+        "answer": "API je način, kako dva računalniška programa govorita drug z drugim."
+      },
+      {
+        "question": "Kaj je JSON?",
+        "answer": "JSON je strukturiran tekstovni format, ki različnim programom omogoča skupno rabo informacij."
+      },
+      {
+        "question": "Kaj API zagotavlja?",
+        "answer": "(1) REST končne točke s filtri (datum, mesto, prizorišče, oznake), paginacijo in razvrščanjem: preprosti spletni naslovi za pridobivanje podatkov o dogodkih kot urejen JSON, kot je: /api/events. Rezultate lahko tudi zožite. Primeri:\n\n/api/events?date=2025-12-05 (dogodki na dan)\n/api/events?city=Koper&tags=family,free (družinski, brezplačni dogodki v Kopru)\n/api/events?venue=taverna-koper (dogodki na enem prizorišču)\n\n(2) Webhooks za posodobitve: date nam URL, mi pa Vam pošljemo sporočilo v trenutku, ko je dogodek ustvarjen, posodobljen ali preklican.\n\n(3) Playground in delčki kode: API lahko preizkusite v svojem brskalniku brez pisanja kode. Izberete filtre (mesto, časovno obdobje, oznake) in vidite JSON odgovor plus statistiko (koliko rezultatov, koliko časa je trajalo). Pomaga Vam naučiti se polj, opaziti napake in deliti delujoč primer s svojo ekipo prek povezave."
+      },
+      {
+        "question": "Ali podpirate agente?",
+        "answer": "Da. Podpiramo Model Context Protocol (MCP), tako da lahko dogodke vnesete v AI agente."
+      },
+      {
+        "question": "Kako stabilen je API?",
+        "answer": "API verzioniramo in podajamo jasne časovne okvirje pred spremembami."
+      },
+      {
+        "question": "Kaj so SLA-ji?",
+        "answer": "Service Level Agreements (SLA) so pisne obljube, ki Vam jih dajemo o tem, kako zanesljiva in odzivna bo naša rešitev. SLA-ji navajajo cilje (kot so čas delovanja, hitrost in odzivni časi podpore), kako se merijo in kaj dobite, če cilji niso izpolnjeni (običajno kredite za storitve)."
+      },
+      {
+        "question": "Ali lahko partnerji dobijo višje omejitve in SLA-je?",
+        "answer": "Da. Oglejte si Partner načrt za večjo prepustnost, webhookove in SLA-je za čas delovanja."
+      },
+      {
+        "question": "Ali obstaja brezplačen načrt za graditelje?",
+        "answer": "Da, imamo brezplačen načrt z radodarnimi omejitvami za razvijalce in majhne projekte."
+      },
+      {
+        "question": "Ali obstajajo dodatki?",
+        "answer": "Dodatni dodatki vključujejo premium ingestion za prizorišča brez virov*, napredne vpoglede, white-label pripomočke in inbox za concierge handoff**.\n\n* Nekatera prizorišča ne zagotavljajo vira dogodkov (brez ICS/CSV/API). Premium ingestion pomeni, da opravimo dodatno delo zbiranja dogodkov neposredno z njihove spletne strani ali virov ter jih pretvorimo v čiste, strukturirane vnose, ki se samodejno posodabljajo. Zakaj je \"premium\"? Vsaka stran je drugačna, zato gradimo in vzdržujemo prilagojen konektor. Če prizorišče spremeni svoj razpored, popravimo konektor. To stalno delo in spremljanje je tisto, za kar plačujete.\n\n** Inbox za concierge handoff je mesto, kjer gredo pogovori, ko chatbot ne more (ali ne bi smel) z njimi rokovati. Bot zbere uporabnikove podatke in vprašanje, nato ga preda človeku. Vaša ekipa odgovarja iz tega inboxa."
+      },
+      {
+        "question": "Ali ponujate popuste za javni sektor ali več destinacij?",
+        "answer": "Da. Kontaktirajte nas za podrobnosti."
+      },
+      {
+        "question": "Ali lahko kadarkoli prekličem?",
+        "answer": "Da. Prekličite pred naslednjim obračunskim ciklom; najprej izvozite svoje podatke, če želite."
+      },
+      {
+        "question": "Kako ravnate z zasebnostjo?",
+        "answer": "Sledimo načelom GDPR. Prijave na glasilo in handoffi so opt-in*. Osebni podatki so minimizirani in šifrirani med prenosom in mirovanjem.\n\n* Kontaktiramo ljudi samo, če nas jasno prosijo. Brez samodejnih vpisov, brez predhodno označenih polj, brez zvijačnega drobnega tiska.\n\nPrijave na glasilo (opt-in): Ponudimo glasilo; uporabnik se odloči prijaviti. Vsak email vključuje povezavo za odjavo. Ne dodajamo ljudi, ki so podali svoj email iz drugih razlogov (npr. pomoč z vstopnicami), razen če se ločeno ne strinjajo s trženjem.\n\nConcierge handoffi (opt-in): Ko bot ne more pomagati, zaprosi za dovoljenje, da posreduje vprašanje človeku. Zberemo želeni kontakt (email/telefon) in povemo, da ga bomo uporabili samo za to zahtevo, razen če se tudi prijavijo za trženje."
+      },
+      {
+        "question": "Ali boste kdaj skrili funkcije za presenetljivimi paywalli?",
+        "answer": "Ne. Omejitve in cene so objavljene; spremembe pridejo z obvestilom."
+      },
+      {
+        "question": "Kaj pa čas delovanja in podpora?",
+        "answer": "Email podpora za Pro in več; prednostna podpora in SLA-ji za Partner. Status in changelog sta javna."
+      },
+      {
+        "question": "Kako je OpenEvents povezan z Eventio Agentom?",
+        "answer": "OpenEvents je odprta podatkovna plast. Eventio Agent je ena poslovno usmerjena aplikacija, zgrajena na njej. To sta ločeni blagovni znamki, ki se lahko sklicujeta druga na drugo."
+      },
+      {
+        "question": "Ali lahko preizkusim demo?",
+        "answer": "Da. Uporabite playground z brezplačnim ključem ali nas prosite za vodeni demo."
+      }
     ]
   },
   "updates": {
@@ -101,7 +176,7 @@
       "searchPlaceholder": "Išči dogodke...",
       "noDateSet": "Datum ni nastavljen",
       "until": "Do",
-      "at": "ob",
+      "at": "Pri",
       "partOf": "Del od:",
       "contains": "Vsebuje",
       "subEvent": "pod-dogodek",
@@ -110,7 +185,6 @@
       "physicalEvent": "Fizični dogodek",
       "organizedBy": "Organizira",
       "noOrganizers": "Brez organizatorjev",
-      "at": "Pri",
       "noVenues": "Brez lokacij",
       "category": "Kategorija",
       "noCategories": "Brez kategorij",
@@ -157,6 +231,26 @@
     "runningSince": "V teku od",
     "initiating": "Začenjanje...",
     "kill": "Ustavi",
-    "fetchError": "Pridobivanje integracij ni uspelo"
+    "fetchError": "Pridobivanje integracij ni uspelo",
+    "configureCredentials": "Konfiguriraj poverilnice",
+    "credentialsConfigured": "Poverilnice konfigurirane",
+    "credentialsRequired": "Potrebne poverilnice",
+    "saveCredentials": "Shrani",
+    "updateCredentials": "Posodobi",
+    "deleteCredentials": "Izbriši poverilnice",
+    "cancel": "Prekliči",
+    "saving": "Shranjevanje...",
+    "privateToken": "Zasebni žeton",
+    "organizationId": "ID organizacije",
+    "privateTokenPlaceholder": "Vnesite svoj Eventbrite zasebni žeton",
+    "privateTokenUpdatePlaceholder": "Vnesite nov žeton za posodobitev",
+    "organizationIdPlaceholder": "Vnesite svoj Eventbrite ID organizacije",
+    "getTokenHelp": "Pridobite svoj žeton iz",
+    "findOrgIdHelp": "Poiščite ID organizacije v svojem Eventbrite računu",
+    "credentialsAddedSuccess": "Poverilnice uspešno dodane",
+    "credentialsUpdatedSuccess": "Poverilnice uspešno posodobljene",
+    "credentialsDeletedSuccess": "Poverilnice uspešno izbrisane",
+    "deleteConfirmation": "Ali ste prepričani, da želite izbrisati te poverilnice?",
+    "configureFirst": "Najprej konfigurirajte poverilnice"
   }
 }
