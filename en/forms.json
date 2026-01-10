@@ -114,12 +114,9 @@
     "addImage": "Add Image",
     "feature": "Feature",
     "featured": "Featured",
-    "addLink": "+ Add Link",
+    "addLink": "Add Link",
     "text": "Text",
     "html": "HTML"
-  },
-  "validation": {
-    "clientNameRequired": "Client name is required"
   },
   "messages": {
     "createNewClient": "Create New OAuth Client",
@@ -252,6 +249,7 @@
     "parentEventId": "Parent Event"
   },
   "validation": {
+    "clientNameRequired": "Client name is required",
     "required": "{{field}} is required",
     "invalidType": "{{field}} has an invalid type",
     "tooSmall": "{{field}} must contain at least {{min}} character(s)",
@@ -283,6 +281,10 @@
     "timezoneOffsetMismatch": "Timezone offset doesn't match the specified local timezone",
     "invalidCountryCode": "Invalid ISO country code",
     "maxItems": "Maximum {{max}} items allowed"
+  },
+  "confirmations": {
+    "saveDraft": "You have unsaved changes. Would you like to save this event as a draft?",
+    "saveChanges": "You have unsaved changes. Would you like to save your changes?"
   },
   "apiKey": {
     "title": "Read-Only API Keys",

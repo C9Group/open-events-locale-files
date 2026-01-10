@@ -114,12 +114,9 @@
     "addImage": "Dodaj Sliko",
     "feature": "Izpostavi",
     "featured": "Izpostavljeno",
-    "addLink": "+ Dodaj Povezavo",
+    "addLink": "Dodaj Povezavo",
     "text": "Besedilo",
     "html": "HTML"
-  },
-  "validation": {
-    "clientNameRequired": "Ime odjemalca je obvezno"
   },
   "messages": {
     "createNewClient": "Ustvari Novega OAuth Odjemalca",
@@ -252,6 +249,7 @@
     "parentEventId": "Nadrejeni dogodek"
   },
   "validation": {
+    "clientNameRequired": "Ime odjemalca je obvezno",
     "required": "{{field}} je obvezno",
     "invalidType": "{{field}} ima neveljavno vrsto",
     "tooSmall": "{{field}} mora vsebovati vsaj {{min}} znak(ov)",
@@ -283,6 +281,10 @@
     "timezoneOffsetMismatch": "Odmik časovnega območja se ne ujema z navedenim lokalnim časovnim območjem",
     "invalidCountryCode": "Neveljavna ISO oznaka države",
     "maxItems": "Dovoljenih je največ {{max}} elementov"
+  },
+  "confirmations": {
+    "saveDraft": "Imate neshranjene spremembe. Želite shraniti ta dogodek kot osnutek?",
+    "saveChanges": "Imate neshranjene spremembe. Želite shraniti spremembe?"
   },
   "apiKey": {
     "title": "API Ključi Samo za Branje",

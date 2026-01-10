@@ -114,12 +114,9 @@
     "addImage": "Dodaj Sliku",
     "feature": "Istakni",
     "featured": "Istaknuto",
-    "addLink": "+ Dodaj Poveznicu",
+    "addLink": "Dodaj Poveznicu",
     "text": "Tekst",
     "html": "HTML"
-  },
-  "validation": {
-    "clientNameRequired": "Naziv klijenta je obavezan"
   },
   "messages": {
     "createNewClient": "Kreiraj Novog OAuth Klijenta",
@@ -252,6 +249,7 @@
     "parentEventId": "Nadređeni događaj"
   },
   "validation": {
+    "clientNameRequired": "Naziv klijenta je obavezan",
     "required": "{{field}} je obavezno",
     "invalidType": "{{field}} ima nevažeći tip",
     "tooSmall": "{{field}} mora sadržavati najmanje {{min}} znak(ova)",
@@ -283,6 +281,10 @@
     "timezoneOffsetMismatch": "Pomak vremenske zone ne odgovara navedenoj lokalnoj vremenskoj zoni",
     "invalidCountryCode": "Nevažeća ISO oznaka države",
     "maxItems": "Dopušteno je maksimalno {{max}} stavki"
+  },
+  "confirmations": {
+    "saveDraft": "Imate nespremljene promjene. Želite li spremiti ovaj događaj kao nacrt?",
+    "saveChanges": "Imate nespremljene promjene. Želite li spremiti svoje promjene?"
   },
   "apiKey": {
     "title": "API Ključevi Samo za Čitanje",
