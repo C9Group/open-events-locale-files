@@ -62,7 +62,11 @@
     "languageSelector": "Language / Jezik / Jezik",
     "selectLanguage": "Select language...",
     "updatingLanguage": "Updating language preference...",
-    "readOnly": "Read-only"
+    "readOnly": "Read-only",
+    "modified": "Modified",
+    "text": "Text",
+    "html": "HTML",
+    "excerpt": "Excerpt"
   },
   "common": {
     "yes": "Yes",
@@ -162,5 +166,29 @@
     "updateEvent": "Update Event",
     "createEvent": "Create Event",
     "deleteEvent": "Delete Event"
+  },
+  "pagination": {
+    "show": "Show",
+    "perPage": "per page",
+    "showing": "Showing {{start}} to {{end}} of {{total}}",
+    "firstPage": "First page",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "lastPage": "Last page",
+    "page": "Page",
+    "of": "of"
+  },
+  "sort": {
+    "sortBy": "Sort by",
+    "ascending": "Ascending",
+    "descending": "Descending",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "createdAt": "Created Date",
+    "updatedAt": "Updated Date",
+    "name": "Name"
+  },
+  "filters": {
+    "showPastEvents": "Show past events"
   }
 }

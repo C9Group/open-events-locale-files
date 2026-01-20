@@ -62,7 +62,11 @@
     "languageSelector": "Jezik / Language / Jezik",
     "selectLanguage": "Odaberite jezik...",
     "updatingLanguage": "Ažuriranje jezičnih postavki...",
-    "readOnly": "Samo za čitanje"
+    "readOnly": "Samo za čitanje",
+    "modified": "Izmijenjeno",
+    "text": "Tekst",
+    "html": "HTML",
+    "excerpt": "Isječak"
   },
   "common": {
     "yes": "Da",
@@ -162,5 +166,29 @@
     "updateEvent": "Ažuriraj Događaj",
     "createEvent": "Kreiraj Događaj",
     "deleteEvent": "Obriši Događaj"
+  },
+  "pagination": {
+    "show": "Prikaži",
+    "perPage": "po stranici",
+    "showing": "Prikazano {{start}} do {{end}} od {{total}}",
+    "firstPage": "Prva stranica",
+    "previousPage": "Prethodna stranica",
+    "nextPage": "Sljedeća stranica",
+    "lastPage": "Zadnja stranica",
+    "page": "Stranica",
+    "of": "od"
+  },
+  "sort": {
+    "sortBy": "Sortiraj po",
+    "ascending": "Uzlazno",
+    "descending": "Silazno",
+    "startTime": "Vrijeme početka",
+    "endTime": "Vrijeme završetka",
+    "createdAt": "Datum kreiranja",
+    "updatedAt": "Datum ažuriranja",
+    "name": "Naziv"
+  },
+  "filters": {
+    "showPastEvents": "Prikaži prošle događaje"
   }
 }
