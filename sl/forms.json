@@ -16,6 +16,7 @@
     "googleMapsPlaceId": "Vnesite Google Maps Place ID",
     "latitude": "Vnesite zemljepisno širino",
     "longitude": "Vnesite zemljepisno dolžino",
+    "searchPlace": "Poiščite lokacijo...",
     "organizerName": "Vnesite ime organizatorja",
     "imageName": "Vnesite ime slike",
     "eventName": "Ime dogodka",
@@ -47,6 +48,7 @@
     "stateProvince": "Zvezna Država/Pokrajina",
     "capacity": "Zmogljivost",
     "googleMapsPlaceId": "Google Maps Place ID",
+    "placeSearch": "Poišči Lokacijo",
     "latitude": "Zemljepisna Širina",
     "longitude": "Zemljepisna Dolžina",
     "weatherSensitivity": "Občutljivost na Vreme",
@@ -147,6 +149,7 @@
     "noOrganizersFound": "Organizatorjev ni bilo najdeno",
     "noCategoriesFound": "Kategorij ni bilo najdeno",
     "noMatchingEvents": "Ujemajočih se dogodkov ni bilo najdeno",
+    "noPlacesFound": "Lokacij za to iskanje ni bilo najdeno",
     "selectedVenues": "Izbrana Prizorišča:",
     "selectedOrganizers": "Izbrani Organizatorji:",
     "selectedCategories": "Izbrane Kategorije:",
@@ -340,5 +343,10 @@
     "enterExcerptHtml": "Vnesite HTML izvlečka...",
     "enterDescriptionHtml": "Vnesite HTML opisa...",
     "updated": "Posodobljeno {{language}}"
+  },
+  "errors": {
+    "placesApiNotConfigured": "Iskanje lokacij ni na voljo. Prosimo kontaktirajte podporo.",
+    "placesSearchFailed": "Iskanje lokacij ni uspelo. Prosimo poskusite znova.",
+    "placeDetailsFailed": "Pridobivanje podrobnosti lokacije ni uspelo. Prosimo poskusite znova."
   }
 }

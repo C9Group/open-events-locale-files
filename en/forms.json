@@ -16,6 +16,7 @@
     "googleMapsPlaceId": "Enter Google Maps Place ID",
     "latitude": "Enter latitude",
     "longitude": "Enter longitude",
+    "searchPlace": "Search for a place...",
     "organizerName": "Enter organizer name",
     "imageName": "Enter image name",
     "eventName": "Event name",
@@ -47,6 +48,7 @@
     "stateProvince": "State/Province",
     "capacity": "Capacity",
     "googleMapsPlaceId": "Google Maps Place ID",
+    "placeSearch": "Find Place",
     "latitude": "Latitude",
     "longitude": "Longitude",
     "weatherSensitivity": "Weather Sensitivity",
@@ -148,6 +150,7 @@
     "noOrganizersFound": "No organizers found",
     "noCategoriesFound": "No categories found",
     "noMatchingEvents": "No matching events found",
+    "noPlacesFound": "No places found for this search",
     "selectedVenues": "Selected Venues:",
     "selectedOrganizers": "Selected Organizers:",
     "selectedCategories": "Selected Categories:",
@@ -342,5 +345,10 @@
     "enterExcerptHtml": "Enter excerpt HTML...",
     "enterDescriptionHtml": "Enter description HTML...",
     "updated": "Updated {{language}}"
+  },
+  "errors": {
+    "placesApiNotConfigured": "Place search is not available. Please contact support.",
+    "placesSearchFailed": "Failed to search for places. Please try again.",
+    "placeDetailsFailed": "Failed to get place details. Please try again."
   }
 }
