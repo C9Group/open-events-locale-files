@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "home": "Startseite",
+    "events": "Veranstaltungen",
+    "myEvents": "Meine Veranstaltungen",
+    "createEvent": "Veranstaltung erstellen",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "docs": "Dokumentation",
+    "resources": "Ressourcen",
+    "integrations": "Integrationen",
+    "account": "Konto",
+    "signUp": "Kostenlos registrieren",
+    "signUpShort": "Registrieren",
+    "menu": "Menü",
+    "aiChat": "KI-Chat",
+    "updates": "Aktualisierungen"
+  },
+  "brand": {
+    "name": "Open Events"
+  },
+  "footer": {
+    "tagline": "Plattform zum Teilen und Entdecken von Veranstaltungsdaten.",
+    "links": {
+      "apiDocs": "API-Dokumentation",
+      "updates": "Aktualisierungen",
+      "faq": "Häufige Fragen",
+      "team": "Das Team",
+      "contact": "Kontakt",
+      "feedback": "Feedback geben"
+    },
+    "newsletter": {
+      "title": "Bleiben Sie auf dem Laufenden",
+      "placeholder": "Ihre E-Mail-Adresse",
+      "subscribe": "Abonnieren",
+      "subscribing": "Wird abonniert...",
+      "successMessage": "Erfolgreich abonniert! Vielen Dank für Ihre Newsletter-Anmeldung.",
+      "errorEmail": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+      "errorNetwork": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+      "errorDefault": "Abonnement fehlgeschlagen. Bitte versuchen Sie es erneut."
+    },
+    "copyright": "© {{year}} Open Events. Alle Rechte vorbehalten."
+  }
+}

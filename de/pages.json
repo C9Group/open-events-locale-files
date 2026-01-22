@@ -1,0 +1,260 @@
+{
+  "authSuccess": {
+    "title": "Anmeldung erfolgreich",
+    "message": "Sie wurden erfolgreich angemeldet. Weiterleitung..."
+  },
+  "home": {
+    "title": "OpenEvents – Gemeinsame Veranstaltungsdaten-API für Destinationen, Venues und Entwickler",
+    "description": "OpenEvents ist eine offene Veranstaltungsdaten-Plattform für Slowenien und darüber hinaus. Veranstaltungen einmal hinzufügen und über REST-API, Webhooks und MCP mit Websites und Apps synchronisieren. Kostenlose Stufe für Entwickler, transparente Preisgestaltung.",
+    "subtitle": "Veranstaltungen entdecken und verwalten",
+    "hero": {
+      "welcomeTo": "Willkommen bei",
+      "brandName": "Open Events",
+      "subtitle": "Veranstaltungs-API und MCP-SSE-Lösung",
+      "tagline": "Ihre umfassende Lösung für nahtloses Verwalten und Teilen von Veranstaltungsdaten."
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "loginRequired": "Bitte melden Sie sich an, um Ihr Profil anzuzeigen.",
+    "loginButton": "Anmelden",
+    "fields": {
+      "name": "Name",
+      "username": "Benutzername",
+      "email": "E-Mail",
+      "userId": "Benutzer-ID",
+      "notProvided": "Nicht angegeben"
+    },
+    "accountActions": {
+      "title": "Kontoaktionen",
+      "description": "Konto- und Sicherheitseinstellungen verwalten",
+      "signOut": "Abmelden"
+    },
+    "apiAccess": {
+      "title": "API-Zugang",
+      "description": "Verwalten Sie Ihre OAuth 2.0 API-Clients",
+      "createButton": "Neuen Client erstellen",
+      "createError": "Client konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
+      "deleteError": "Client konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+    },
+    "apiKeys": {
+      "title": "Schreibgeschützte API-Schlüssel",
+      "description": "Verwalten Sie Ihre API-Schlüssel für schreibgeschützten Zugriff auf die API"
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "metaTitle": "Häufige Fragen – OpenEvents",
+    "metaDescription": "Häufig gestellte Fragen zu OpenEvents – der gemeinsamen Veranstaltungsdatenschicht für Destinationen, Veranstaltungsorte, Veranstalter und Entwickler.",
+    "subtitle": "Alles, was Sie über OpenEvents wissen müssen",
+    "searchPlaceholder": "In häufigen Fragen suchen...",
+    "resultsFound": "{{count}} Ergebnis gefunden",
+    "resultsFound_plural": "{{count}} Ergebnisse gefunden",
+    "noResults": "Keine Ergebnisse für '{{query}}' gefunden",
+    "clearSearch": "Suche zurücksetzen",
+    "items": [
+      {
+        "question": "Was ist OpenEvents?",
+        "answer": "OpenEvents ist eine gemeinsame Veranstaltungsdatenschicht für Destinationen, Veranstaltungsorte, Veranstalter und Entwickler. Veranstaltungen einmal hinzufügen und über Websites, Apps und Partner hinweg synchron halten."
+      },
+      {
+        "question": "Für wen ist es gedacht?",
+        "answer": "Für Destinationen (DMOs/Gemeinden), Veranstaltungsorte und Veranstalter sowie Entwickler/Partner, die eine stabile, offene und transparente Möglichkeit zur Nutzung von Veranstaltungsdaten suchen."
+      },
+      {
+        "question": "Wie füge ich Veranstaltungen hinzu?",
+        "answer": "Nutzen Sie unser intuitives Dashboard, kontaktieren Sie das Entwicklerteam zur Anbindung Ihrer bestehenden Lösung oder verbinden Sie beliebte Quellen (z.B. Facebook Events, Eventbrite, Meetup, ICS-Feeds)."
+      },
+      {
+        "question": "Kann ich es auf meiner Website einbetten?",
+        "answer": "Ja. Nutzen Sie unser Website-Widget oder rufen Sie Daten über die API ab, um Ihren eigenen Kalender zu rendern."
+      },
+      {
+        "question": "Wie halten Sie die Daten sauber?",
+        "answer": "Wir standardisieren Felder, führen Duplikate zusammen (Abgleich nach Titel + Zeit + Ort) und normalisieren Ortsnamen. Einträge mit niedriger Konfidenz werden in eine Warteschlange zur manuellen Überprüfung gestellt."
+      },
+      {
+        "question": "Wie schnell werden Aktualisierungen übernommen?",
+        "answer": "Nahezu in Echtzeit für die meisten Quellen. Die genaue Zeit hängt von der Quelle und Ihrem Tarif ab, aber Änderungen werden in der Regel innerhalb von Minuten übertragen."
+      },
+      {
+        "question": "Zeigen Sie an, woher die Daten stammen?",
+        "answer": "Ja. Wir zeigen klare Quellenlinks auf den Veranstaltungskarten und in der API an."
+      },
+      {
+        "question": "Wem gehören die Daten?",
+        "answer": "Ihnen. Sie können Daten jederzeit exportieren (ICS/CSV/JSON) oder Ihre externe Quelle verbinden. Wir binden Sie nicht."
+      },
+      {
+        "question": "Kann ich wählen, was öffentlich ist?",
+        "answer": "Ja. Jede Veranstaltung kann als öffentlich, intern oder für bestimmte Partner freigegeben markiert werden.\n\nÖffentlich: Jeder kann sie sehen – auf Ihrer Website, in öffentlichen Kalendern und über die öffentliche API/Feed. Sie ist durchsuchbar, teilbar und zeigt Quellenlinks.\n\nVerwendung für: Stadtfeste, Museumsausstellungen, offene Workshops.\n\nPartner: Nur genehmigte Partner (mit Schlüssel oder speziellem Einbettungscode) können sie sehen. Sie erscheint nicht in öffentlichen Feeds, aber Destinationen/Hotels/Medien, denen Sie vertrauen, können sie abrufen. Sie können Partnern auch zusätzliche Felder zeigen (z.B. Veranstalterkontakt), die die Öffentlichkeit nicht sieht.\n\nVerwendung für: Partnerpakete, Einladungsveranstaltungen, Medienvorschauen.\n\nIntern: Nur Ihr Team sieht sie im Admin-Bereich. Sie ist für alle APIs/Feeds und Suchen verborgen.\n\nVerwendung für: Entwürfe, unter Embargo stehende Veranstaltungen vor einer Pressemitteilung, Qualitätssicherung, Tests."
+      },
+      {
+        "question": "Was ist eine API?",
+        "answer": "Eine API ist eine Möglichkeit für zwei Computerprogramme, miteinander zu kommunizieren."
+      },
+      {
+        "question": "Was ist JSON?",
+        "answer": "JSON ist ein strukturiertes Textformat, das verschiedenen Programmen ermöglicht, Informationen auszutauschen."
+      },
+      {
+        "question": "Was bietet die API?",
+        "answer": "(1) REST-Endpunkte mit Filtern (Datum, Stadt, Ort, Tags), Paginierung und Sortierung: Einfache Webadressen, die Veranstaltungsdaten als sauberes JSON zurückgeben, wie: /api/events. Sie können auch Ergebnisse eingrenzen. Beispiele:\n\n/api/events?date=2025-12-05 (Veranstaltungen an einem Tag)\n/api/events?city=Koper&tags=family,free (Familien-, kostenlose Veranstaltungen in Koper)\n/api/events?venue=taverna-koper (Veranstaltungen an einem Ort)\n\n(2) Webhooks für Aktualisierungen: Sie geben uns eine URL und wir senden Ihnen sofort eine Nachricht, wenn eine Veranstaltung erstellt, aktualisiert oder abgesagt wird.\n\n(3) Spielwiese und Code-Snippets: Sie können die API im Browser ohne Code ausprobieren. Wählen Sie Filter (Stadt, Datumsbereich, Tags) und sehen Sie die JSON-Antwort plus Statistiken (wie viele Ergebnisse, wie lange es gedauert hat). Es hilft Ihnen, die Felder zu lernen, Fehler zu erkennen und ein funktionierendes Beispiel mit Ihrem Team über einen Link zu teilen."
+      },
+      {
+        "question": "Unterstützen Sie Agenten?",
+        "answer": "Ja. Wir unterstützen das Model Context Protocol (MCP), sodass Sie Veranstaltungen an KI-Agenten übergeben können."
+      },
+      {
+        "question": "Wie stabil ist die API?",
+        "answer": "Wir versionieren die API und geben klare Zeitpläne vor Änderungen bekannt."
+      },
+      {
+        "question": "Was sind SLAs?",
+        "answer": "Service Level Agreements sind die schriftlichen Zusagen, die wir Ihnen über die Zuverlässigkeit und Reaktionsfähigkeit unserer Lösung geben. SLAs legen Ziele fest (wie Betriebszeit, Geschwindigkeit und Support-Reaktionszeiten), wie diese gemessen werden und was Sie erhalten, wenn die Ziele nicht erreicht werden (normalerweise Service-Gutschriften)."
+      },
+      {
+        "question": "Können Partner höhere Limits und SLAs erhalten?",
+        "answer": "Ja. Siehe den Partner-Tarif für höheren Durchsatz, Webhooks und Betriebszeit-SLAs."
+      },
+      {
+        "question": "Gibt es eine kostenlose Stufe für Entwickler?",
+        "answer": "Ja, wir haben eine kostenlose Stufe mit großzügigen Limits für Entwickler und kleine Projekte."
+      },
+      {
+        "question": "Gibt es Zusatzoptionen?",
+        "answer": "Optionale Zusatzoptionen umfassen Premium-Datenaufnahme für Venues ohne Feeds*, erweiterte Analysen, White-Label-Widgets und ein Concierge-Übergabe-Postfach**.\n\n* Einige Veranstaltungsorte bieten keinen Veranstaltungs-Feed (kein ICS/CSV/API). Premium-Datenaufnahme bedeutet, dass wir die zusätzliche Arbeit leisten, um Veranstaltungen direkt von ihrer Website oder aus ihren Quellen zu sammeln und sie in saubere, strukturierte Einträge umzuwandeln, die automatisch aktualisiert werden. Warum 'Premium'? Jede Website ist anders, also bauen und pflegen wir einen benutzerdefinierten Connector. Wenn der Veranstaltungsort sein Layout ändert, reparieren wir den Connector. Diese fortlaufende Arbeit und Überwachung ist das, wofür Sie zahlen.\n\n** Ein Concierge-Übergabe-Postfach ist der Ort, an den Gespräche gehen, wenn der Chatbot sie nicht bearbeiten kann (oder sollte). Der Bot sammelt die Details und Fragen des Benutzers und übergibt sie an einen Menschen. Ihr Team antwortet aus diesem Postfach."
+      },
+      {
+        "question": "Bieten Sie Rabatte für den öffentlichen Sektor oder mehrere Destinationen?",
+        "answer": "Ja. Kontaktieren Sie uns für Details."
+      },
+      {
+        "question": "Kann ich jederzeit kündigen?",
+        "answer": "Ja. Kündigen Sie vor dem nächsten Abrechnungszyklus; exportieren Sie vorher Ihre Daten, wenn Sie möchten."
+      },
+      {
+        "question": "Wie gehen Sie mit dem Datenschutz um?",
+        "answer": "Wir folgen den DSGVO-Grundsätzen. Newsletter-Anmeldungen und Übergaben erfolgen auf Opt-in-Basis*. Persönliche Daten werden minimiert und sowohl bei der Übertragung als auch bei der Speicherung verschlüsselt.\n\n* Wir kontaktieren Personen nur, wenn sie uns ausdrücklich darum bitten. Keine automatischen Anmeldungen, keine vorab aktivierten Kontrollkästchen, keine versteckten Klauseln.\n\nNewsletter-Anmeldungen (Opt-in): Wir bieten den Newsletter an; der Benutzer entscheidet sich für das Abonnement. Jede E-Mail enthält einen Abmeldelink. Wir fügen keine Personen hinzu, die ihre E-Mail aus anderen Gründen angegeben haben (z.B. Tickethilfe), es sei denn, sie stimmen separat dem Marketing zu.\n\nConcierge-Übergaben (Opt-in): Wenn der Bot nicht helfen kann, bittet er um Erlaubnis, die Frage an einen Menschen weiterzuleiten. Wir sammeln den bevorzugten Kontakt (E-Mail/Telefon) und sagen, dass wir ihn nur für diese Anfrage verwenden, es sei denn, sie stimmen auch dem Marketing zu."
+      },
+      {
+        "question": "Werden Sie jemals Funktionen hinter überraschenden Paywalls verstecken?",
+        "answer": "Nein. Limits und Preise sind veröffentlicht; Änderungen werden angekündigt."
+      },
+      {
+        "question": "Wie sieht es mit Betriebszeit und Support aus?",
+        "answer": "E-Mail-Support für Pro und höher; Prioritätssupport und SLAs für Partner. Status und Änderungsprotokoll sind öffentlich."
+      },
+      {
+        "question": "Wie hängt OpenEvents mit dem Eventio Agent zusammen?",
+        "answer": "OpenEvents ist die offene Datenschicht. Eventio Agent ist eine geschäftsorientierte Anwendung, die darauf aufbaut. Es sind separate Marken, die aufeinander verweisen können."
+      },
+      {
+        "question": "Kann ich eine Demo ausprobieren?",
+        "answer": "Ja. Nutzen Sie die Spielwiese mit einem kostenlosen Schlüssel oder fragen Sie uns nach einer geführten Demo."
+      }
+    ]
+  },
+  "updates": {
+    "title": "Aktualisierungen & Änderungsprotokoll",
+    "metaTitle": "Aktualisierungen & Änderungsprotokoll – Open Events",
+    "metaDescription": "Bleiben Sie auf dem Laufenden mit den neuesten Open Events Aktualisierungen, neuen Funktionen und Verbesserungen.",
+    "subtitle": "Verfolgen Sie neue Funktionen, Verbesserungen und Änderungen an Open Events.",
+    "tabs": {
+      "platform": "Plattformänderungen",
+      "api": "API-Änderungen"
+    }
+  },
+  "apiDocs": {
+    "title": "API-Dokumentation",
+    "loading": "Dokumentation wird geladen...",
+    "authentication": "API-Authentifizierung",
+    "authenticationDescription": "Ihre OAuth-Clients werden automatisch für die API-Authentifizierung unten verwendet.",
+    "autoAuthenticated": "Automatisch authentifiziert",
+    "autoAuthenticatedDescription": "für die API-Dokumentation unten."
+  },
+  "manage": {
+    "loginRequired": "Bitte melden Sie sich an, um {{resource}} zu verwalten.",
+    "events": {
+      "title": "Veranstaltungen verwalten",
+      "searchPlaceholder": "Veranstaltungen suchen...",
+      "noDateSet": "Kein Datum festgelegt",
+      "until": "Bis",
+      "at": "Bei",
+      "partOf": "Teil von:",
+      "contains": "Enthält",
+      "subEvent": "Unterveranstaltung",
+      "subEvent_plural": "Unterveranstaltungen",
+      "online": "Online",
+      "physicalEvent": "Vor-Ort-Veranstaltung",
+      "organizedBy": "Veranstaltet von",
+      "noOrganizers": "Keine Veranstalter",
+      "noVenues": "Keine Veranstaltungsorte",
+      "category": "Kategorie",
+      "noCategories": "Keine Kategorien",
+      "googleMaps": "Google Maps",
+      "noEventsFound": "Keine Veranstaltungen für '{{searchTerm}}' gefunden",
+      "noEvents": "Keine Veranstaltungen gefunden",
+      "tryAdjusting": "Versuchen Sie, Ihre Suchbegriffe anzupassen.",
+      "createFirst": "Erstellen Sie Ihre erste Veranstaltung, um loszulegen."
+    },
+    "venues": {
+      "title": "Veranstaltungsorte verwalten",
+      "searchPlaceholder": "Veranstaltungsorte suchen...",
+      "noAddress": "Keine Adresse",
+      "capacity": "Kapazität",
+      "accessibility": "Barrierefreiheit"
+    },
+    "organizers": {
+      "title": "Veranstalter verwalten",
+      "searchPlaceholder": "Veranstalter suchen...",
+      "noLogo": "Kein Logo",
+      "contact": "Kontakt"
+    },
+    "images": {
+      "title": "Bilder verwalten",
+      "searchPlaceholder": "Bilder suchen...",
+      "uploadedBy": "Hochgeladen von",
+      "usedIn": "Verwendet in {{count}} Veranstaltung",
+      "usedIn_plural": "Verwendet in {{count}} Veranstaltungen"
+    }
+  },
+  "team": {
+    "title": "Unser Team",
+    "subtitle": "Die engagierten Menschen hinter Open Events, die gemeinsam an der Zukunft des Veranstaltungsdaten-Teilens arbeiten."
+  },
+  "integrations": {
+    "title": "Integrationen",
+    "searchPlaceholder": "Integrationen suchen...",
+    "noIntegrations": "Keine Integrationen verfügbar",
+    "noIntegrationsFound": "Keine Integrationen gefunden",
+    "noIntegrationAdapters": "Derzeit sind keine Integrationsadapter verfügbar.",
+    "runningProcesses": "Laufende Prozesse",
+    "noProcesses": "Keine Prozesse werden ausgeführt",
+    "loginRequired": "Bitte melden Sie sich an, um Integrationen zu verwalten.",
+    "runningSince": "Läuft seit",
+    "initiating": "Wird gestartet...",
+    "kill": "Beenden",
+    "fetchError": "Integrationen konnten nicht abgerufen werden",
+    "configureCredentials": "Zugangsdaten konfigurieren",
+    "credentialsConfigured": "Zugangsdaten konfiguriert",
+    "credentialsRequired": "Zugangsdaten erforderlich",
+    "saveCredentials": "Speichern",
+    "updateCredentials": "Aktualisieren",
+    "deleteCredentials": "Zugangsdaten löschen",
+    "cancel": "Abbrechen",
+    "saving": "Wird gespeichert...",
+    "privateToken": "Privater Token",
+    "organizationId": "Organisations-ID",
+    "privateTokenPlaceholder": "Geben Sie Ihren Eventbrite-Token ein",
+    "privateTokenUpdatePlaceholder": "Neuen Token zum Aktualisieren eingeben",
+    "organizationIdPlaceholder": "Geben Sie Ihre Eventbrite-Organisations-ID ein",
+    "getTokenHelp": "Token erhalten Sie unter",
+    "findOrgIdHelp": "Die Organisations-ID finden Sie in Ihrem Eventbrite-Konto",
+    "credentialsAddedSuccess": "Zugangsdaten erfolgreich hinzugefügt",
+    "credentialsUpdatedSuccess": "Zugangsdaten erfolgreich aktualisiert",
+    "credentialsDeletedSuccess": "Zugangsdaten erfolgreich gelöscht",
+    "deleteConfirmation": "Möchten Sie diese Zugangsdaten wirklich löschen?",
+    "configureFirst": "Zuerst Zugangsdaten konfigurieren"
+  }
+}

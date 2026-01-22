@@ -1,0 +1,29 @@
+{
+  "success": {
+    "saved": "Sikeresen mentve",
+    "deleted": "Sikeresen törölve",
+    "created": "Sikeresen létrehozva",
+    "updated": "Sikeresen frissítve",
+    "venueSaved": "Helyszín sikeresen mentve",
+    "organizerSaved": "Szervező sikeresen mentve",
+    "imageSaved": "Kép sikeresen mentve",
+    "eventSaved": "Esemény sikeresen mentve"
+  },
+  "error": {
+    "generic": "Hiba történt",
+    "notFound": "Nem található",
+    "unauthorized": "Jogosulatlan hozzáférés",
+    "serverError": "Szerverhiba",
+    "authenticationRequired": "Bejelentkezés szükséges",
+    "fetchFailed": "Nem sikerült lekérni: {{resource}}",
+    "saveFailed": "Nem sikerült menteni: {{resource}}",
+    "deleteFailed": "Nem sikerült törölni: {{resource}}",
+    "uploadFailed": "Nem sikerült feltölteni a képet",
+    "maxImagesAlert": "Maximum 10 kép engedélyezett",
+    "startAction": "Nem sikerült elindítani: {{action}}",
+    "unknownError": "Ismeretlen hiba",
+    "errorStarting": "Hiba az indítás során: {{action}}",
+    "failedToKill": "Nem sikerült leállítani a folyamatot",
+    "errorKilling": "Hiba a folyamat leállítása során"
+  }
+}

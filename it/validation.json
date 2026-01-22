@@ -1,0 +1,7 @@
+{
+  "required": "Questo campo è obbligatorio",
+  "email": "Inserisci un indirizzo email valido",
+  "minLength": "Lunghezza minima: {{min}} caratteri",
+  "maxLength": "Lunghezza massima: {{max}} caratteri",
+  "url": "Inserisci un URL valido"
+}

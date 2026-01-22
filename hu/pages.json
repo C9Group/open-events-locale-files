@@ -1,0 +1,260 @@
+{
+  "authSuccess": {
+    "title": "Sikeres hitelesítés",
+    "message": "Sikeresen bejelentkezett. Átirányítás..."
+  },
+  "home": {
+    "title": "OpenEvents – Megosztott eseményadat API desztinációk, helyszínek és fejlesztők számára",
+    "description": "Az OpenEvents egy nyílt eseményadat-platform Szlovénia és tágabb térség számára. Adja hozzá az eseményeket egyszer, szinkronizálja weboldalakra és alkalmazásokba REST API-n, webhookokon és MCP-n keresztül. Ingyenes szint fejlesztőknek, átlátható árazás.",
+    "subtitle": "Fedezze fel és kezelje az eseményeket",
+    "hero": {
+      "welcomeTo": "Üdvözöljük",
+      "brandName": "Open Events",
+      "subtitle": "Esemény API és MCP SSE megoldás",
+      "tagline": "Az Ön átfogó megoldása az eseményadatok zökkenőmentes kezelésére és megosztására."
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "loginRequired": "A profil megtekintéséhez kérjük, jelentkezzen be.",
+    "loginButton": "Bejelentkezés",
+    "fields": {
+      "name": "Név",
+      "username": "Felhasználónév",
+      "email": "E-mail",
+      "userId": "Felhasználói azonosító",
+      "notProvided": "Nincs megadva"
+    },
+    "accountActions": {
+      "title": "Fiókműveletek",
+      "description": "Fiók és biztonsági beállítások kezelése",
+      "signOut": "Kijelentkezés"
+    },
+    "apiAccess": {
+      "title": "API hozzáférés",
+      "description": "OAuth 2.0 API kliensek kezelése",
+      "createButton": "Új kliens létrehozása",
+      "createError": "Nem sikerült létrehozni a klienst. Kérjük, próbálja újra.",
+      "deleteError": "Nem sikerült törölni a klienst. Kérjük, próbálja újra."
+    },
+    "apiKeys": {
+      "title": "Csak olvasható API kulcsok",
+      "description": "API kulcsok kezelése a csak olvasható API hozzáféréshez"
+    }
+  },
+  "faq": {
+    "title": "Gyakran Ismételt Kérdések",
+    "metaTitle": "GYIK – OpenEvents",
+    "metaDescription": "Gyakran ismételt kérdések az OpenEvents-ről – a megosztott eseményadat-rétegről desztinációk, helyszínek, szervezők és fejlesztők számára.",
+    "subtitle": "Minden, amit tudnia kell az OpenEvents-ről",
+    "searchPlaceholder": "Keresés a GYIK-ben...",
+    "resultsFound": "{{count}} találat",
+    "resultsFound_plural": "{{count}} találat",
+    "noResults": "Nincs találat a következő keresésre: '{{query}}'",
+    "clearSearch": "Keresés törlése",
+    "items": [
+      {
+        "question": "Mi az OpenEvents?",
+        "answer": "Az OpenEvents egy megosztott eseményadat-réteg desztinációk, helyszínek, szervezők és fejlesztők számára. Adja hozzá az eseményeket egyszer; tartsa szinkronban weboldalak, alkalmazások és partnerek között."
+      },
+      {
+        "question": "Kinek szól?",
+        "answer": "Desztinációknak (DMO-k/önkormányzatok), helyszíneknek és szervezőknek, valamint fejlesztőknek/partnereknek, akik stabil, nyílt és átlátható módot keresnek az eseményadatok használatára."
+      },
+      {
+        "question": "Hogyan adhatok hozzá eseményeket?",
+        "answer": "Használja intuitív irányítópultunkat, lépjen kapcsolatba a fejlesztői csapattal meglévő megoldása csatlakoztatásához, vagy kapcsoljon össze népszerű forrásokat (pl. Facebook Events, Eventbrite, Meetup, ICS feedek)."
+      },
+      {
+        "question": "Beágyazhatom a weboldalamra?",
+        "answer": "Igen. Használja weboldali widgetünket, vagy kérje le az adatokat API-n keresztül saját naptár megjelenítéséhez."
+      },
+      {
+        "question": "Hogyan tartják tisztán az adatokat?",
+        "answer": "Szabványosítjuk a mezőket, összevonjuk a duplikátumokat (cím + időpont + helyszín egyeztetéssel), és normalizáljuk a helyszínneveket. Az alacsony megbízhatóságú elemek emberi ellenőrzési sorba kerülnek."
+      },
+      {
+        "question": "Milyen gyorsan frissülnek az adatok?",
+        "answer": "Közel valós időben a legtöbb forrásnál. A pontos időzítés a forrástól és az előfizetéstől függ, de a változások jellemzően perceken belül átkerülnek."
+      },
+      {
+        "question": "Megmutatják, honnan származnak az adatok?",
+        "answer": "Igen. Egyértelmű forráshivatkozásokat jelenítünk meg az eseménykártyákon és az API-ban."
+      },
+      {
+        "question": "Kié az adat?",
+        "answer": "Az Öné. Bármikor exportálhatja az adatokat (ICS/CSV/JSON), vagy csatlakoztathatja külső forrását. Nem zárjuk be."
+      },
+      {
+        "question": "Választhatom meg, mi legyen nyilvános?",
+        "answer": "Igen. Minden esemény megjelölhető nyilvánosként, belsőként vagy meghatározott partnerekkel megosztottként.\n\nNyilvános: Bárki láthatja – a weboldalán, nyilvános naptárakban és a nyilvános API-n/feeden keresztül. Kereshető, megosztható, és forráshivatkozásokat mutat.\n\nHasználja: városi fesztiválokhoz, múzeumi előadásokhoz, nyílt workshopokhoz.\n\nPartneri: Csak jóváhagyott partnerek (kulccsal vagy speciális beágyazással) láthatják. Nem jelenik meg nyilvános feedekben, de a megbízott desztinációk/szállodák/média lekérhetik. Partnereknek extra mezőket is mutathat (pl. szervezői elérhetőség), amelyet a nyilvánosság nem lát.\n\nHasználja: partneri csomagokhoz, meghívásos eseményekhez, médiaelemzésekhez.\n\nBelső: Csak a csapata látja az adminban. Rejtett minden API-ból/feedből és keresésből.\n\nHasználja: vázlatokhoz, embargó alatt lévő eseményekhez sajtóközlemény előtt, minőségbiztosításhoz, teszteléshez."
+      },
+      {
+        "question": "Mi az API?",
+        "answer": "Az API egy módja annak, hogy két számítógépes program kommunikáljon egymással."
+      },
+      {
+        "question": "Mi az a JSON?",
+        "answer": "A JSON egy strukturált szövegformátum, amely lehetővé teszi, hogy különböző programok információkat osszanak meg."
+      },
+      {
+        "question": "Mit biztosít az API?",
+        "answer": "(1) REST végpontok szűrőkkel (dátum, város, helyszín, címkék), lapozással és rendezéssel: egyszerű webcímek, amelyek rendezett JSON formátumban adnak vissza eseményadatokat, pl.: /api/events. Szűkítheti is az eredményeket. Példák:\n\n/api/events?date=2025-12-05 (események egy napon)\n/api/events?city=Koper&tags=family,free (családi, ingyenes események Koperben)\n/api/events?venue=taverna-koper (események egy helyszínen)\n\n(2) Webhookok frissítésekhez: megad nekünk egy URL-t, és azonnal üzenetet küldünk, amikor eseményt hoznak létre, frissítenek vagy lemondanak.\n\n(3) Játszótér és kódrészletek: kipróbálhatja az API-t a böngészőben kód írása nélkül. Választ szűrőket (város, dátumtartomány, címkék), és látja a JSON választ és statisztikákat (hány találat, mennyi ideig tartott). Segít megtanulni a mezőket, észrevenni a hibákat, és megosztani egy működő példát a csapatával egy linken keresztül."
+      },
+      {
+        "question": "Támogatnak ügynököket?",
+        "answer": "Igen. Támogatjuk a Model Context Protocol-t (MCP), így eseményeket táplálhat AI ügynökökbe."
+      },
+      {
+        "question": "Mennyire stabil az API?",
+        "answer": "Verziószámozzuk az API-t, és egyértelmű ütemtervet adunk a változások előtt."
+      },
+      {
+        "question": "Mik azok az SLA-k?",
+        "answer": "A szolgáltatási szint megállapodások (SLA-k) azok az írásos ígéretek, amelyeket Önnek teszünk a megoldásunk megbízhatóságáról és válaszidejéről. Az SLA-k célokat határoznak meg (mint üzemidő, sebesség és támogatási válaszidők), hogyan mérik ezeket, és mit kap, ha a célok nem teljesülnek (általában szolgáltatási krediteket)."
+      },
+      {
+        "question": "A partnerek magasabb limiteket és SLA-kat kaphatnak?",
+        "answer": "Igen. Lásd a Partner csomagot a magasabb áteresztőképességért, webhookokért és üzemidő SLA-kért."
+      },
+      {
+        "question": "Van ingyenes szint fejlesztőknek?",
+        "answer": "Igen, van ingyenes szintünk bőséges limitekkel fejlesztők és kis projektek számára."
+      },
+      {
+        "question": "Vannak kiegészítők?",
+        "answer": "Opcionális kiegészítők: prémium adatbetöltés feed nélküli helyszínekhez*, fejlett elemzések, fehér címkés widgetek és concierge átadási postaláda**.\n\n* Néhány helyszín nem biztosít esemény feedet (nincs ICS/CSV/API). A prémium adatbetöltés azt jelenti, hogy elvégezzük a plusz munkát az események közvetlen begyűjtésére a weboldalukról vagy forrásaikból, és tiszta, strukturált bejegyzésekké alakítjuk, amelyek automatikusan frissülnek. Miért 'prémium'? Minden oldal más, ezért egyedi csatlakozót építünk és tartunk fenn. Ha a helyszín megváltoztatja az elrendezését, javítjuk a csatlakozót. Ez a folyamatos munka és felügyelet az, amiért fizet.\n\n** A concierge átadási postaláda az a hely, ahová a beszélgetések kerülnek, amikor a chatbot nem tudja (vagy nem kellene) kezelni őket. A bot összegyűjti a felhasználó adatait és kérdését, majd átadja egy embernek. A csapata ebből a postaládából válaszol."
+      },
+      {
+        "question": "Kínálnak közszférás vagy több desztinációs kedvezményeket?",
+        "answer": "Igen. Részletekért lépjen kapcsolatba velünk."
+      },
+      {
+        "question": "Bármikor lemondhatom?",
+        "answer": "Igen. Mondja le a következő számlázási ciklus előtt; előtte exportálja adatait, ha szeretné."
+      },
+      {
+        "question": "Hogyan kezelik az adatvédelmet?",
+        "answer": "A GDPR elveket követjük. A hírlevél feliratkozások és átadások opt-in alapúak*. A személyes adatokat minimalizáljuk, és titkosítjuk átvitel és tárolás közben.\n\n* Csak akkor lépünk kapcsolatba emberekkel, ha egyértelműen kérik. Nincsenek automatikus feliratkozások, előre bejelölt négyzetek vagy trükkös apró betűk.\n\nHírlevél feliratkozások (opt-in): Felkínáljuk a hírlevelet; a felhasználó dönt a feliratkozásról. Minden e-mail tartalmaz leiratkozási linket. Nem adjuk hozzá azokat, akik más okból adták meg e-mailjüket (pl. jegysegítség), hacsak külön nem egyeznek bele a marketingbe.\n\nConcierge átadások (opt-in): Amikor a bot nem tud segíteni, engedélyt kér a kérdés emberhez továbbításához. Begyűjtjük a preferált elérhetőséget (e-mail/telefon), és közöljük, hogy csak ehhez a kéréshez használjuk, kivéve ha külön beleegyeznek a marketingbe is."
+      },
+      {
+        "question": "Elrejtik valaha a funkciókat meglepetés fizetős falak mögé?",
+        "answer": "Nem. A limitek és az árazás közzétett; a változásokról előzetesen értesítünk."
+      },
+      {
+        "question": "Mi a helyzet az üzemidővel és támogatással?",
+        "answer": "E-mail támogatás a Pro és magasabb szintekhez; prioritás támogatás és SLA-k a Partnereknek. Az állapot és változásnapló nyilvános."
+      },
+      {
+        "question": "Hogyan kapcsolódik az OpenEvents az Eventio Agent-hez?",
+        "answer": "Az OpenEvents a nyílt adatréteg. Az Eventio Agent egy üzleti fókuszú alkalmazás, amely erre épül. Külön márkák, amelyek hivatkozhatnak egymásra."
+      },
+      {
+        "question": "Kipróbálhatom demóban?",
+        "answer": "Igen. Használja a játszóteret ingyenes kulccsal, vagy kérjen tőlünk vezetett bemutatót."
+      }
+    ]
+  },
+  "updates": {
+    "title": "Frissítések és változásnapló",
+    "metaTitle": "Frissítések és változásnapló – Open Events",
+    "metaDescription": "Maradjon naprakész a legújabb Open Events frissítésekkel, új funkciókkal és fejlesztésekkel.",
+    "subtitle": "Kövesse nyomon az új funkciókat, fejlesztéseket és változásokat az Open Events platformon.",
+    "tabs": {
+      "platform": "Platform változások",
+      "api": "API változások"
+    }
+  },
+  "apiDocs": {
+    "title": "API dokumentáció",
+    "loading": "Dokumentáció betöltése...",
+    "authentication": "API hitelesítés",
+    "authenticationDescription": "Az OAuth kliensek automatikusan használhatók az alábbi API hitelesítéshez.",
+    "autoAuthenticated": "Automatikusan hitelesített",
+    "autoAuthenticatedDescription": "az alábbi API dokumentációhoz."
+  },
+  "manage": {
+    "loginRequired": "A(z) {{resource}} kezeléséhez kérjük, jelentkezzen be.",
+    "events": {
+      "title": "Események kezelése",
+      "searchPlaceholder": "Események keresése...",
+      "noDateSet": "Nincs dátum beállítva",
+      "until": "eddig:",
+      "at": "helyszín:",
+      "partOf": "Része:",
+      "contains": "Tartalmaz",
+      "subEvent": "aleseményt",
+      "subEvent_plural": "aleseményt",
+      "online": "Online",
+      "physicalEvent": "Személyes esemény",
+      "organizedBy": "Szervező:",
+      "noOrganizers": "Nincs szervező",
+      "noVenues": "Nincs helyszín",
+      "category": "Kategória",
+      "noCategories": "Nincsenek kategóriák",
+      "googleMaps": "Google Térkép",
+      "noEventsFound": "Nem található esemény a következő keresésre: '{{searchTerm}}'",
+      "noEvents": "Nem található esemény",
+      "tryAdjusting": "Próbáljon más keresési kifejezést.",
+      "createFirst": "Hozza létre az első eseményt a kezdéshez."
+    },
+    "venues": {
+      "title": "Helyszínek kezelése",
+      "searchPlaceholder": "Helyszínek keresése...",
+      "noAddress": "Nincs cím",
+      "capacity": "Kapacitás",
+      "accessibility": "Akadálymentesség"
+    },
+    "organizers": {
+      "title": "Szervezők kezelése",
+      "searchPlaceholder": "Szervezők keresése...",
+      "noLogo": "Nincs logó",
+      "contact": "Kapcsolat"
+    },
+    "images": {
+      "title": "Képek kezelése",
+      "searchPlaceholder": "Képek keresése...",
+      "uploadedBy": "Feltöltő:",
+      "usedIn": "{{count}} eseményben használva",
+      "usedIn_plural": "{{count}} eseményben használva"
+    }
+  },
+  "team": {
+    "title": "Ismerje meg csapatunkat",
+    "subtitle": "A szenvedélyes emberek az Open Events mögött, akik együtt dolgoznak az eseményadat-megosztás jövőjének építésén."
+  },
+  "integrations": {
+    "title": "Integrációk",
+    "searchPlaceholder": "Integrációk keresése...",
+    "noIntegrations": "Nincsenek elérhető integrációk",
+    "noIntegrationsFound": "Nem található integráció",
+    "noIntegrationAdapters": "Jelenleg nincsenek elérhető integrációs adapterek.",
+    "runningProcesses": "Futó folyamatok",
+    "noProcesses": "Nincsenek futó folyamatok",
+    "loginRequired": "Az integrációk kezeléséhez kérjük, jelentkezzen be.",
+    "runningSince": "Fut ettől:",
+    "initiating": "Indítás...",
+    "kill": "Leállítás",
+    "fetchError": "Nem sikerült lekérni az integrációkat",
+    "configureCredentials": "Hitelesítő adatok beállítása",
+    "credentialsConfigured": "Hitelesítő adatok beállítva",
+    "credentialsRequired": "Hitelesítő adatok szükségesek",
+    "saveCredentials": "Mentés",
+    "updateCredentials": "Frissítés",
+    "deleteCredentials": "Hitelesítő adatok törlése",
+    "cancel": "Mégse",
+    "saving": "Mentés...",
+    "privateToken": "Privát token",
+    "organizationId": "Szervezet azonosító",
+    "privateTokenPlaceholder": "Adja meg az Eventbrite privát tokenjét",
+    "privateTokenUpdatePlaceholder": "Adjon meg új tokent a frissítéshez",
+    "organizationIdPlaceholder": "Adja meg az Eventbrite szervezet azonosítóját",
+    "getTokenHelp": "Szerezze be a tokent innen:",
+    "findOrgIdHelp": "Keresse meg a szervezet azonosítóját az Eventbrite fiókjában",
+    "credentialsAddedSuccess": "Hitelesítő adatok sikeresen hozzáadva",
+    "credentialsUpdatedSuccess": "Hitelesítő adatok sikeresen frissítve",
+    "credentialsDeletedSuccess": "Hitelesítő adatok sikeresen törölve",
+    "deleteConfirmation": "Biztosan törli ezeket a hitelesítő adatokat?",
+    "configureFirst": "Először állítsa be a hitelesítő adatokat"
+  }
+}

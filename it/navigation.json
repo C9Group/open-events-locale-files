@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "home": "Home",
+    "events": "Eventi",
+    "myEvents": "I miei eventi",
+    "createEvent": "Crea evento",
+    "profile": "Profilo",
+    "settings": "Impostazioni",
+    "logout": "Esci",
+    "login": "Accedi",
+    "docs": "Documentazione",
+    "resources": "Risorse",
+    "integrations": "Integrazioni",
+    "account": "Account",
+    "signUp": "Registrati gratis",
+    "signUpShort": "Registrati",
+    "menu": "Menu",
+    "aiChat": "Chat AI",
+    "updates": "Aggiornamenti"
+  },
+  "brand": {
+    "name": "Open Events"
+  },
+  "footer": {
+    "tagline": "Piattaforma per condividere e scoprire dati sugli eventi.",
+    "links": {
+      "apiDocs": "Documentazione API",
+      "updates": "Aggiornamenti",
+      "faq": "FAQ",
+      "team": "Il Team",
+      "contact": "Contatti",
+      "feedback": "Invia feedback"
+    },
+    "newsletter": {
+      "title": "Resta aggiornato sullo sviluppo",
+      "placeholder": "La tua email",
+      "subscribe": "Iscriviti",
+      "subscribing": "Iscrizione...",
+      "successMessage": "Iscrizione completata! Grazie per esserti iscritto alla nostra newsletter.",
+      "errorEmail": "Inserisci il tuo indirizzo email",
+      "errorNetwork": "Errore di rete. Verifica la connessione e riprova.",
+      "errorDefault": "Iscrizione fallita. Riprova."
+    },
+    "copyright": "© {{year}} Open Events. Tutti i diritti riservati."
+  }
+}

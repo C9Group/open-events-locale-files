@@ -1,0 +1,29 @@
+{
+  "success": {
+    "saved": "Erfolgreich gespeichert",
+    "deleted": "Erfolgreich gelöscht",
+    "created": "Erfolgreich erstellt",
+    "updated": "Erfolgreich aktualisiert",
+    "venueSaved": "Veranstaltungsort erfolgreich gespeichert",
+    "organizerSaved": "Veranstalter erfolgreich gespeichert",
+    "imageSaved": "Bild erfolgreich gespeichert",
+    "eventSaved": "Veranstaltung erfolgreich gespeichert"
+  },
+  "error": {
+    "generic": "Ein Fehler ist aufgetreten",
+    "notFound": "Nicht gefunden",
+    "unauthorized": "Nicht autorisierter Zugriff",
+    "serverError": "Serverfehler",
+    "authenticationRequired": "Anmeldung erforderlich",
+    "fetchFailed": "{{resource}} konnte nicht abgerufen werden",
+    "saveFailed": "{{resource}} konnte nicht gespeichert werden",
+    "deleteFailed": "{{resource}} konnte nicht gelöscht werden",
+    "uploadFailed": "Bild konnte nicht hochgeladen werden",
+    "maxImagesAlert": "Maximal 10 Bilder erlaubt",
+    "startAction": "{{action}} konnte nicht gestartet werden",
+    "unknownError": "Unbekannter Fehler",
+    "errorStarting": "Fehler beim Starten von {{action}}",
+    "failedToKill": "Prozess konnte nicht beendet werden",
+    "errorKilling": "Fehler beim Beenden des Prozesses"
+  }
+}

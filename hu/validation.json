@@ -1,0 +1,7 @@
+{
+  "required": "Ez a mező kötelező",
+  "email": "Kérjük, adjon meg érvényes e-mail címet",
+  "minLength": "Minimum {{min}} karakter szükséges",
+  "maxLength": "Maximum {{max}} karakter engedélyezett",
+  "url": "Kérjük, adjon meg érvényes URL-t"
+}

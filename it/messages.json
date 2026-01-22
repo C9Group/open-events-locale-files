@@ -1,0 +1,29 @@
+{
+  "success": {
+    "saved": "Salvato con successo",
+    "deleted": "Eliminato con successo",
+    "created": "Creato con successo",
+    "updated": "Aggiornato con successo",
+    "venueSaved": "Location salvata con successo",
+    "organizerSaved": "Organizzatore salvato con successo",
+    "imageSaved": "Immagine salvata con successo",
+    "eventSaved": "Evento salvato con successo"
+  },
+  "error": {
+    "generic": "Si è verificato un errore",
+    "notFound": "Non trovato",
+    "unauthorized": "Accesso non autorizzato",
+    "serverError": "Errore del server",
+    "authenticationRequired": "Autenticazione richiesta",
+    "fetchFailed": "Impossibile recuperare {{resource}}",
+    "saveFailed": "Impossibile salvare {{resource}}",
+    "deleteFailed": "Impossibile eliminare {{resource}}",
+    "uploadFailed": "Impossibile caricare l'immagine",
+    "maxImagesAlert": "Massimo 10 immagini consentite",
+    "startAction": "Impossibile avviare {{action}}",
+    "unknownError": "Errore sconosciuto",
+    "errorStarting": "Errore durante l'avvio di {{action}}",
+    "failedToKill": "Impossibile terminare il processo",
+    "errorKilling": "Errore durante la terminazione del processo"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "home": "Főoldal",
+    "events": "Események",
+    "myEvents": "Eseményeim",
+    "createEvent": "Esemény létrehozása",
+    "profile": "Profil",
+    "settings": "Beállítások",
+    "logout": "Kijelentkezés",
+    "login": "Bejelentkezés",
+    "docs": "Dokumentáció",
+    "resources": "Erőforrások",
+    "integrations": "Integrációk",
+    "account": "Fiók",
+    "signUp": "Ingyenes regisztráció",
+    "signUpShort": "Regisztráció",
+    "menu": "Menü",
+    "aiChat": "AI Chat",
+    "updates": "Frissítések"
+  },
+  "brand": {
+    "name": "Open Events"
+  },
+  "footer": {
+    "tagline": "Platform események megosztásához és felfedezéséhez.",
+    "links": {
+      "apiDocs": "API dokumentáció",
+      "updates": "Frissítések",
+      "faq": "GYIK",
+      "team": "A csapat",
+      "contact": "Kapcsolat",
+      "feedback": "Visszajelzés küldése"
+    },
+    "newsletter": {
+      "title": "Kövesse a fejlesztéseket",
+      "placeholder": "E-mail címe",
+      "subscribe": "Feliratkozás",
+      "subscribing": "Feliratkozás...",
+      "successMessage": "Sikeres feliratkozás! Köszönjük, hogy csatlakozott hírlevelünkhöz.",
+      "errorEmail": "Kérjük, adja meg e-mail címét",
+      "errorNetwork": "Hálózati hiba. Kérjük, ellenőrizze kapcsolatát és próbálja újra.",
+      "errorDefault": "Nem sikerült a feliratkozás. Kérjük, próbálja újra."
+    },
+    "copyright": "© {{year}} Open Events. Minden jog fenntartva."
+  }
+}
