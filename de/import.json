@@ -1,0 +1,38 @@
+{
+  "title": "Ereignisse importieren",
+  "tagline": "Importiere deine Events von überall - einfach einfügen ;)",
+  "or": "ODER",
+  "selectFiles": "Dateien auswählen",
+  "pasteHint": "Tipp: Du kannst auch Bilder oder Dateien direkt einfügen (Strg+V / Cmd+V)",
+  "urlInput": {
+    "label": "Von URL importieren",
+    "placeholder": "URL einfügen (Website, PDF, Google Doc, usw.)",
+    "submit": "Importieren",
+    "hint": "Unterstützt Webseiten, Google Docs/Sheets und direkte Dateilinks"
+  },
+  "dropZone": {
+    "title": "Dateien hier ablegen",
+    "subtitle": "Oder klicken um Dateien auszuwählen"
+  },
+  "states": {
+    "uploading": "Dateien werden hochgeladen...",
+    "processing": "KI-Verarbeitung...",
+    "importing": "Events werden erstellt...",
+    "success": "Import abgeschlossen!",
+    "successMessage": "{{count}} Events wurden als Entwürfe importiert",
+    "error": "Import fehlgeschlagen"
+  },
+  "preview": {
+    "title": "Import-Vorschau",
+    "eventsDetected": "Events erkannt",
+    "duplicates": "Mögliche Duplikate",
+    "confidence": "Konfidenz",
+    "warnings": "Warnungen",
+    "source": "Quelle",
+    "confirmMessage": "Events werden als Entwürfe erstellt. Du kannst sie später überprüfen und veröffentlichen."
+  },
+  "actions": {
+    "tryAgain": "Erneut versuchen",
+    "confirmImport": "{{count}} Events importieren"
+  }
+}

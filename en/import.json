@@ -1,0 +1,45 @@
+{
+  "title": "Import Events",
+  "tagline": "Import your events from anywhere you can imagine - just paste it ;)",
+  "or": "OR",
+  "selectFiles": "Select Files",
+  "pasteHint": "Pro tip: You can also paste images or files directly (Ctrl+V / Cmd+V)",
+  "urlInput": {
+    "label": "Import from URL",
+    "placeholder": "Paste a URL (website, PDF, Google Doc, etc.)",
+    "submit": "Import",
+    "hint": "Supports web pages, Google Docs/Sheets, and direct file links"
+  },
+  "dropZone": {
+    "title": "Drop files here",
+    "subtitle": "Or click to select files"
+  },
+  "states": {
+    "uploading": "Uploading files...",
+    "processing": "Processing with AI...",
+    "importing": "Creating events...",
+    "success": "Import Complete!",
+    "successMessage": "{{count}} events have been imported as drafts",
+    "error": "Import Failed"
+  },
+  "preview": {
+    "title": "Import Preview",
+    "eventsDetected": "Events detected",
+    "duplicates": "Potential duplicates",
+    "confidence": "Confidence",
+    "warnings": "Warnings",
+    "source": "Source",
+    "confirmMessage": "Events will be created as drafts. You can review and publish them later."
+  },
+  "actions": {
+    "tryAgain": "Try Again",
+    "confirmImport": "Import {{count}} Events"
+  },
+  "emailInbox": {
+    "title": "Import via Email",
+    "description": "Forward event emails to your personal import address. Events will be extracted automatically from the email body, attachments, and links.",
+    "activeDescription": "Forward or send event details to this address. Events will be automatically extracted and saved as drafts.",
+    "hint": "Forward newsletters, invitations, or any email with event details. Supports attachments (PDF, images) and links.",
+    "sectionTitle": "Email Import"
+  }
+}

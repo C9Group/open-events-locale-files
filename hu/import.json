@@ -1,0 +1,38 @@
+{
+  "title": "Események importálása",
+  "tagline": "Importáld az eseményeidet bárhonnan - csak illeszd be ;)",
+  "or": "VAGY",
+  "selectFiles": "Fájlok kiválasztása",
+  "pasteHint": "Tipp: Képeket vagy fájlokat közvetlenül is beilleszthetsz (Ctrl+V / Cmd+V)",
+  "urlInput": {
+    "label": "Importálás URL-ből",
+    "placeholder": "Illeszd be az URL-t (weboldal, PDF, Google Doc, stb.)",
+    "submit": "Importálás",
+    "hint": "Támogatja a weboldalakat, Google Docs/Sheets-t és közvetlen fájl linkeket"
+  },
+  "dropZone": {
+    "title": "Húzd ide a fájlokat",
+    "subtitle": "Vagy kattints a fájlok kiválasztásához"
+  },
+  "states": {
+    "uploading": "Fájlok feltöltése...",
+    "processing": "AI feldolgozás...",
+    "importing": "Események létrehozása...",
+    "success": "Importálás kész!",
+    "successMessage": "{{count}} esemény importálva vázlatként",
+    "error": "Importálás sikertelen"
+  },
+  "preview": {
+    "title": "Import előnézet",
+    "eventsDetected": "Észlelt események",
+    "duplicates": "Lehetséges duplikátumok",
+    "confidence": "Megbízhatóság",
+    "warnings": "Figyelmeztetések",
+    "source": "Forrás",
+    "confirmMessage": "Az események vázlatként jönnek létre. Később áttekintheted és közzéteheted őket."
+  },
+  "actions": {
+    "tryAgain": "Próbáld újra",
+    "confirmImport": "{{count}} esemény importálása"
+  }
+}

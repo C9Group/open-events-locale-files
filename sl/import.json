@@ -1,0 +1,38 @@
+{
+  "title": "Uvoz dogodkov",
+  "tagline": "Uvozi dogodke od kjerkoli - samo prilepi jih ;)",
+  "or": "ALI",
+  "selectFiles": "Izberi datoteke",
+  "pasteHint": "Namig: Lahko tudi prilepiš slike ali datoteke direktno (Ctrl+V / Cmd+V)",
+  "urlInput": {
+    "label": "Uvozi iz URL",
+    "placeholder": "Prilepi URL (spletna stran, PDF, Google Doc, itd.)",
+    "submit": "Uvozi",
+    "hint": "Podpira spletne strani, Google Docs/Sheets in direktne povezave do datotek"
+  },
+  "dropZone": {
+    "title": "Spusti datoteke sem",
+    "subtitle": "Ali klikni za izbiro datotek"
+  },
+  "states": {
+    "uploading": "Nalaganje datotek...",
+    "processing": "AI obdelava...",
+    "importing": "Ustvarjanje dogodkov...",
+    "success": "Uvoz končan!",
+    "successMessage": "{{count}} dogodkov je bilo uvoženih kot osnutki",
+    "error": "Uvoz ni uspel"
+  },
+  "preview": {
+    "title": "Predogled uvoza",
+    "eventsDetected": "Zaznani dogodki",
+    "duplicates": "Možni duplikati",
+    "confidence": "Zaupanje",
+    "warnings": "Opozorila",
+    "source": "Vir",
+    "confirmMessage": "Dogodki bodo ustvarjeni kot osnutki. Pregledaš jih lahko in objaviš pozneje."
+  },
+  "actions": {
+    "tryAgain": "Poskusi znova",
+    "confirmImport": "Uvozi {{count}} dogodkov"
+  }
+}
