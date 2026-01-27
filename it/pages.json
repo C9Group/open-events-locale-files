@@ -11,7 +11,82 @@
       "welcomeTo": "Benvenuto su",
       "brandName": "Open Events",
       "subtitle": "API Eventi e Soluzione MCP SSE",
-      "tagline": "La tua soluzione completa per gestire e condividere i dati degli eventi senza problemi."
+      "tagline": "La tua soluzione completa per gestire e condividere i dati degli eventi senza problemi.",
+      "getStarted": "Inizia"
+    },
+    "tryIt": {
+      "badge": "Prova ora - nessun account richiesto",
+      "title": "Importa i tuoi eventi",
+      "description": "Carica un documento, incolla un URL o inoltra un'email - estrarremo automaticamente le informazioni sugli eventi.",
+      "tabs": {
+        "file": "Carica file",
+        "url": "Incolla URL",
+        "email": "Inoltra email"
+      },
+      "processing": "Elaborazione...",
+      "file": {
+        "dropzone": "Trascina i file qui o clicca per sfogliare",
+        "formats": "PDF, Word, Excel, CSV, JSON, TXT (max 5 file, 10 MB ciascuno)",
+        "extract": "Estrai eventi"
+      },
+      "url": {
+        "label": "Inserisci URL (uno per riga)",
+        "tip": "Un URL per riga",
+        "fetch": "Scarica ed estrai"
+      },
+      "email": {
+        "instruction": "Inoltra email di eventi a:",
+        "tip": "Gli eventi verranno estratti automaticamente dal contenuto dell'email",
+        "check": "Controlla ora",
+        "checking": "Controllo...",
+        "autoCheck": "Controllo automatico",
+        "processing": "Elaborazione...",
+        "generating": "Generazione indirizzo email...",
+        "received": "Ricevuti",
+        "processed": "Elaborati"
+      },
+      "result": {
+        "success": "Eventi estratti con successo!",
+        "partial": "Estrazione completata con avvisi",
+        "found": "Trovati",
+        "events": "eventi",
+        "venues": "location",
+        "organizers": "organizzatori"
+      },
+      "summary": {
+        "title": "I tuoi dati estratti",
+        "events": "Eventi",
+        "venues": "Location",
+        "organizers": "Organizzatori",
+        "signup": "Registrati e salva",
+        "clear": "Cancella dati"
+      },
+      "transfer": {
+        "inProgress": "Trasferimento dati nel tuo account...",
+        "success": "Dati trasferiti con successo!",
+        "created": "Creati {{events}} evento/i, {{venues}} location, {{organizers}} organizzatore/i",
+        "viewEvents": "Visualizza i tuoi eventi",
+        "failed": "Trasferimento fallito",
+        "retry": "Riprova"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Bentornato",
+    "subtitle": "Ecco una panoramica dei tuoi dati eventi.",
+    "transferSuccess": "Dati trasferiti con successo!",
+    "transferCreated": "Creati {{events}} evento/i, {{venues}} location, {{organizers}} organizzatore/i",
+    "stats": {
+      "events": "Eventi",
+      "venues": "Location",
+      "organizers": "Organizzatori"
+    },
+    "quickActions": "Azioni rapide",
+    "actions": {
+      "createEvent": "Crea evento",
+      "addVenue": "Aggiungi location",
+      "importEvents": "Importa eventi"
     }
   },
   "profile": {

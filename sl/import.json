@@ -34,5 +34,12 @@
   "actions": {
     "tryAgain": "Poskusi znova",
     "confirmImport": "Uvozi {{count}} dogodkov"
+  },
+  "emailInbox": {
+    "title": "Uvoz preko e-pošte",
+    "description": "Posredujte e-pošto z dogodki na vaš osebni uvozni naslov. Dogodki bodo avtomatsko izvlečeni iz telesa e-pošte, prilog in povezav.",
+    "activeDescription": "Posredujte ali pošljite podrobnosti dogodkov na ta naslov. Dogodki bodo avtomatsko izvlečeni in shranjeni kot osnutki.",
+    "hint": "Posredujte glasila, vabila ali katero koli e-pošto s podrobnostmi dogodkov. Podpira priloge (PDF, slike) in povezave.",
+    "sectionTitle": "E-poštni uvoz"
   }
 }

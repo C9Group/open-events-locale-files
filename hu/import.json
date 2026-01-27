@@ -34,5 +34,12 @@
   "actions": {
     "tryAgain": "Próbáld újra",
     "confirmImport": "{{count}} esemény importálása"
+  },
+  "emailInbox": {
+    "title": "Importálás e-mailből",
+    "description": "Továbbítsa esemény e-mailjeit a személyes import címére. Az események automatikusan kivonatolásra kerülnek az e-mail törzséből, mellékletekből és hivatkozásokból.",
+    "activeDescription": "Továbbítsa vagy küld je esemény részleteit erre a címre. Az események automatikusan kivonatolásra és vázlatként mentésre kerülnek.",
+    "hint": "Továbbítson hírleveleket, meghívókat vagy bármilyen esemény részleteket tartalmazó e-mailt. Támogatja a mellékleteket (PDF, képek) és hivatkozásokat.",
+    "sectionTitle": "E-mail import"
   }
 }

@@ -34,5 +34,12 @@
   "actions": {
     "tryAgain": "Pokušaj ponovo",
     "confirmImport": "Uvezi {{count}} događaja"
+  },
+  "emailInbox": {
+    "title": "Uvoz putem emaila",
+    "description": "Proslijedite email s događajima na vašu osobnu uvoznu adresu. Događaji će biti automatski izvučeni iz tijela emaila, privitaka i linkova.",
+    "activeDescription": "Proslijedite ili pošaljite detalje događaja na ovu adresu. Događaji će biti automatski izvučeni i spremljeni kao skice.",
+    "hint": "Proslijedite newslettere, pozivnice ili bilo koji email s detaljima događaja. Podržava privitke (PDF, slike) i linkove.",
+    "sectionTitle": "Email uvoz"
   }
 }

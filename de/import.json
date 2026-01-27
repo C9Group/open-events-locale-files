@@ -34,5 +34,12 @@
   "actions": {
     "tryAgain": "Erneut versuchen",
     "confirmImport": "{{count}} Events importieren"
+  },
+  "emailInbox": {
+    "title": "Import per E-Mail",
+    "description": "Leiten Sie Veranstaltungs-E-Mails an Ihre persönliche Import-Adresse weiter. Veranstaltungen werden automatisch aus dem E-Mail-Text, Anhängen und Links extrahiert.",
+    "activeDescription": "Leiten Sie Veranstaltungsdetails an diese Adresse weiter oder senden Sie sie. Veranstaltungen werden automatisch extrahiert und als Entwürfe gespeichert.",
+    "hint": "Leiten Sie Newsletter, Einladungen oder jede E-Mail mit Veranstaltungsdetails weiter. Unterstützt Anhänge (PDF, Bilder) und Links.",
+    "sectionTitle": "E-Mail-Import"
   }
 }

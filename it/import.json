@@ -34,5 +34,12 @@
   "actions": {
     "tryAgain": "Riprova",
     "confirmImport": "Importa {{count}} eventi"
+  },
+  "emailInbox": {
+    "title": "Importa via email",
+    "description": "Inoltra email di eventi al tuo indirizzo di importazione personale. Gli eventi verranno estratti automaticamente dal corpo dell'email, allegati e link.",
+    "activeDescription": "Inoltra o invia dettagli eventi a questo indirizzo. Gli eventi verranno estratti automaticamente e salvati come bozze.",
+    "hint": "Inoltra newsletter, inviti o qualsiasi email con dettagli eventi. Supporta allegati (PDF, immagini) e link.",
+    "sectionTitle": "Importazione email"
   }
 }
