@@ -11,7 +11,82 @@
       "welcomeTo": "Willkommen bei",
       "brandName": "Open Events",
       "subtitle": "Veranstaltungs-API und MCP-SSE-Lösung",
-      "tagline": "Ihre umfassende Lösung für nahtloses Verwalten und Teilen von Veranstaltungsdaten."
+      "tagline": "Ihre umfassende Lösung für nahtloses Verwalten und Teilen von Veranstaltungsdaten.",
+      "getStarted": "Jetzt starten"
+    },
+    "tryIt": {
+      "badge": "Jetzt testen - kein Konto erforderlich",
+      "title": "Ihre Veranstaltungen importieren",
+      "description": "Laden Sie ein Dokument hoch, fügen Sie eine URL ein oder leiten Sie eine E-Mail weiter - wir extrahieren die Veranstaltungsinformationen automatisch.",
+      "tabs": {
+        "file": "Datei hochladen",
+        "url": "URL einfügen",
+        "email": "E-Mail weiterleiten"
+      },
+      "processing": "Verarbeitung...",
+      "file": {
+        "dropzone": "Dateien hier ablegen oder klicken zum Durchsuchen",
+        "formats": "PDF, Word, Excel, CSV, JSON, TXT (max. 5 Dateien, je 10 MB)",
+        "extract": "Veranstaltungen extrahieren"
+      },
+      "url": {
+        "label": "URLs eingeben (eine pro Zeile)",
+        "tip": "Eine URL pro Zeile",
+        "fetch": "Abrufen & Extrahieren"
+      },
+      "email": {
+        "instruction": "Veranstaltungs-E-Mails weiterleiten an:",
+        "tip": "Veranstaltungen werden automatisch aus dem E-Mail-Inhalt extrahiert",
+        "check": "Jetzt prüfen",
+        "checking": "Prüfe...",
+        "autoCheck": "Automatische Prüfung",
+        "processing": "Verarbeitung...",
+        "generating": "E-Mail-Adresse wird generiert...",
+        "received": "Empfangen",
+        "processed": "Verarbeitet"
+      },
+      "result": {
+        "success": "Veranstaltungen erfolgreich extrahiert!",
+        "partial": "Extraktion mit Warnungen abgeschlossen",
+        "found": "Gefunden",
+        "events": "Veranstaltungen",
+        "venues": "Veranstaltungsorte",
+        "organizers": "Veranstalter"
+      },
+      "summary": {
+        "title": "Ihre extrahierten Daten",
+        "events": "Veranstaltungen",
+        "venues": "Veranstaltungsorte",
+        "organizers": "Veranstalter",
+        "signup": "Registrieren & Speichern",
+        "clear": "Daten löschen"
+      },
+      "transfer": {
+        "inProgress": "Ihre Daten werden in Ihr Konto übertragen...",
+        "success": "Daten erfolgreich übertragen!",
+        "created": "{{events}} Veranstaltung(en), {{venues}} Veranstaltungsort(e), {{organizers}} Veranstalter erstellt",
+        "viewEvents": "Ihre Veranstaltungen ansehen",
+        "failed": "Übertragung fehlgeschlagen",
+        "retry": "Erneut versuchen"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen zurück",
+    "subtitle": "Hier ist eine Übersicht Ihrer Veranstaltungsdaten.",
+    "transferSuccess": "Daten erfolgreich übertragen!",
+    "transferCreated": "{{events}} Veranstaltung(en), {{venues}} Veranstaltungsort(e), {{organizers}} Veranstalter erstellt",
+    "stats": {
+      "events": "Veranstaltungen",
+      "venues": "Veranstaltungsorte",
+      "organizers": "Veranstalter"
+    },
+    "quickActions": "Schnellaktionen",
+    "actions": {
+      "createEvent": "Veranstaltung erstellen",
+      "addVenue": "Veranstaltungsort hinzufügen",
+      "importEvents": "Veranstaltungen importieren"
     }
   },
   "profile": {

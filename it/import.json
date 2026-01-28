@@ -1,0 +1,45 @@
+{
+  "title": "Importar eventos",
+  "tagline": "Importa i tuoi eventi da qualsiasi fonte - basta incollare ;)",
+  "or": "OPPURE",
+  "selectFiles": "Seleziona file",
+  "pasteHint": "Suggerimento: Puoi anche incollare immagini o file direttamente (Ctrl+V / Cmd+V)",
+  "urlInput": {
+    "label": "Importa da URL",
+    "placeholder": "Incolla un URL (sito web, PDF, Google Doc, ecc.)",
+    "submit": "Importa",
+    "hint": "Supporta pagine web, Google Docs/Sheets e link diretti ai file"
+  },
+  "dropZone": {
+    "title": "Trascina i file qui",
+    "subtitle": "Oppure clicca per selezionare i file"
+  },
+  "states": {
+    "uploading": "Caricamento file...",
+    "processing": "Elaborazione con AI...",
+    "importing": "Creazione eventi...",
+    "success": "Importazione completata!",
+    "successMessage": "{{count}} eventi sono stati importati come bozze",
+    "error": "Importazione fallita"
+  },
+  "preview": {
+    "title": "Anteprima importazione",
+    "eventsDetected": "Eventi rilevati",
+    "duplicates": "Possibili duplicati",
+    "confidence": "Confidenza",
+    "warnings": "Avvisi",
+    "source": "Fonte",
+    "confirmMessage": "Gli eventi saranno creati come bozze. Potrai rivederli e pubblicarli in seguito."
+  },
+  "actions": {
+    "tryAgain": "Riprova",
+    "confirmImport": "Importa {{count}} eventi"
+  },
+  "emailInbox": {
+    "title": "Importa via email",
+    "description": "Inoltra email di eventi al tuo indirizzo di importazione personale. Gli eventi verranno estratti automaticamente dal corpo dell'email, allegati e link.",
+    "activeDescription": "Inoltra o invia dettagli eventi a questo indirizzo. Gli eventi verranno estratti automaticamente e salvati come bozze.",
+    "hint": "Inoltra newsletter, inviti o qualsiasi email con dettagli eventi. Supporta allegati (PDF, immagini) e link.",
+    "sectionTitle": "Importazione email"
+  }
+}

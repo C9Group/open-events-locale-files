@@ -11,7 +11,82 @@
       "welcomeTo": "Dobrodošli v",
       "brandName": "Open Events",
       "subtitle": "Event API & MCP SSE Rešitev",
-      "tagline": "Vaša celovita rešitev za upravljanje in deljenje podatkov o dogodkih."
+      "tagline": "Vaša celovita rešitev za upravljanje in deljenje podatkov o dogodkih.",
+      "getStarted": "Začni"
+    },
+    "tryIt": {
+      "badge": "Preizkusite zdaj - brez računa",
+      "title": "Uvozite svoje dogodke",
+      "description": "Naložite dokument, prilepite URL ali posredujte e-pošto - avtomatsko bomo izvlekli informacije o dogodkih.",
+      "tabs": {
+        "file": "Naloži datoteko",
+        "url": "Prilepi URL",
+        "email": "Posreduj e-pošto"
+      },
+      "processing": "Obdelava...",
+      "file": {
+        "dropzone": "Spustite datoteke sem ali kliknite za brskanje",
+        "formats": "PDF, Word, Excel, CSV, JSON, TXT (največ 5 datotek, 10 MB vsaka)",
+        "extract": "Izvleči dogodke"
+      },
+      "url": {
+        "label": "Vnesite URL-je (enega na vrstico)",
+        "tip": "En URL na vrstico",
+        "fetch": "Pridobi & izvleči"
+      },
+      "email": {
+        "instruction": "Posredujte e-pošto z dogodki na:",
+        "tip": "Dogodki bodo avtomatsko izvlečeni iz vsebine e-pošte",
+        "check": "Preveri zdaj",
+        "checking": "Preverjam...",
+        "autoCheck": "Samodejno preverjanje",
+        "processing": "Obdelava...",
+        "generating": "Generiranje e-poštnega naslova...",
+        "received": "Prejeto",
+        "processed": "Obdelano"
+      },
+      "result": {
+        "success": "Dogodki uspešno izvlečeni!",
+        "partial": "Izvlek končan z opozorili",
+        "found": "Najdeno",
+        "events": "dogodkov",
+        "venues": "prizorišč",
+        "organizers": "organizatorjev"
+      },
+      "summary": {
+        "title": "Vaši izvlečeni podatki",
+        "events": "Dogodki",
+        "venues": "Prizorišča",
+        "organizers": "Organizatorji",
+        "signup": "Registriraj se & shrani",
+        "clear": "Počisti podatke"
+      },
+      "transfer": {
+        "inProgress": "Prenašanje podatkov v vaš račun...",
+        "success": "Podatki uspešno preneseni!",
+        "created": "Ustvarjenih {{events}} dogodek(ov), {{venues}} prizorišče(a), {{organizers}} organizator(jev)",
+        "viewEvents": "Ogled vaših dogodkov",
+        "failed": "Prenos ni uspel",
+        "retry": "Poskusi znova"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Nadzorna plošča",
+    "welcome": "Dobrodošli nazaj",
+    "subtitle": "Tukaj je pregled vaših podatkov o dogodkih.",
+    "transferSuccess": "Podatki uspešno preneseni!",
+    "transferCreated": "Ustvarjenih {{events}} dogodek(ov), {{venues}} prizorišče(a), {{organizers}} organizator(jev)",
+    "stats": {
+      "events": "Dogodki",
+      "venues": "Prizorišča",
+      "organizers": "Organizatorji"
+    },
+    "quickActions": "Hitre akcije",
+    "actions": {
+      "createEvent": "Ustvari dogodek",
+      "addVenue": "Dodaj prizorišče",
+      "importEvents": "Uvozi dogodke"
     }
   },
   "profile": {

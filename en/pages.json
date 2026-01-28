@@ -12,6 +12,80 @@
       "brandName": "Open Events",
       "subtitle": "Event API & MCP SSE Solution",
       "tagline": "Your one-stop solution for managing and sharing event data seamlessly."
+    },
+    "tryIt": {
+      "badge": "Try it now - no account needed",
+      "title": "Import Your Events",
+      "description": "Upload a document, paste a URL, or forward an email - we'll extract event information automatically.",
+      "tabs": {
+        "file": "Upload File",
+        "url": "Paste URL",
+        "email": "Forward Email"
+      },
+      "processing": "Processing...",
+      "file": {
+        "dropzone": "Drop files here or click to browse",
+        "formats": "PDF, Word, Excel, CSV, JSON, TXT (max 5 files, 10MB each)",
+        "extract": "Extract Events"
+      },
+      "url": {
+        "label": "Enter URLs (one per line)",
+        "tip": "Works with event pages, Google Docs, Sheets, and direct file links",
+        "fetch": "Fetch & Extract"
+      },
+      "email": {
+        "instruction": "Forward event emails to:",
+        "tip": "Events will be extracted automatically from the email content",
+        "check": "Check now",
+        "checking": "Checking for new emails...",
+        "autoCheck": "Auto-checking every 10 seconds",
+        "processing": "Processing email...",
+        "generating": "Generating your email address...",
+        "received": "Received",
+        "processed": "Processed"
+      },
+      "result": {
+        "success": "Events extracted successfully!",
+        "partial": "Extraction completed with warnings",
+        "found": "Found",
+        "events": "events",
+        "venues": "venues",
+        "organizers": "organizers"
+      },
+      "summary": {
+        "title": "Your extracted data",
+        "events": "Events",
+        "venues": "Venues",
+        "organizers": "Organizers",
+        "signup": "Sign Up & Save",
+        "clear": "Clear data"
+      },
+      "transfer": {
+        "inProgress": "Transferring your data to your account...",
+        "success": "Data transferred successfully!",
+        "created": "Created {{events}} event(s), {{venues}} venue(s), {{organizers}} organizer(s)",
+        "viewEvents": "View Your Events",
+        "failed": "Transfer failed",
+        "retry": "Try Again"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "subtitle": "Here's an overview of your event data.",
+    "transferSuccess": "Data transferred successfully!",
+    "transferCreated": "Created {{events}} event(s), {{venues}} venue(s), {{organizers}} organizer(s)",
+    "stats": {
+      "events": "Events",
+      "venues": "Venues",
+      "organizers": "Organizers"
+    },
+    "quickActions": "Quick Actions",
+    "actions": {
+      "createEvent": "Create Event",
+      "addVenue": "Add Venue",
+      "importEvents": "Import Events"
     }
   },
   "profile": {

@@ -1,0 +1,45 @@
+{
+  "title": "Uvoz događaja",
+  "tagline": "Uvezi svoje događaje s bilo kuda - samo zalijepi ;)",
+  "or": "ILI",
+  "selectFiles": "Odaberi datoteke",
+  "pasteHint": "Savjet: Možeš i zalijepiti slike ili datoteke direktno (Ctrl+V / Cmd+V)",
+  "urlInput": {
+    "label": "Uvezi s URL-a",
+    "placeholder": "Zalijepi URL (web stranica, PDF, Google Doc, itd.)",
+    "submit": "Uvezi",
+    "hint": "Podržava web stranice, Google Docs/Sheets i direktne linkove na datoteke"
+  },
+  "dropZone": {
+    "title": "Ispusti datoteke ovdje",
+    "subtitle": "Ili klikni za odabir datoteka"
+  },
+  "states": {
+    "uploading": "Učitavanje datoteka...",
+    "processing": "AI obrada...",
+    "importing": "Kreiranje događaja...",
+    "success": "Uvoz završen!",
+    "successMessage": "{{count}} događaja je uvezeno kao skice",
+    "error": "Uvoz nije uspio"
+  },
+  "preview": {
+    "title": "Pregled uvoza",
+    "eventsDetected": "Detektirani događaji",
+    "duplicates": "Mogući duplikati",
+    "confidence": "Pouzdanost",
+    "warnings": "Upozorenja",
+    "source": "Izvor",
+    "confirmMessage": "Događaji će biti kreirani kao skice. Možeš ih pregledati i objaviti kasnije."
+  },
+  "actions": {
+    "tryAgain": "Pokušaj ponovo",
+    "confirmImport": "Uvezi {{count}} događaja"
+  },
+  "emailInbox": {
+    "title": "Uvoz putem emaila",
+    "description": "Proslijedite email s događajima na vašu osobnu uvoznu adresu. Događaji će biti automatski izvučeni iz tijela emaila, privitaka i linkova.",
+    "activeDescription": "Proslijedite ili pošaljite detalje događaja na ovu adresu. Događaji će biti automatski izvučeni i spremljeni kao skice.",
+    "hint": "Proslijedite newslettere, pozivnice ili bilo koji email s detaljima događaja. Podržava privitke (PDF, slike) i linkove.",
+    "sectionTitle": "Email uvoz"
+  }
+}

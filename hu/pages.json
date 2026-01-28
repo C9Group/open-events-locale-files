@@ -11,7 +11,82 @@
       "welcomeTo": "Üdvözöljük",
       "brandName": "Open Events",
       "subtitle": "Esemény API és MCP SSE megoldás",
-      "tagline": "Az Ön átfogó megoldása az eseményadatok zökkenőmentes kezelésére és megosztására."
+      "tagline": "Az Ön átfogó megoldása az eseményadatok zökkenőmentes kezelésére és megosztására.",
+      "getStarted": "Kezdés"
+    },
+    "tryIt": {
+      "badge": "Próbálja ki most - fiók nélkül",
+      "title": "Importálja eseményeit",
+      "description": "Töltsön fel egy dokumentumot, illesszen be egy URL-t vagy továbbítson egy e-mailt - automatikusan kivonatoljon esemény információkat.",
+      "tabs": {
+        "file": "Fájl feltöltés",
+        "url": "URL beillesztése",
+        "email": "E-mail továbbítása"
+      },
+      "processing": "Feldolgozás...",
+      "file": {
+        "dropzone": "Húzza ide a fájlokat vagy kattintson a tallózáshoz",
+        "formats": "PDF, Word, Excel, CSV, JSON, TXT (max. 5 fájl, egyenként 10 MB)",
+        "extract": "Események kivonatolása"
+      },
+      "url": {
+        "label": "Adja meg az URL-eket (soronként egyet)",
+        "tip": "Egy URL soronként",
+        "fetch": "Letöltés és kivonatulás"
+      },
+      "email": {
+        "instruction": "Továbbítsa az esemény e-maileket:",
+        "tip": "Az események automatikusan kivonatolásra kerülnek az e-mail tartalmából",
+        "check": "Ellenőrzés most",
+        "checking": "Ellenőrzés...",
+        "autoCheck": "Automatikus ellenőrzés",
+        "processing": "Feldolgozás...",
+        "generating": "E-mail cím generálása...",
+        "received": "Fogadott",
+        "processed": "Feldolgozott"
+      },
+      "result": {
+        "success": "Események sikeresen kivonatolva!",
+        "partial": "Kivonatulás figyelmeztetésekkel befejeződött",
+        "found": "Talált",
+        "events": "esemény",
+        "venues": "helyszín",
+        "organizers": "szervező"
+      },
+      "summary": {
+        "title": "Az Ön kivontatolt adatai",
+        "events": "Események",
+        "venues": "Helyszínek",
+        "organizers": "Szervezők",
+        "signup": "Regisztráció és mentés",
+        "clear": "Adatok törlése"
+      },
+      "transfer": {
+        "inProgress": "Adatok átvitele a fiókjába...",
+        "success": "Adatok sikeresen átvitvr!",
+        "created": "Létrehozva {{events}} esemény, {{venues}} helyszín, {{organizers}} szervező",
+        "viewEvents": "Események megtekintése",
+        "failed": "Átvitel sikertelen",
+        "retry": "Próbálja újra"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Vezérlőpult",
+    "welcome": "Üdvözöljük újra",
+    "subtitle": "Ít a esemény adatainak áttekintése.",
+    "transferSuccess": "Adatok sikeresen átvitvr!",
+    "transferCreated": "Létrehozva {{events}} esemény, {{venues}} helyszín, {{organizers}} szervező",
+    "stats": {
+      "events": "Események",
+      "venues": "Helyszínek",
+      "organizers": "Szervezők"
+    },
+    "quickActions": "Gyors műveletek",
+    "actions": {
+      "createEvent": "Esemény létrehozása",
+      "addVenue": "Helyszín hozzáadása",
+      "importEvents": "Események importálása"
     }
   },
   "profile": {
