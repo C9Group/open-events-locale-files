@@ -35,8 +35,16 @@
         "fetch": "Dohvati & izvuči"
       },
       "email": {
-        "instruction": "Proslijedite email s događajima na:",
-        "tip": "Događaji će biti automatski izvučeni iz sadržaja emaila",
+        "tip": "Proslijedite emailove s informacijama o događajima u tekstu, privicima ili linkovima",
+        "copy": "Kopiraj email adresu",
+        "copyBtn": "Kopiraj",
+        "copied": "Kopirano!",
+        "send": "Pošalji",
+        "openClient": "Otvori email klijent",
+        "scan": "Skeniraj",
+        "showQr": "Prikaži QR kod",
+        "scanQr": "Skeniraj za otvaranje email klijenta",
+        "refresh": "Generiraj novu email adresu",
         "check": "Provjeri sada",
         "checking": "Provjeravam...",
         "autoCheck": "Automatska provjera",

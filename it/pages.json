@@ -35,8 +35,16 @@
         "fetch": "Scarica ed estrai"
       },
       "email": {
-        "instruction": "Inoltra email di eventi a:",
-        "tip": "Gli eventi verranno estratti automaticamente dal contenuto dell'email",
+        "tip": "Inoltra email con info eventi nel corpo, allegati o link",
+        "copy": "Copia indirizzo email",
+        "copyBtn": "Copia",
+        "copied": "Copiato!",
+        "send": "Invia",
+        "openClient": "Apri client email",
+        "scan": "Scansiona",
+        "showQr": "Mostra codice QR",
+        "scanQr": "Scansiona per aprire il client email",
+        "refresh": "Genera nuovo indirizzo email",
         "check": "Controlla ora",
         "checking": "Controllo...",
         "autoCheck": "Controllo automatico",

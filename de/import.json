@@ -1,14 +1,14 @@
 {
   "title": "Ereignisse importieren",
-  "tagline": "Importiere deine Events von überall - einfach einfügen ;)",
+  "tagline": "Importiere Veranstaltungen aus Dateien, URLs, E-Mails oder füge Inhalte direkt ein",
   "or": "ODER",
   "selectFiles": "Dateien auswählen",
   "pasteHint": "Tipp: Du kannst auch Bilder oder Dateien direkt einfügen (Strg+V / Cmd+V)",
   "urlInput": {
-    "label": "Von URL importieren",
-    "placeholder": "URL einfügen (Website, PDF, Google Doc, usw.)",
+    "label": "Von URLs importieren",
+    "placeholder": "URLs einfügen (eine pro Zeile)\nhttps://example.com/events\nhttps://docs.google.com/spreadsheets/...",
     "submit": "Importieren",
-    "hint": "Unterstützt Webseiten, Google Docs/Sheets und direkte Dateilinks"
+    "hint": "Unterstützt Webseiten, Google Docs/Sheets und direkte Dateilinks (max. 10 URLs)"
   },
   "dropZone": {
     "title": "Dateien hier ablegen",

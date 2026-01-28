@@ -35,8 +35,16 @@
         "fetch": "Pridobi & izvleči"
       },
       "email": {
-        "instruction": "Posredujte e-pošto z dogodki na:",
-        "tip": "Dogodki bodo avtomatsko izvlečeni iz vsebine e-pošte",
+        "tip": "Posredujte e-pošto z informacijami o dogodkih v besedilu, prilogah ali povezavah",
+        "copy": "Kopiraj e-poštni naslov",
+        "copyBtn": "Kopiraj",
+        "copied": "Kopirano!",
+        "send": "Pošlji",
+        "openClient": "Odpri e-poštni program",
+        "scan": "Skeniraj",
+        "showQr": "Prikaži QR kodo",
+        "scanQr": "Skeniraj za odprtje e-poštnega programa",
+        "refresh": "Generiraj nov e-poštni naslov",
         "check": "Preveri zdaj",
         "checking": "Preverjam...",
         "autoCheck": "Samodejno preverjanje",

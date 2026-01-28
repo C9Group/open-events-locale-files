@@ -1,14 +1,14 @@
 {
   "title": "Uvoz dogodkov",
-  "tagline": "Uvozi dogodke od kjerkoli - samo prilepi jih ;)",
+  "tagline": "Uvozi dogodke iz datotek, URL-jev, e-pošte ali prilepi vsebino neposredno",
   "or": "ALI",
   "selectFiles": "Izberi datoteke",
   "pasteHint": "Namig: Lahko tudi prilepiš slike ali datoteke direktno (Ctrl+V / Cmd+V)",
   "urlInput": {
-    "label": "Uvozi iz URL",
-    "placeholder": "Prilepi URL (spletna stran, PDF, Google Doc, itd.)",
+    "label": "Uvozi iz URL-jev",
+    "placeholder": "Prilepi URL-je (enega na vrstico)\nhttps://example.com/events\nhttps://docs.google.com/spreadsheets/...",
     "submit": "Uvozi",
-    "hint": "Podpira spletne strani, Google Docs/Sheets in direktne povezave do datotek"
+    "hint": "Podpira spletne strani, Google Docs/Sheets in neposredne povezave do datotek (največ 10 URL-jev)"
   },
   "dropZone": {
     "title": "Spusti datoteke sem",

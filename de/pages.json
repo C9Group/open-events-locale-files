@@ -35,8 +35,16 @@
         "fetch": "Abrufen & Extrahieren"
       },
       "email": {
-        "instruction": "Veranstaltungs-E-Mails weiterleiten an:",
-        "tip": "Veranstaltungen werden automatisch aus dem E-Mail-Inhalt extrahiert",
+        "tip": "E-Mails mit Veranstaltungsinfos im Text, Anhängen oder Links weiterleiten",
+        "copy": "E-Mail-Adresse kopieren",
+        "copyBtn": "Kopieren",
+        "copied": "Kopiert!",
+        "send": "Senden",
+        "openClient": "E-Mail-Programm öffnen",
+        "scan": "Scannen",
+        "showQr": "QR-Code anzeigen",
+        "scanQr": "Scannen zum Öffnen des E-Mail-Programms",
+        "refresh": "Neue E-Mail-Adresse generieren",
         "check": "Jetzt prüfen",
         "checking": "Prüfe...",
         "autoCheck": "Automatische Prüfung",

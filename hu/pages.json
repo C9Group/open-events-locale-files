@@ -35,8 +35,16 @@
         "fetch": "Letöltés és kivonatulás"
       },
       "email": {
-        "instruction": "Továbbítsa az esemény e-maileket:",
-        "tip": "Az események automatikusan kivonatolásra kerülnek az e-mail tartalmából",
+        "tip": "Továbbítson e-maileket esemény információkkal a szövegben, csatolmányokban vagy linkekben",
+        "copy": "E-mail cím másolása",
+        "copyBtn": "Másolás",
+        "copied": "Másolva!",
+        "send": "Küldés",
+        "openClient": "E-mail kliens megnyitása",
+        "scan": "Szkennelés",
+        "showQr": "QR kód megjelenítése",
+        "scanQr": "Szkennelje be az e-mail kliens megnyitásához",
+        "refresh": "Új e-mail cím generálása",
         "check": "Ellenőrzés most",
         "checking": "Ellenőrzés...",
         "autoCheck": "Automatikus ellenőrzés",
