@@ -31,7 +31,7 @@
       },
       "url": {
         "label": "Inserisci URL (uno per riga)",
-        "tip": "Un URL per riga",
+        "tip": "Funziona con pagine eventi, Google Docs, Sheets e link diretti a file",
         "fetch": "Scarica ed estrai"
       },
       "email": {

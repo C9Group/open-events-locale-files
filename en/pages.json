@@ -11,7 +11,8 @@
       "welcomeTo": "Welcome to",
       "brandName": "Open Events",
       "subtitle": "Event API & MCP SSE Solution",
-      "tagline": "Your one-stop solution for managing and sharing event data seamlessly."
+      "tagline": "Your one-stop solution for managing and sharing event data seamlessly.",
+      "getStarted": "Get Started"
     },
     "tryIt": {
       "badge": "Try it now - no account needed",

@@ -31,8 +31,8 @@
       },
       "url": {
         "label": "Adja meg az URL-eket (soronként egyet)",
-        "tip": "Egy URL soronként",
-        "fetch": "Letöltés és kivonatulás"
+        "tip": "Működik eseményoldalakkal, Google Docs-szal, Sheets-szel és közvetlen fájllinkekkel",
+        "fetch": "Letöltés és kivonatolás"
       },
       "email": {
         "tip": "Továbbítson e-maileket esemény információkkal a szövegben, csatolmányokban vagy linkekben",
@@ -62,7 +62,7 @@
         "organizers": "szervező"
       },
       "summary": {
-        "title": "Az Ön kivontatolt adatai",
+        "title": "Az Ön kivonatolt adatai",
         "events": "Események",
         "venues": "Helyszínek",
         "organizers": "Szervezők",
@@ -71,7 +71,7 @@
       },
       "transfer": {
         "inProgress": "Adatok átvitele a fiókjába...",
-        "success": "Adatok sikeresen átvitvr!",
+        "success": "Adatok sikeresen átvíve!",
         "created": "Létrehozva {{events}} esemény, {{venues}} helyszín, {{organizers}} szervező",
         "viewEvents": "Események megtekintése",
         "failed": "Átvitel sikertelen",
@@ -82,8 +82,8 @@
   "dashboard": {
     "title": "Vezérlőpult",
     "welcome": "Üdvözöljük újra",
-    "subtitle": "Ít a esemény adatainak áttekintése.",
-    "transferSuccess": "Adatok sikeresen átvitvr!",
+    "subtitle": "Itt van az esemény adatainak áttekintése.",
+    "transferSuccess": "Adatok sikeresen átvíve!",
     "transferCreated": "Létrehozva {{events}} esemény, {{venues}} helyszín, {{organizers}} szervező",
     "stats": {
       "events": "Események",

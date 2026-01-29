@@ -31,7 +31,7 @@
       },
       "url": {
         "label": "Unesite URL-ove (jedan po retku)",
-        "tip": "Jedan URL po retku",
+        "tip": "Radi sa stranicama događaja, Google Docs, Sheets i izravnim poveznicama na datoteke",
         "fetch": "Dohvati & izvuči"
       },
       "email": {
