@@ -25,12 +25,15 @@
   "footer": {
     "tagline": "Platforma za deljenje in odkrivanje podatkov o dogodkih.",
     "links": {
+      "importEvents": "Uvozi dogodke",
       "apiDocs": "API Dokumentacija",
       "updates": "Posodobitve",
       "faq": "Pogosta Vprašanja",
       "team": "Ekipa",
       "contact": "Kontakt",
-      "feedback": "Pošlji Povratne Informacije"
+      "feedback": "Pošlji Povratne Informacije",
+      "privacy": "Politika zasebnosti",
+      "terms": "Pogoji uporabe"
     },
     "newsletter": {
       "title": "Bodite na tekočem z razvojem",

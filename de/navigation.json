@@ -25,12 +25,15 @@
   "footer": {
     "tagline": "Plattform zum Teilen und Entdecken von Veranstaltungsdaten.",
     "links": {
+      "importEvents": "Veranstaltungen importieren",
       "apiDocs": "API-Dokumentation",
       "updates": "Aktualisierungen",
       "faq": "Häufige Fragen",
       "team": "Das Team",
       "contact": "Kontakt",
-      "feedback": "Feedback geben"
+      "feedback": "Feedback geben",
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen"
     },
     "newsletter": {
       "title": "Bleiben Sie auf dem Laufenden",

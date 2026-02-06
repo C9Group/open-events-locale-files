@@ -25,12 +25,15 @@
   "footer": {
     "tagline": "Platform for sharing and discovering event data.",
     "links": {
+      "importEvents": "Import Events",
       "apiDocs": "API Documentation",
       "updates": "Updates",
       "faq": "FAQ",
       "team": "The Team",
       "contact": "Contact",
-      "feedback": "Give Feedback"
+      "feedback": "Give Feedback",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
     },
     "newsletter": {
       "title": "Keep up with development",
