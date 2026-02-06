@@ -1,14 +1,14 @@
 {
   "title": "Import Events",
-  "tagline": "Import your events from anywhere you can imagine - just paste it ;)",
+  "tagline": "Import events from files, URLs, emails, or paste content directly",
   "or": "OR",
   "selectFiles": "Select Files",
   "pasteHint": "Pro tip: You can also paste images or files directly (Ctrl+V / Cmd+V)",
   "urlInput": {
-    "label": "Import from URL",
-    "placeholder": "Paste a URL (website, PDF, Google Doc, etc.)",
+    "label": "Import from URLs",
+    "placeholder": "Paste URLs (one per line)\nhttps://example.com/events\nhttps://docs.google.com/spreadsheets/...",
     "submit": "Import",
-    "hint": "Supports web pages, Google Docs/Sheets, and direct file links"
+    "hint": "Supports web pages, Google Docs/Sheets, and direct file links (max 10 URLs)"
   },
   "dropZone": {
     "title": "Drop files here",

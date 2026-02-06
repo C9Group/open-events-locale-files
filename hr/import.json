@@ -1,14 +1,14 @@
 {
   "title": "Uvoz događaja",
-  "tagline": "Uvezi svoje događaje s bilo kuda - samo zalijepi ;)",
+  "tagline": "Uvezi događaje iz datoteka, URL-ova, emailova ili izravno zalijepi sadržaj",
   "or": "ILI",
   "selectFiles": "Odaberi datoteke",
   "pasteHint": "Savjet: Možeš i zalijepiti slike ili datoteke direktno (Ctrl+V / Cmd+V)",
   "urlInput": {
-    "label": "Uvezi s URL-a",
-    "placeholder": "Zalijepi URL (web stranica, PDF, Google Doc, itd.)",
+    "label": "Uvezi iz URL-ova",
+    "placeholder": "Zalijepi URL-ove (jedan po retku)\nhttps://example.com/events\nhttps://docs.google.com/spreadsheets/...",
     "submit": "Uvezi",
-    "hint": "Podržava web stranice, Google Docs/Sheets i direktne linkove na datoteke"
+    "hint": "Podržava web stranice, Google Docs/Sheets i izravne poveznice na datoteke (maks. 10 URL-ova)"
   },
   "dropZone": {
     "title": "Ispusti datoteke ovdje",

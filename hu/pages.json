@@ -31,12 +31,20 @@
       },
       "url": {
         "label": "Adja meg az URL-eket (soronként egyet)",
-        "tip": "Egy URL soronként",
-        "fetch": "Letöltés és kivonatulás"
+        "tip": "Működik eseményoldalakkal, Google Docs-szal, Sheets-szel és közvetlen fájllinkekkel",
+        "fetch": "Letöltés és kivonatolás"
       },
       "email": {
-        "instruction": "Továbbítsa az esemény e-maileket:",
-        "tip": "Az események automatikusan kivonatolásra kerülnek az e-mail tartalmából",
+        "tip": "Továbbítson e-maileket esemény információkkal a szövegben, csatolmányokban vagy linkekben",
+        "copy": "E-mail cím másolása",
+        "copyBtn": "Másolás",
+        "copied": "Másolva!",
+        "send": "Küldés",
+        "openClient": "E-mail kliens megnyitása",
+        "scan": "Szkennelés",
+        "showQr": "QR kód megjelenítése",
+        "scanQr": "Szkennelje be az e-mail kliens megnyitásához",
+        "refresh": "Új e-mail cím generálása",
         "check": "Ellenőrzés most",
         "checking": "Ellenőrzés...",
         "autoCheck": "Automatikus ellenőrzés",
@@ -54,7 +62,7 @@
         "organizers": "szervező"
       },
       "summary": {
-        "title": "Az Ön kivontatolt adatai",
+        "title": "Az Ön kivonatolt adatai",
         "events": "Események",
         "venues": "Helyszínek",
         "organizers": "Szervezők",
@@ -63,7 +71,7 @@
       },
       "transfer": {
         "inProgress": "Adatok átvitele a fiókjába...",
-        "success": "Adatok sikeresen átvitvr!",
+        "success": "Adatok sikeresen átvíve!",
         "created": "Létrehozva {{events}} esemény, {{venues}} helyszín, {{organizers}} szervező",
         "viewEvents": "Események megtekintése",
         "failed": "Átvitel sikertelen",
@@ -74,8 +82,8 @@
   "dashboard": {
     "title": "Vezérlőpult",
     "welcome": "Üdvözöljük újra",
-    "subtitle": "Ít a esemény adatainak áttekintése.",
-    "transferSuccess": "Adatok sikeresen átvitvr!",
+    "subtitle": "Itt van az esemény adatainak áttekintése.",
+    "transferSuccess": "Adatok sikeresen átvíve!",
     "transferCreated": "Létrehozva {{events}} esemény, {{venues}} helyszín, {{organizers}} szervező",
     "stats": {
       "events": "Események",
@@ -331,5 +339,169 @@
     "credentialsDeletedSuccess": "Hitelesítő adatok sikeresen törölve",
     "deleteConfirmation": "Biztosan törli ezeket a hitelesítő adatokat?",
     "configureFirst": "Először állítsa be a hitelesítő adatokat"
+  },
+  "privacyPolicy": {
+    "title": "Adatvédelmi szabályzat",
+    "metaTitle": "Adatvédelmi szabályzat - OpenEvents",
+    "metaDescription": "Az OpenEvents adatvédelmi szabályzata - Tudja meg, hogyan gyűjtjük, használjuk és védjük személyes adatait eseményadat-platformunk használata során.",
+    "lastUpdated": "Utoljára frissítve: {{date}}",
+    "introduction": "Az OpenEvents-nél elkötelezettek vagyunk az Ön magánéletének védelme mellett. Ez az Adatvédelmi szabályzat elmagyarázza, hogyan gyűjtjük, használjuk, közöljük és védjük az Ön adatait a platformunk használata során.",
+    "sections": [
+      {
+        "title": "1. Általunk gyűjtött információk",
+        "content": "Gyűjtjük az Ön által közvetlenül megadott információkat, például amikor fiókot hoz létre, eseményeket küld be vagy támogatásért kapcsolatba lép velünk.",
+        "items": [
+          "Fiókadatok (név, e-mail cím, jelszó)",
+          "Az Ön által benyújtott eseményadatok (esemény részletei, helyszínek, szervezők)",
+          "Használati információk (hogyan lép kapcsolatba platformunkkal)",
+          "Eszköz- és böngészőinformációk",
+          "IP-cím és helyadatok"
+        ]
+      },
+      {
+        "title": "2. Hogyan használjuk az Ön adatait",
+        "content": "Az általunk gyűjtött információkat a következőkre használjuk:",
+        "items": [
+          "Szolgáltatásaink biztosítása, karbantartása és fejlesztése",
+          "Tranzakciók feldolgozása és befejezése",
+          "Technikai értesítések és támogatási üzenetek küldése",
+          "Válaszadás az Ön megjegyzéseire és kérdéseire",
+          "Használati minták elemzése a felhasználói élmény javítása érdekében",
+          "Védelem csalás és jogosulatlan hozzáférés ellen"
+        ]
+      },
+      {
+        "title": "3. Információk megosztása",
+        "content": "Nem adjuk el az Ön személyes adatait. Az Ön adatait a következő körülmények között oszthatjuk meg:",
+        "items": [
+          "Az Ön beleegyezésével vagy utasítására",
+          "Szolgáltatókkal, akik segítenek működésünkben",
+          "Jogi kötelezettségek teljesítése érdekében",
+          "Jogaink védelme és csalás megelőzése érdekében",
+          "Üzleti átruházással vagy felvásárlással kapcsolatban"
+        ]
+      },
+      {
+        "title": "4. Adatmegőrzés",
+        "content": "Személyes adatait addig őrizzük meg, amíg fiókja aktív, vagy ameddig szükséges szolgáltatásaink nyújtásához. Adatai törlését bármikor kérheti, ha kapcsolatba lép velünk."
+      },
+      {
+        "title": "5. Az Ön jogai (GDPR)",
+        "content": "Ha az Európai Gazdasági Térségben tartózkodik, bizonyos jogokkal rendelkezik személyes adataival kapcsolatban:",
+        "items": [
+          "Hozzáférési jog személyes adataihoz",
+          "Helyreigazításhoz való jog pontatlan adatok esetén",
+          "Törléshez való jog ('elfeledtetéshez való jog')",
+          "Adatkezelés korlátozásához való jog",
+          "Adathordozhatósághoz való jog",
+          "Tiltakozáshoz való jog az adatkezelés ellen",
+          "Hozzájárulás visszavonásához való jog"
+        ]
+      },
+      {
+        "title": "6. Cookie-k és nyomkövetés",
+        "content": "Cookie-kat és hasonló technológiákat használunk az Ön élményének javítására, a használat elemzésére és marketing tevékenységeink támogatására. A cookie-beállításokat a böngésző beállításaiban szabályozhatja."
+      },
+      {
+        "title": "7. Adatbiztonság",
+        "content": "Megfelelő technikai és szervezeti intézkedéseket alkalmazunk személyes adatai védelmére a jogosulatlan hozzáférés, módosítás, nyilvánosságra hozatal vagy megsemmisítés ellen. Minden adat titkosítva van átvitel közben és nyugalmi állapotban."
+      },
+      {
+        "title": "8. Harmadik fél szolgáltatásai",
+        "content": "Platformunk tartalmazhat harmadik fél webhelyeire mutató linkeket, vagy integrálódhat harmadik fél szolgáltatásaival. Nem vagyunk felelősek ezen harmadik felek adatvédelmi gyakorlatáért."
+      },
+      {
+        "title": "9. Gyermekek adatvédelme",
+        "content": "Szolgáltatásaink nem 16 év alatti gyermekeknek szólnak. Tudatosan nem gyűjtünk személyes adatokat 16 év alatti gyermekektől."
+      },
+      {
+        "title": "10. A szabályzat módosításai",
+        "content": "Időről időre frissíthetjük ezt az Adatvédelmi szabályzatot. A változásokról értesítjük Önt az új Adatvédelmi szabályzat közzétételével ezen az oldalon és az 'Utoljára frissítve' dátum frissítésével."
+      }
+    ],
+    "contact": {
+      "title": "Kapcsolat",
+      "content": "Ha kérdése van ezzel az Adatvédelmi szabályzattal vagy adatkezelési gyakorlatunkkal kapcsolatban, kérjük, lépjen kapcsolatba velünk:"
+    }
+  },
+  "termsOfService": {
+    "title": "Szolgáltatási feltételek",
+    "metaTitle": "Szolgáltatási feltételek - OpenEvents",
+    "metaDescription": "Az OpenEvents szolgáltatási feltételei - Olvassa el az eseményadat-platformunk és API szolgáltatásaink használatának feltételeit.",
+    "lastUpdated": "Utoljára frissítve: {{date}}",
+    "introduction": "Üdvözöljük az OpenEvents-en. A platformunkhoz való hozzáféréssel vagy annak használatával Ön elfogadja ezeket a Szolgáltatási feltételeket. Kérjük, olvassa el figyelmesen.",
+    "sections": [
+      {
+        "title": "1. Feltételek elfogadása",
+        "content": "Az OpenEvents eléréséveI vagy használatával Ön elfogadja ezeket a Szolgáltatási feltételeket és minden vonatkozó törvényt és rendeletet. Ha nem ért egyet ezen feltételek bármelyikével, tilos a platform használata."
+      },
+      {
+        "title": "2. Szolgáltatás leírása",
+        "content": "Az OpenEvents egy megosztott eseményadat-réteg, amely lehetővé teszi a felhasználók számára:",
+        "items": [
+          "Eseményinformációk létrehozását, kezelését és megosztását",
+          "Hozzáférést az eseményadatokhoz REST API-n keresztül",
+          "Eseményadatok integrálását harmadik fél alkalmazásaival",
+          "Valós idejű frissítések fogadását webhook-okon keresztül",
+          "AI-alapú eseményadat-funkciók használatát MCP-n keresztül"
+        ]
+      },
+      {
+        "title": "3. Felhasználói fiókok",
+        "content": "Ön felelős fiókja hitelesítő adatainak bizalmas kezeléséért és minden, a fiókja alatt végzett tevékenységért. Azonnal értesítenie kell minket fiókja bármilyen jogosulatlan használatáról."
+      },
+      {
+        "title": "4. Elfogadható használat",
+        "content": "Ön vállalja, hogy nem:",
+        "items": [
+          "Használja a szolgáltatást jogellenes célokra",
+          "Küld be hamis, félrevezető vagy csalárd eseményinformációkat",
+          "Próbál jogosulatlan hozzáférést szerezni rendszereinkhez",
+          "Zavarja vagy megszakítja a szolgáltatást vagy szervereket",
+          "Engedély nélkül automatizált eszközökkel fér hozzá a szolgáltatáshoz",
+          "Sérti a vonatkozó törvényeket vagy előírásokat"
+        ]
+      },
+      {
+        "title": "5. Tartalom és adatok",
+        "content": "Ön megtartja az OpenEvents-nek benyújtott eseményadatok tulajdonjogát. A tartalom benyújtásával licencet ad nekünk annak használatára, megjelenítésére és terjesztésére szolgáltatásaink nyújtásának részeként. Ön felelős annak biztosításáért, hogy jogosult legyen bármilyen benyújtott tartalom megosztására."
+      },
+      {
+        "title": "6. API használat",
+        "content": "API-nk használata sebességkorlátozásoknak és használati kvótáknak van alávetve előfizetési csomagja alapján. Fenntartjuk a jogot az API-hozzáférés módosítására vagy megszüntetésére ésszerű értesítéssel. Az API-kulcsokat bizalmasan kell kezelni."
+      },
+      {
+        "title": "7. Előfizetés és számlázás",
+        "content": "A fizetős funkciók a kiválasztott csomag szerint kerülnek számlázásra. Előfizetését bármikor lemondhatja a következő számlázási ciklus előtt. A visszatérítéseket eseti alapon kezeljük."
+      },
+      {
+        "title": "8. Szellemi tulajdon",
+        "content": "Az OpenEvents platform, beleértve annak dizájnját, funkcióit és tartalmát (a felhasználók által benyújtott tartalom kivételével), szellemi tulajdonjogi törvények által védett. Engedély nélkül nem másolhatja, módosíthatja vagy terjesztheti platformunkat."
+      },
+      {
+        "title": "9. Garancia kizárása",
+        "content": "Az OpenEvents 'ahogy van' és 'ahogy elérhető' alapon kerül biztosításra, bármilyen garancia nélkül. Nem garantáljuk, hogy a szolgáltatás megszakítás nélküli, biztonságos vagy hibamentes lesz."
+      },
+      {
+        "title": "10. Felelősség korlátozása",
+        "content": "A törvény által megengedett maximális mértékig az OpenEvents és leányvállalatai nem felelnek semmilyen közvetett, véletlen, különleges, következményes vagy büntető jellegű kárért, amely a szolgáltatás használatából ered."
+      },
+      {
+        "title": "11. Felmondás",
+        "content": "Fenntartjuk a jogot, hogy bármikor felfüggesszük vagy megszüntessük a szolgáltatáshoz való hozzáférését ezen feltételek megsértése miatt vagy bármilyen más okból saját belátásunk szerint."
+      },
+      {
+        "title": "12. Feltételek módosítása",
+        "content": "Bármikor módosíthatjuk ezeket a Szolgáltatási feltételeket. Jelentős változásokról e-mailben vagy a platformon keresztül értesítjük a felhasználókat. A szolgáltatás további használata a változások után az új feltételek elfogadását jelenti."
+      },
+      {
+        "title": "13. Irányadó jog",
+        "content": "Ezeket a Szolgáltatási feltételeket Szlovénia törvényei szerint kell értelmezni és alkalmazni, a kollíziós jogi rendelkezések figyelmen kívül hagyásával."
+      }
+    ],
+    "contact": {
+      "title": "Kapcsolat",
+      "content": "Ha kérdése van ezekkel a Szolgáltatási feltételekkel kapcsolatban, kérjük, lépjen kapcsolatba velünk:"
+    }
   }
 }

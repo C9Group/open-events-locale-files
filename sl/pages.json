@@ -31,12 +31,20 @@
       },
       "url": {
         "label": "Vnesite URL-je (enega na vrstico)",
-        "tip": "En URL na vrstico",
+        "tip": "Deluje s stranmi dogodkov, Google Docs, Sheets in neposrednimi povezavami do datotek",
         "fetch": "Pridobi & izvleči"
       },
       "email": {
-        "instruction": "Posredujte e-pošto z dogodki na:",
-        "tip": "Dogodki bodo avtomatsko izvlečeni iz vsebine e-pošte",
+        "tip": "Posredujte e-pošto z informacijami o dogodkih v besedilu, prilogah ali povezavah",
+        "copy": "Kopiraj e-poštni naslov",
+        "copyBtn": "Kopiraj",
+        "copied": "Kopirano!",
+        "send": "Pošlji",
+        "openClient": "Odpri e-poštni program",
+        "scan": "Skeniraj",
+        "showQr": "Prikaži QR kodo",
+        "scanQr": "Skeniraj za odprtje e-poštnega programa",
+        "refresh": "Generiraj nov e-poštni naslov",
         "check": "Preveri zdaj",
         "checking": "Preverjam...",
         "autoCheck": "Samodejno preverjanje",
@@ -331,5 +339,169 @@
     "credentialsDeletedSuccess": "Poverilnice uspešno izbrisane",
     "deleteConfirmation": "Ali ste prepričani, da želite izbrisati te poverilnice?",
     "configureFirst": "Najprej konfigurirajte poverilnice"
+  },
+  "privacyPolicy": {
+    "title": "Politika zasebnosti",
+    "metaTitle": "Politika zasebnosti - OpenEvents",
+    "metaDescription": "Politika zasebnosti za OpenEvents - Naučite se, kako zbiramo, uporabljamo in varujemo vaše osebne podatke pri uporabi naše platforme za podatke o dogodkih.",
+    "lastUpdated": "Nazadnje posodobljeno: {{date}}",
+    "introduction": "Pri OpenEvents smo zavezani k varovanju vaše zasebnosti. Ta politika zasebnosti pojasnjuje, kako zbiramo, uporabljamo, razkrivamo in varujemo vaše podatke, ko uporabljate našo platformo.",
+    "sections": [
+      {
+        "title": "1. Podatki, ki jih zbiramo",
+        "content": "Zbiramo podatke, ki nam jih neposredno posredujete, na primer ko ustvarite račun, oddate dogodke ali nas kontaktirate za podporo.",
+        "items": [
+          "Podatki o računu (ime, e-poštni naslov, geslo)",
+          "Podatki o dogodkih, ki jih oddate (podrobnosti o dogodku, prizorišča, organizatorji)",
+          "Podatki o uporabi (kako komunicirate z našo platformo)",
+          "Podatki o napravi in brskalniku",
+          "IP naslov in lokacijski podatki"
+        ]
+      },
+      {
+        "title": "2. Kako uporabljamo vaše podatke",
+        "content": "Podatke, ki jih zbiramo, uporabljamo za:",
+        "items": [
+          "Zagotavljanje, vzdrževanje in izboljšanje naših storitev",
+          "Obdelavo in zaključevanje transakcij",
+          "Pošiljanje tehničnih obvestil in sporočil o podpori",
+          "Odgovarjanje na vaše komentarje in vprašanja",
+          "Analizo vzorcev uporabe za izboljšanje uporabniške izkušnje",
+          "Zaščito pred goljufijami in nepooblaščenim dostopom"
+        ]
+      },
+      {
+        "title": "3. Deljenje podatkov",
+        "content": "Vaših osebnih podatkov ne prodajamo. Vaše podatke lahko delimo v naslednjih primerih:",
+        "items": [
+          "Z vašim soglasjem ali na vašo zahtevo",
+          "S ponudniki storitev, ki nam pomagajo pri delovanju",
+          "Za izpolnjevanje zakonskih obveznosti",
+          "Za zaščito naših pravic in preprečevanje goljufij",
+          "V povezavi s poslovnim prenosom ali prevzemom"
+        ]
+      },
+      {
+        "title": "4. Hramba podatkov",
+        "content": "Vaše osebne podatke hranimo, dokler je vaš račun aktiven ali dokler je to potrebno za zagotavljanje storitev. Izbris svojih podatkov lahko zahtevate kadar koli tako, da nas kontaktirate."
+      },
+      {
+        "title": "5. Vaše pravice (GDPR)",
+        "content": "Če se nahajate v Evropskem gospodarskem prostoru, imate določene pravice glede vaših osebnih podatkov:",
+        "items": [
+          "Pravica do dostopa do vaših osebnih podatkov",
+          "Pravica do popravka netočnih podatkov",
+          "Pravica do izbrisa ('pravica do pozabe')",
+          "Pravica do omejitve obdelave",
+          "Pravica do prenosljivosti podatkov",
+          "Pravica do ugovora obdelavi",
+          "Pravica do preklica soglasja"
+        ]
+      },
+      {
+        "title": "6. Piškotki in sledenje",
+        "content": "Uporabljamo piškotke in podobne tehnologije za izboljšanje vaše izkušnje, analizo uporabe in pomoč pri naših marketinških prizadevanjih. Nastavitve piškotkov lahko nadzirate prek nastavitev brskalnika."
+      },
+      {
+        "title": "7. Varnost podatkov",
+        "content": "Izvajamo ustrezne tehnične in organizacijske ukrepe za zaščito vaših osebnih podatkov pred nepooblaščenim dostopom, spreminjanjem, razkritjem ali uničenjem. Vsi podatki so šifrirani med prenosom in v mirovanju."
+      },
+      {
+        "title": "8. Storitve tretjih oseb",
+        "content": "Naša platforma lahko vsebuje povezave do spletnih mest tretjih oseb ali se integrira s storitvami tretjih oseb. Nismo odgovorni za prakse zasebnosti teh tretjih oseb."
+      },
+      {
+        "title": "9. Zasebnost otrok",
+        "content": "Naše storitve niso namenjene otrokom, mlajšim od 16 let. Zavestno ne zbiramo osebnih podatkov otrok, mlajših od 16 let."
+      },
+      {
+        "title": "10. Spremembe te politike",
+        "content": "To politiko zasebnosti lahko občasno posodobimo. O spremembah vas bomo obvestili z objavo nove politike zasebnosti na tej strani in posodobitvijo datuma 'Nazadnje posodobljeno'."
+      }
+    ],
+    "contact": {
+      "title": "Kontaktirajte nas",
+      "content": "Če imate kakršna koli vprašanja o tej politiki zasebnosti ali naših praksah ravnanja s podatki, nas prosimo kontaktirajte na:"
+    }
+  },
+  "termsOfService": {
+    "title": "Pogoji uporabe",
+    "metaTitle": "Pogoji uporabe - OpenEvents",
+    "metaDescription": "Pogoji uporabe za OpenEvents - Preberite pogoje in določila za uporabo naše platforme za podatke o dogodkih in API storitev.",
+    "lastUpdated": "Nazadnje posodobljeno: {{date}}",
+    "introduction": "Dobrodošli na OpenEvents. Z dostopom do naše platforme ali njeno uporabo se strinjate s temi pogoji uporabe. Prosimo, da jih pozorno preberete.",
+    "sections": [
+      {
+        "title": "1. Sprejem pogojev",
+        "content": "Z dostopom do OpenEvents ali njeno uporabo se strinjate s temi pogoji uporabe ter vsemi veljavnimi zakoni in predpisi. Če se s katerimkoli od teh pogojev ne strinjate, vam je uporaba te platforme prepovedana."
+      },
+      {
+        "title": "2. Opis storitve",
+        "content": "OpenEvents je skupna plast podatkov o dogodkih, ki uporabnikom omogoča:",
+        "items": [
+          "Ustvarjanje, upravljanje in deljenje podatkov o dogodkih",
+          "Dostop do podatkov o dogodkih prek našega REST API-ja",
+          "Integracijo podatkov o dogodkih z aplikacijami tretjih oseb",
+          "Prejemanje posodobitev v realnem času prek webhook-ov",
+          "Uporabo funkcij podatkov o dogodkih, ki jih poganja umetna inteligenca, prek MCP"
+        ]
+      },
+      {
+        "title": "3. Uporabniški računi",
+        "content": "Odgovorni ste za ohranjanje zaupnosti poverilnic vašega računa in za vse dejavnosti, ki se izvajajo pod vašim računom. O vsaki nepooblaščeni uporabi vašega računa nas morate nemudoma obvestiti."
+      },
+      {
+        "title": "4. Sprejemljiva uporaba",
+        "content": "Strinjate se, da ne boste:",
+        "items": [
+          "Uporabljali storitve za nezakonite namene",
+          "Oddajali lažnih, zavajajočih ali goljufivih podatkov o dogodkih",
+          "Poskušali pridobiti nepooblaščen dostop do naših sistemov",
+          "Motili ali ovirali storitve ali strežnike",
+          "Brez dovoljenja strgali, indeksirali ali uporabljali avtomatiziranih sredstev za dostop do storitve",
+          "Kršili veljavnih zakonov ali predpisov"
+        ]
+      },
+      {
+        "title": "5. Vsebina in podatki",
+        "content": "Obdržite lastništvo nad podatki o dogodkih, ki jih oddate na OpenEvents. Z oddajo vsebine nam podeljujete licenco za uporabo, prikaz in distribucijo te vsebine kot del zagotavljanja naših storitev. Odgovorni ste za zagotovitev, da imate pravico deliti katero koli vsebino, ki jo oddate."
+      },
+      {
+        "title": "6. Uporaba API-ja",
+        "content": "Uporaba našega API-ja je podvržena omejitvam hitrosti in kvotam uporabe glede na vaš naročniški paket. Pridržujemo si pravico do spremembe ali ukinitve dostopa do API-ja z razumnim predhodnim obvestilom. Ključi API morajo ostati zaupni."
+      },
+      {
+        "title": "7. Naročnina in obračunavanje",
+        "content": "Plačljive funkcije se obračunavajo v skladu z izbranim paketom. Naročnino lahko kadar koli prekličete pred naslednjim obračunskim ciklom. Vračila se obravnavajo od primera do primera."
+      },
+      {
+        "title": "8. Intelektualna lastnina",
+        "content": "Platforma OpenEvents, vključno z njeno zasnovo, funkcijami in vsebino (razen vsebine, ki jo oddajo uporabniki), je zaščitena z zakoni o intelektualni lastnini. Brez dovoljenja ne smete kopirati, spreminjati ali distribuirati naše platforme."
+      },
+      {
+        "title": "9. Izjava o omejitvi garancij",
+        "content": "OpenEvents je zagotovljen 'kot je' in 'kot je na voljo' brez kakršnih koli garancij. Ne jamčimo, da bo storitev neprekinjeno, varno ali brez napak."
+      },
+      {
+        "title": "10. Omejitev odgovornosti",
+        "content": "V največjem obsegu, ki ga dovoljuje zakon, OpenEvents in njeni podružnici ne odgovarjajo za nobeno posredno, naključno, posebno, posledično ali kazensko škodo, ki izhaja iz vaše uporabe storitve."
+      },
+      {
+        "title": "11. Prenehanje",
+        "content": "Pridržujemo si pravico, da kadar koli prekinemo ali ukinemo vaš dostop do storitve zaradi kršitve teh pogojev ali iz katerega koli drugega razloga po naši presoji."
+      },
+      {
+        "title": "12. Spremembe pogojev",
+        "content": "Te pogoje uporabe lahko kadar koli spremenimo. Uporabnike bomo o pomembnih spremembah obvestili po e-pošti ali prek platforme. Nadaljnja uporaba storitve po spremembah pomeni sprejem novih pogojev."
+      },
+      {
+        "title": "13. Veljavno pravo",
+        "content": "Ti pogoji uporabe se urejajo in razlagajo v skladu z zakoni Slovenije, brez upoštevanja določb o koliziji zakonov."
+      }
+    ],
+    "contact": {
+      "title": "Kontaktirajte nas",
+      "content": "Če imate kakršna koli vprašanja o teh pogojih uporabe, nas prosimo kontaktirajte na:"
+    }
   }
 }

@@ -1,14 +1,14 @@
 {
   "title": "Események importálása",
-  "tagline": "Importáld az eseményeidet bárhonnan - csak illeszd be ;)",
+  "tagline": "Importálj eseményeket fájlokból, URL-ekből, e-mailekből, vagy illeszd be közvetlenül a tartalmat",
   "or": "VAGY",
   "selectFiles": "Fájlok kiválasztása",
   "pasteHint": "Tipp: Képeket vagy fájlokat közvetlenül is beilleszthetsz (Ctrl+V / Cmd+V)",
   "urlInput": {
-    "label": "Importálás URL-ből",
-    "placeholder": "Illeszd be az URL-t (weboldal, PDF, Google Doc, stb.)",
+    "label": "Importálás URL-ekből",
+    "placeholder": "Illessz be URL-eket (soronként egyet)\nhttps://example.com/events\nhttps://docs.google.com/spreadsheets/...",
     "submit": "Importálás",
-    "hint": "Támogatja a weboldalakat, Google Docs/Sheets-t és közvetlen fájl linkeket"
+    "hint": "Támogatja a weboldalakat, Google Docs/Sheets-et és közvetlen fájllinkeket (max. 10 URL)"
   },
   "dropZone": {
     "title": "Húzd ide a fájlokat",

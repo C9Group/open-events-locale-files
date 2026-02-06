@@ -25,12 +25,15 @@
   "footer": {
     "tagline": "Piattaforma per condividere e scoprire dati sugli eventi.",
     "links": {
+      "importEvents": "Importa eventi",
       "apiDocs": "Documentazione API",
       "updates": "Aggiornamenti",
       "faq": "FAQ",
       "team": "Il Team",
       "contact": "Contatti",
-      "feedback": "Invia feedback"
+      "feedback": "Invia feedback",
+      "privacy": "Informativa sulla Privacy",
+      "terms": "Termini di Servizio"
     },
     "newsletter": {
       "title": "Resta aggiornato sullo sviluppo",

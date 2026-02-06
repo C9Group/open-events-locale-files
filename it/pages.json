@@ -31,12 +31,20 @@
       },
       "url": {
         "label": "Inserisci URL (uno per riga)",
-        "tip": "Un URL per riga",
+        "tip": "Funziona con pagine eventi, Google Docs, Sheets e link diretti a file",
         "fetch": "Scarica ed estrai"
       },
       "email": {
-        "instruction": "Inoltra email di eventi a:",
-        "tip": "Gli eventi verranno estratti automaticamente dal contenuto dell'email",
+        "tip": "Inoltra email con info eventi nel corpo, allegati o link",
+        "copy": "Copia indirizzo email",
+        "copyBtn": "Copia",
+        "copied": "Copiato!",
+        "send": "Invia",
+        "openClient": "Apri client email",
+        "scan": "Scansiona",
+        "showQr": "Mostra codice QR",
+        "scanQr": "Scansiona per aprire il client email",
+        "refresh": "Genera nuovo indirizzo email",
         "check": "Controlla ora",
         "checking": "Controllo...",
         "autoCheck": "Controllo automatico",
@@ -331,5 +339,169 @@
     "credentialsDeletedSuccess": "Credenziali eliminate con successo",
     "deleteConfirmation": "Sei sicuro di voler eliminare queste credenziali?",
     "configureFirst": "Prima configura le credenziali"
+  },
+  "privacyPolicy": {
+    "title": "Informativa sulla Privacy",
+    "metaTitle": "Informativa sulla Privacy - OpenEvents",
+    "metaDescription": "Informativa sulla Privacy per OpenEvents - Scopri come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali quando utilizzi la nostra piattaforma di dati sugli eventi.",
+    "lastUpdated": "Ultimo aggiornamento: {{date}}",
+    "introduction": "In OpenEvents, ci impegniamo a proteggere la tua privacy. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando utilizzi la nostra piattaforma.",
+    "sections": [
+      {
+        "title": "1. Informazioni che raccogliamo",
+        "content": "Raccogliamo le informazioni che ci fornisci direttamente, ad esempio quando crei un account, invii eventi o ci contatti per assistenza.",
+        "items": [
+          "Informazioni sull'account (nome, indirizzo email, password)",
+          "Dati sugli eventi che invii (dettagli dell'evento, luoghi, organizzatori)",
+          "Informazioni sull'utilizzo (come interagisci con la nostra piattaforma)",
+          "Informazioni su dispositivo e browser",
+          "Indirizzo IP e dati sulla posizione"
+        ]
+      },
+      {
+        "title": "2. Come utilizziamo le tue informazioni",
+        "content": "Utilizziamo le informazioni che raccogliamo per:",
+        "items": [
+          "Fornire, mantenere e migliorare i nostri servizi",
+          "Elaborare e completare le transazioni",
+          "Inviarti avvisi tecnici e messaggi di supporto",
+          "Rispondere ai tuoi commenti e domande",
+          "Analizzare i modelli di utilizzo per migliorare l'esperienza utente",
+          "Proteggere da frodi e accessi non autorizzati"
+        ]
+      },
+      {
+        "title": "3. Condivisione delle informazioni",
+        "content": "Non vendiamo le tue informazioni personali. Potremmo condividere le tue informazioni nelle seguenti circostanze:",
+        "items": [
+          "Con il tuo consenso o su tua indicazione",
+          "Con fornitori di servizi che ci assistono nelle nostre operazioni",
+          "Per adempiere agli obblighi legali",
+          "Per proteggere i nostri diritti e prevenire frodi",
+          "In relazione a un trasferimento o acquisizione aziendale"
+        ]
+      },
+      {
+        "title": "4. Conservazione dei dati",
+        "content": "Conserviamo le tue informazioni personali finché il tuo account è attivo o per il tempo necessario a fornirti i servizi. Puoi richiedere la cancellazione dei tuoi dati in qualsiasi momento contattandoci."
+      },
+      {
+        "title": "5. I tuoi diritti (GDPR)",
+        "content": "Se ti trovi nello Spazio Economico Europeo, hai determinati diritti riguardo ai tuoi dati personali:",
+        "items": [
+          "Diritto di accesso ai tuoi dati personali",
+          "Diritto di rettifica dei dati inesatti",
+          "Diritto alla cancellazione ('diritto all'oblio')",
+          "Diritto alla limitazione del trattamento",
+          "Diritto alla portabilità dei dati",
+          "Diritto di opposizione al trattamento",
+          "Diritto di revocare il consenso"
+        ]
+      },
+      {
+        "title": "6. Cookie e tracciamento",
+        "content": "Utilizziamo cookie e tecnologie simili per migliorare la tua esperienza, analizzare l'utilizzo e supportare le nostre attività di marketing. Puoi controllare le preferenze sui cookie attraverso le impostazioni del browser."
+      },
+      {
+        "title": "7. Sicurezza dei dati",
+        "content": "Implementiamo misure tecniche e organizzative appropriate per proteggere le tue informazioni personali da accessi non autorizzati, alterazioni, divulgazioni o distruzioni. Tutti i dati sono crittografati in transito e a riposo."
+      },
+      {
+        "title": "8. Servizi di terze parti",
+        "content": "La nostra piattaforma potrebbe contenere link a siti web di terze parti o integrarsi con servizi di terze parti. Non siamo responsabili delle pratiche sulla privacy di queste terze parti."
+      },
+      {
+        "title": "9. Privacy dei minori",
+        "content": "I nostri servizi non sono destinati a minori di 16 anni. Non raccogliamo consapevolmente informazioni personali da minori di 16 anni."
+      },
+      {
+        "title": "10. Modifiche a questa informativa",
+        "content": "Potremmo aggiornare questa Informativa sulla Privacy di tanto in tanto. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sulla Privacy su questa pagina e aggiornando la data 'Ultimo aggiornamento'."
+      }
+    ],
+    "contact": {
+      "title": "Contattaci",
+      "content": "Se hai domande su questa Informativa sulla Privacy o sulle nostre pratiche relative ai dati, contattaci all'indirizzo:"
+    }
+  },
+  "termsOfService": {
+    "title": "Termini di Servizio",
+    "metaTitle": "Termini di Servizio - OpenEvents",
+    "metaDescription": "Termini di Servizio per OpenEvents - Leggi i termini e le condizioni per l'utilizzo della nostra piattaforma di dati sugli eventi e dei servizi API.",
+    "lastUpdated": "Ultimo aggiornamento: {{date}}",
+    "introduction": "Benvenuto su OpenEvents. Accedendo o utilizzando la nostra piattaforma, accetti di essere vincolato da questi Termini di Servizio. Ti preghiamo di leggerli attentamente.",
+    "sections": [
+      {
+        "title": "1. Accettazione dei termini",
+        "content": "Accedendo o utilizzando OpenEvents, accetti di essere vincolato da questi Termini di Servizio e da tutte le leggi e i regolamenti applicabili. Se non sei d'accordo con uno qualsiasi di questi termini, ti è vietato utilizzare o accedere a questa piattaforma."
+      },
+      {
+        "title": "2. Descrizione del servizio",
+        "content": "OpenEvents è un livello condiviso di dati sugli eventi che consente agli utenti di:",
+        "items": [
+          "Creare, gestire e condividere informazioni sugli eventi",
+          "Accedere ai dati sugli eventi tramite la nostra REST API",
+          "Integrare i dati sugli eventi con applicazioni di terze parti",
+          "Ricevere aggiornamenti in tempo reale tramite webhook",
+          "Utilizzare funzionalità di dati sugli eventi basate sull'IA tramite MCP"
+        ]
+      },
+      {
+        "title": "3. Account utente",
+        "content": "Sei responsabile del mantenimento della riservatezza delle credenziali del tuo account e di tutte le attività che si verificano sotto il tuo account. Devi informarci immediatamente di qualsiasi uso non autorizzato del tuo account."
+      },
+      {
+        "title": "4. Uso accettabile",
+        "content": "Accetti di non:",
+        "items": [
+          "Utilizzare il servizio per scopi illeciti",
+          "Inviare informazioni sugli eventi false, fuorvianti o fraudolente",
+          "Tentare di ottenere accesso non autorizzato ai nostri sistemi",
+          "Interferire o interrompere il servizio o i server",
+          "Effettuare scraping, crawling o utilizzare mezzi automatizzati per accedere al servizio senza permesso",
+          "Violare leggi o regolamenti applicabili"
+        ]
+      },
+      {
+        "title": "5. Contenuti e dati",
+        "content": "Mantieni la proprietà dei dati sugli eventi che invii a OpenEvents. Inviando contenuti, ci concedi una licenza per utilizzare, visualizzare e distribuire tali contenuti come parte della fornitura dei nostri servizi. Sei responsabile di assicurarti di avere il diritto di condividere qualsiasi contenuto che invii."
+      },
+      {
+        "title": "6. Utilizzo dell'API",
+        "content": "L'utilizzo della nostra API è soggetto a limiti di velocità e quote di utilizzo in base al tuo piano di abbonamento. Ci riserviamo il diritto di modificare o interrompere l'accesso all'API con ragionevole preavviso. Le chiavi API devono essere mantenute riservate."
+      },
+      {
+        "title": "7. Abbonamento e fatturazione",
+        "content": "Le funzionalità a pagamento vengono fatturate in base al piano selezionato. Puoi annullare il tuo abbonamento in qualsiasi momento prima del prossimo ciclo di fatturazione. I rimborsi vengono gestiti caso per caso."
+      },
+      {
+        "title": "8. Proprietà intellettuale",
+        "content": "La piattaforma OpenEvents, incluso il suo design, le funzionalità e i contenuti (esclusi i contenuti inviati dagli utenti), è protetta dalle leggi sulla proprietà intellettuale. Non puoi copiare, modificare o distribuire la nostra piattaforma senza autorizzazione."
+      },
+      {
+        "title": "9. Esclusione di garanzie",
+        "content": "OpenEvents viene fornito 'così com'è' e 'come disponibile' senza garanzie di alcun tipo. Non garantiamo che il servizio sarà ininterrotto, sicuro o privo di errori."
+      },
+      {
+        "title": "10. Limitazione di responsabilità",
+        "content": "Nella misura massima consentita dalla legge, OpenEvents e i suoi affiliati non saranno responsabili per danni indiretti, incidentali, speciali, consequenziali o punitivi derivanti dall'utilizzo del servizio."
+      },
+      {
+        "title": "11. Risoluzione",
+        "content": "Ci riserviamo il diritto di sospendere o terminare il tuo accesso al servizio in qualsiasi momento per violazione di questi termini o per qualsiasi altro motivo a nostra discrezione."
+      },
+      {
+        "title": "12. Modifiche ai termini",
+        "content": "Potremmo modificare questi Termini di Servizio in qualsiasi momento. Informeremo gli utenti di modifiche significative via email o attraverso la piattaforma. L'uso continuato del servizio dopo le modifiche costituisce accettazione dei nuovi termini."
+      },
+      {
+        "title": "13. Legge applicabile",
+        "content": "Questi Termini di Servizio saranno regolati e interpretati in conformità con le leggi della Slovenia, senza riguardo alle disposizioni sul conflitto di leggi."
+      }
+    ],
+    "contact": {
+      "title": "Contattaci",
+      "content": "Se hai domande su questi Termini di Servizio, contattaci all'indirizzo:"
+    }
   }
 }

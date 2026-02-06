@@ -25,12 +25,15 @@
   "footer": {
     "tagline": "Platform események megosztásához és felfedezéséhez.",
     "links": {
+      "importEvents": "Események importálása",
       "apiDocs": "API dokumentáció",
       "updates": "Frissítések",
       "faq": "GYIK",
       "team": "A csapat",
       "contact": "Kapcsolat",
-      "feedback": "Visszajelzés küldése"
+      "feedback": "Visszajelzés küldése",
+      "privacy": "Adatvédelmi szabályzat",
+      "terms": "Szolgáltatási feltételek"
     },
     "newsletter": {
       "title": "Kövesse a fejlesztéseket",

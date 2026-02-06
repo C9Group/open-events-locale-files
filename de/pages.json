@@ -31,12 +31,20 @@
       },
       "url": {
         "label": "URLs eingeben (eine pro Zeile)",
-        "tip": "Eine URL pro Zeile",
+        "tip": "Funktioniert mit Veranstaltungsseiten, Google Docs, Sheets und direkten Dateilinks",
         "fetch": "Abrufen & Extrahieren"
       },
       "email": {
-        "instruction": "Veranstaltungs-E-Mails weiterleiten an:",
-        "tip": "Veranstaltungen werden automatisch aus dem E-Mail-Inhalt extrahiert",
+        "tip": "E-Mails mit Veranstaltungsinfos im Text, Anhängen oder Links weiterleiten",
+        "copy": "E-Mail-Adresse kopieren",
+        "copyBtn": "Kopieren",
+        "copied": "Kopiert!",
+        "send": "Senden",
+        "openClient": "E-Mail-Programm öffnen",
+        "scan": "Scannen",
+        "showQr": "QR-Code anzeigen",
+        "scanQr": "Scannen zum Öffnen des E-Mail-Programms",
+        "refresh": "Neue E-Mail-Adresse generieren",
         "check": "Jetzt prüfen",
         "checking": "Prüfe...",
         "autoCheck": "Automatische Prüfung",
@@ -331,5 +339,169 @@
     "credentialsDeletedSuccess": "Zugangsdaten erfolgreich gelöscht",
     "deleteConfirmation": "Möchten Sie diese Zugangsdaten wirklich löschen?",
     "configureFirst": "Zuerst Zugangsdaten konfigurieren"
+  },
+  "privacyPolicy": {
+    "title": "Datenschutzrichtlinie",
+    "metaTitle": "Datenschutzrichtlinie - OpenEvents",
+    "metaDescription": "Datenschutzrichtlinie für OpenEvents - Erfahren Sie, wie wir Ihre persönlichen Daten erfassen, verwenden und schützen, wenn Sie unsere Veranstaltungsdatenplattform nutzen.",
+    "lastUpdated": "Zuletzt aktualisiert: {{date}}",
+    "introduction": "Bei OpenEvents verpflichten wir uns zum Schutz Ihrer Privatsphäre. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen erfassen, verwenden, offenlegen und schützen, wenn Sie unsere Plattform nutzen.",
+    "sections": [
+      {
+        "title": "1. Informationen, die wir erfassen",
+        "content": "Wir erfassen Informationen, die Sie uns direkt zur Verfügung stellen, beispielsweise wenn Sie ein Konto erstellen, Veranstaltungen einreichen oder uns für Support kontaktieren.",
+        "items": [
+          "Kontoinformationen (Name, E-Mail-Adresse, Passwort)",
+          "Veranstaltungsdaten, die Sie einreichen (Veranstaltungsdetails, Veranstaltungsorte, Veranstalter)",
+          "Nutzungsinformationen (wie Sie mit unserer Plattform interagieren)",
+          "Geräte- und Browserinformationen",
+          "IP-Adresse und Standortdaten"
+        ]
+      },
+      {
+        "title": "2. Wie wir Ihre Informationen verwenden",
+        "content": "Wir verwenden die von uns erfassten Informationen, um:",
+        "items": [
+          "Unsere Dienste bereitzustellen, zu warten und zu verbessern",
+          "Transaktionen zu verarbeiten und abzuschließen",
+          "Ihnen technische Hinweise und Support-Nachrichten zu senden",
+          "Auf Ihre Kommentare und Fragen zu antworten",
+          "Nutzungsmuster zu analysieren, um die Benutzererfahrung zu verbessern",
+          "Vor Betrug und unbefugtem Zugriff zu schützen"
+        ]
+      },
+      {
+        "title": "3. Weitergabe von Informationen",
+        "content": "Wir verkaufen Ihre persönlichen Daten nicht. Wir können Ihre Informationen in folgenden Fällen weitergeben:",
+        "items": [
+          "Mit Ihrer Zustimmung oder auf Ihre Anweisung",
+          "Mit Dienstleistern, die uns bei unserem Betrieb unterstützen",
+          "Zur Erfüllung gesetzlicher Verpflichtungen",
+          "Zum Schutz unserer Rechte und zur Betrugsprävention",
+          "Im Zusammenhang mit einer Geschäftsübertragung oder Übernahme"
+        ]
+      },
+      {
+        "title": "4. Datenspeicherung",
+        "content": "Wir speichern Ihre persönlichen Daten so lange, wie Ihr Konto aktiv ist oder wie es für die Erbringung unserer Dienste erforderlich ist. Sie können jederzeit die Löschung Ihrer Daten anfordern, indem Sie uns kontaktieren."
+      },
+      {
+        "title": "5. Ihre Rechte (DSGVO)",
+        "content": "Wenn Sie sich im Europäischen Wirtschaftsraum befinden, haben Sie bestimmte Rechte in Bezug auf Ihre persönlichen Daten:",
+        "items": [
+          "Recht auf Zugang zu Ihren persönlichen Daten",
+          "Recht auf Berichtigung unrichtiger Daten",
+          "Recht auf Löschung ('Recht auf Vergessenwerden')",
+          "Recht auf Einschränkung der Verarbeitung",
+          "Recht auf Datenübertragbarkeit",
+          "Recht auf Widerspruch gegen die Verarbeitung",
+          "Recht auf Widerruf der Einwilligung"
+        ]
+      },
+      {
+        "title": "6. Cookies und Tracking",
+        "content": "Wir verwenden Cookies und ähnliche Technologien, um Ihre Erfahrung zu verbessern, die Nutzung zu analysieren und unsere Marketingbemühungen zu unterstützen. Sie können Cookie-Einstellungen über Ihre Browsereinstellungen steuern."
+      },
+      {
+        "title": "7. Datensicherheit",
+        "content": "Wir implementieren angemessene technische und organisatorische Maßnahmen, um Ihre persönlichen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen. Alle Daten werden während der Übertragung und im Ruhezustand verschlüsselt."
+      },
+      {
+        "title": "8. Drittanbieterdienste",
+        "content": "Unsere Plattform kann Links zu Websites Dritter enthalten oder mit Diensten Dritter integriert sein. Wir sind nicht verantwortlich für die Datenschutzpraktiken dieser Dritten."
+      },
+      {
+        "title": "9. Datenschutz für Kinder",
+        "content": "Unsere Dienste richten sich nicht an Kinder unter 16 Jahren. Wir erfassen wissentlich keine persönlichen Daten von Kindern unter 16 Jahren."
+      },
+      {
+        "title": "10. Änderungen dieser Richtlinie",
+        "content": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen und das Datum 'Zuletzt aktualisiert' aktualisieren."
+      }
+    ],
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder unseren Datenpraktiken haben, kontaktieren Sie uns bitte unter:"
+    }
+  },
+  "termsOfService": {
+    "title": "Nutzungsbedingungen",
+    "metaTitle": "Nutzungsbedingungen - OpenEvents",
+    "metaDescription": "Nutzungsbedingungen für OpenEvents - Lesen Sie die Bedingungen für die Nutzung unserer Veranstaltungsdatenplattform und API-Dienste.",
+    "lastUpdated": "Zuletzt aktualisiert: {{date}}",
+    "introduction": "Willkommen bei OpenEvents. Durch den Zugriff auf oder die Nutzung unserer Plattform erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Bitte lesen Sie diese sorgfältig durch.",
+    "sections": [
+      {
+        "title": "1. Annahme der Bedingungen",
+        "content": "Durch den Zugriff auf oder die Nutzung von OpenEvents erklären Sie sich mit diesen Nutzungsbedingungen und allen geltenden Gesetzen und Vorschriften einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, ist Ihnen die Nutzung dieser Plattform untersagt."
+      },
+      {
+        "title": "2. Beschreibung des Dienstes",
+        "content": "OpenEvents ist eine gemeinsame Veranstaltungsdatenschicht, die es Benutzern ermöglicht:",
+        "items": [
+          "Veranstaltungsinformationen zu erstellen, zu verwalten und zu teilen",
+          "Auf Veranstaltungsdaten über unsere REST-API zuzugreifen",
+          "Veranstaltungsdaten mit Drittanbieteranwendungen zu integrieren",
+          "Echtzeit-Updates über Webhooks zu erhalten",
+          "KI-gestützte Veranstaltungsdatenfunktionen über MCP zu nutzen"
+        ]
+      },
+      {
+        "title": "3. Benutzerkonten",
+        "content": "Sie sind verantwortlich für die Wahrung der Vertraulichkeit Ihrer Kontoanmeldedaten und für alle Aktivitäten, die unter Ihrem Konto stattfinden. Sie müssen uns unverzüglich über jede unbefugte Nutzung Ihres Kontos informieren."
+      },
+      {
+        "title": "4. Akzeptable Nutzung",
+        "content": "Sie stimmen zu, Folgendes nicht zu tun:",
+        "items": [
+          "Den Dienst für rechtswidrige Zwecke zu nutzen",
+          "Falsche, irreführende oder betrügerische Veranstaltungsinformationen einzureichen",
+          "Unbefugten Zugriff auf unsere Systeme zu versuchen",
+          "Den Dienst oder die Server zu stören oder zu unterbrechen",
+          "Ohne Erlaubnis zu scrapen, zu crawlen oder automatisierte Mittel zum Zugriff auf den Dienst zu verwenden",
+          "Geltende Gesetze oder Vorschriften zu verletzen"
+        ]
+      },
+      {
+        "title": "5. Inhalte und Daten",
+        "content": "Sie behalten das Eigentum an den Veranstaltungsdaten, die Sie bei OpenEvents einreichen. Durch das Einreichen von Inhalten gewähren Sie uns eine Lizenz zur Nutzung, Anzeige und Verbreitung dieser Inhalte im Rahmen der Erbringung unserer Dienste. Sie sind dafür verantwortlich sicherzustellen, dass Sie das Recht haben, alle von Ihnen eingereichten Inhalte zu teilen."
+      },
+      {
+        "title": "6. API-Nutzung",
+        "content": "Die Nutzung unserer API unterliegt Ratenbegrenzungen und Nutzungskontingenten basierend auf Ihrem Abonnementplan. Wir behalten uns das Recht vor, den API-Zugang mit angemessener Vorankündigung zu ändern oder einzustellen. API-Schlüssel müssen vertraulich behandelt werden."
+      },
+      {
+        "title": "7. Abonnement und Abrechnung",
+        "content": "Kostenpflichtige Funktionen werden gemäß Ihrem gewählten Plan abgerechnet. Sie können Ihr Abonnement jederzeit vor dem nächsten Abrechnungszyklus kündigen. Rückerstattungen werden im Einzelfall behandelt."
+      },
+      {
+        "title": "8. Geistiges Eigentum",
+        "content": "Die OpenEvents-Plattform, einschließlich ihres Designs, ihrer Funktionen und Inhalte (mit Ausnahme von benutzergenerierten Inhalten), ist durch Gesetze zum Schutz des geistigen Eigentums geschützt. Sie dürfen unsere Plattform nicht ohne Erlaubnis kopieren, modifizieren oder verbreiten."
+      },
+      {
+        "title": "9. Haftungsausschluss",
+        "content": "OpenEvents wird 'wie besehen' und 'wie verfügbar' ohne jegliche Garantien bereitgestellt. Wir garantieren nicht, dass der Dienst ununterbrochen, sicher oder fehlerfrei sein wird."
+      },
+      {
+        "title": "10. Haftungsbeschränkung",
+        "content": "Im größtmöglichen gesetzlich zulässigen Umfang haften OpenEvents und seine verbundenen Unternehmen nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus Ihrer Nutzung des Dienstes entstehen."
+      },
+      {
+        "title": "11. Kündigung",
+        "content": "Wir behalten uns das Recht vor, Ihren Zugang zum Dienst jederzeit wegen Verstoßes gegen diese Bedingungen oder aus anderen Gründen nach unserem Ermessen auszusetzen oder zu beenden."
+      },
+      {
+        "title": "12. Änderungen der Bedingungen",
+        "content": "Wir können diese Nutzungsbedingungen jederzeit ändern. Wir werden Benutzer über wesentliche Änderungen per E-Mail oder über die Plattform informieren. Die fortgesetzte Nutzung des Dienstes nach Änderungen gilt als Annahme der neuen Bedingungen."
+      },
+      {
+        "title": "13. Geltendes Recht",
+        "content": "Diese Nutzungsbedingungen unterliegen den Gesetzen Sloweniens und sind entsprechend auszulegen, ohne Berücksichtigung der Kollisionsnormen."
+      }
+    ],
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter:"
+    }
   }
 }

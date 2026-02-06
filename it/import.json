@@ -1,14 +1,14 @@
 {
-  "title": "Importar eventos",
-  "tagline": "Importa i tuoi eventi da qualsiasi fonte - basta incollare ;)",
+  "title": "Importa eventi",
+  "tagline": "Importa eventi da file, URL, email o incolla direttamente i contenuti",
   "or": "OPPURE",
   "selectFiles": "Seleziona file",
   "pasteHint": "Suggerimento: Puoi anche incollare immagini o file direttamente (Ctrl+V / Cmd+V)",
   "urlInput": {
     "label": "Importa da URL",
-    "placeholder": "Incolla un URL (sito web, PDF, Google Doc, ecc.)",
+    "placeholder": "Incolla URL (uno per riga)\nhttps://example.com/events\nhttps://docs.google.com/spreadsheets/...",
     "submit": "Importa",
-    "hint": "Supporta pagine web, Google Docs/Sheets e link diretti ai file"
+    "hint": "Supporta pagine web, Google Docs/Sheets e link diretti a file (max 10 URL)"
   },
   "dropZone": {
     "title": "Trascina i file qui",
